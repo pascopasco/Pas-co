@@ -65,8 +65,8 @@ section section:first-child
     height: 39vh;
     border: solid 1px white;
     position: absolute;
-    bottom: 7vh;
-    right: 15vh;
+    bottom: 5vh;
+    right: 9vw;
 }
 #whiteBox2
 {
@@ -74,6 +74,6 @@ section section:first-child
     height: 39vh;
     border: solid 1px white;
     position: absolute;
-    top: 7vh;
-    left: 15vh;
+    top: 5vh;
+    left: 9vw;
 }
