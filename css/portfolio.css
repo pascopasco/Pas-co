@@ -1,0 +1,15 @@
+.grid-container
+{
+
+}
+
+.grid-item
+{
+    width: 100px;
+    height:100px;
+}
+.grid-item>img
+{
+    width: 100px;
+    height:100px;
+}

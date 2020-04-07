@@ -1,0 +1,86 @@
+/*
+font-family: 'Oxygen', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Nobile', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+html
+{
+    --rouge : #FF5C5C;
+    --rougeFonce : rgba(255, 92, 92, 0.15);
+
+}
+
+main
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header menu
+{
+    width : 31vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin : 2vh;
+}
+header menu>li
+{
+
+}
+header menu>li>a
+{
+    color: white;
+    text-decoration: none;
+}
+.active
+{
+    border-bottom: solid 2px var(--rouge);
+}
+
+header>div
+{
+    height: 16vh;
+    /*border: solid 1px white;*/
+    position : relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin : 5vh;
+}
+header #pageName
+{
+    font-size: 13vh;
+    color: var(--rougeFonce);
+}
+
+header>div #descContent
+{
+    position: absolute;
+}
+header>div #descContent>span
+{
+    color: var(--rouge);
+}
+
+footer
+{
+
+}
+
