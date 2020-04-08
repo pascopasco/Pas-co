@@ -33,13 +33,17 @@ section section:first-child
 }
 .boxTop
 {
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2vh;
+    letter-spacing: 0.35vh;
 }
 #boxBotLeft
 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Oxygen', sans-serif;
 }
 #boxBotLeft p
 {

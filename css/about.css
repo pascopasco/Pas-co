@@ -1,0 +1,37 @@
+main>section
+{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main>section>div
+{
+    height: 55vh;
+    width : 63vw;
+    background-image: url("../img/icones_videos/Combustion.jpg");
+    background-size: cover;
+}
+
+main>section>section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 19vw;
+}
+
+main>section>section>p
+{
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
