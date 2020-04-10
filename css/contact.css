@@ -31,6 +31,7 @@ section section:first-child
     justify-content: space-between;
     align-items: center;
     height: 15vh;
+    z-index: 2;
 }
 .boxTop
 {
@@ -79,7 +80,7 @@ section section:first-child
     position: absolute;
     bottom: 5vh;
     right: 9vw;
-    z-index: -1;
+    z-index: 1;
 }
 #whiteBox2
 {
@@ -89,5 +90,5 @@ section section:first-child
     position: absolute;
     top: 5vh;
     left: 9vw;
-    z-index: -1;
+    z-index: 1;
 }
