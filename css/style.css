@@ -11,6 +11,11 @@ html
     --rougeFonce : rgba(255, 92, 92, 0.2);
 }
 
+section,div,p
+{
+    cursor: default;
+}
+
 main
 {
     height: 100vh;
@@ -20,6 +25,7 @@ main
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 header
@@ -36,7 +42,7 @@ header menu
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    margin : 2vh;
+    margin : 2.5vh;
     padding: 0;
 }
 header menu>li
@@ -47,6 +53,10 @@ header menu>li>a
 {
     color: white;
     text-decoration: none;
+}
+header menu>li>a:hover
+{
+    border-bottom: solid 2px var(--rouge);
 }
 .active
 {
@@ -63,7 +73,7 @@ header>div
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin : 5vh;
+    margin : 2.5vh;
 }
 header #pageName
 {
@@ -82,7 +92,7 @@ header>div #descContent
     font-size: 1.75vh;
     letter-spacing: 0.75vh;
 }
-header>div #descContent>span
+span
 {
     color: var(--rouge);
 }
@@ -97,5 +107,6 @@ footer
 
 footer p
 {
+    margin :0;
 }
 

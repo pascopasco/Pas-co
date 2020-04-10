@@ -7,16 +7,50 @@ main>section
     justify-content: space-around;
     align-items: center;
 }
-
-main>section>div
+main>section>section
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 88vw;
     height: 55vh;
-    width : 63vw;
+    position :relative;
+}
+.whiteBox
+{
+    width: 62vw;
+    height: 55vh;
+    border: #C4C4C4 1px solid;
+    position: absolute;
+    left: -2vw;
+    top : 5vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.whiteBox p
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vh;
+    font-style: italic;
+    padding: 1.5vh;
+    margin: 0;
+}
+.imageCombustion
+{
+    width : 62vw;
+    height: 55vh;
     background-image: url("../img/icones_videos/Combustion.jpg");
-    background-size: cover;
+    background-size: 63vw 55vh;
+    background-position: center;
+    z-index: 2;
+    display: flex;
 }
 
-main>section>section
+.columnText
 {
     display: flex;
     flex-direction: column;
@@ -25,13 +59,34 @@ main>section>section
     width: 19vw;
 }
 
-main>section>section>p
+.columnText p
 {
+    font-family: "Oxygen",sans-serif;
+    font-size: 2vh;
     color: white;
+    text-align: justify;
+    padding-right: 1vw;
+    padding-left: 1vw;
 }
 
+p:hover a
+{
+    transition: font-weight 0.5s ease;
+    font-weight: 800;
+}
+.columnText p:hover span
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+span
+{
+    transition: padding-right 0.5s ease,padding-left 0.5s ease;
+}
 a
 {
     text-decoration: none;
     color: white;
 }
+
+
