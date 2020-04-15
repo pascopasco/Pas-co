@@ -25,7 +25,6 @@ main
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 header
@@ -91,6 +90,8 @@ header>div #descContent
     font-weight: 800;
     font-size: 1.75vh;
     letter-spacing: 0.75vh;
+    display: flex;
+    flex-wrap: nowrap;
 }
 span
 {

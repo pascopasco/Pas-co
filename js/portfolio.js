@@ -17,7 +17,13 @@ function generateProject () {
     document.getElementById('grid-container').innerHTML = allProjects;*/
 
     for(i=0; i<data.projects.length; i++) {
-        $("#grid-container").append(`<div class="grid-item" onclick="changePage(` + i +`)" "><img src="${data.projects[i].image}"</div>`)
+        $("#gridContainer").append(`<div class="gridItem" onclick="changePage(${i})">
+                                       <section style="background-image: url(${data.projects[i].image})"></section>
+                                       <section class="description">
+                                            <h3>Titre h3</h3>
+                                            <p>paragraphe</p>
+                                       </section>
+                                    </div>`)
         /*$("#grid-container").append(`<div class="grid-item" onclick="changePage(` + i +`)" style="background-image: url('${data.projects[i].image}')">a</div>`)*/
     }
 }
@@ -26,5 +32,6 @@ function changePage(projectNumber) {
     localStorage.setItem("selectedProject", projectNumber);
     window.location.href = "project.html";
 }
+
 
 generateProject();
