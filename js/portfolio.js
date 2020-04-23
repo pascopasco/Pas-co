@@ -20,8 +20,8 @@ function generateProject () {
         $("#gridContainer").append(`<div class="gridItem" onclick="changePage(${i})">
                                        <section style="background-image: url(${data.projects[i].image})"></section>
                                        <section class="description">
-                                            <h3>Titre h3</h3>
-                                            <p>paragraphe</p>
+                                            <h3>${data.projects[i].titre}</h3>
+                                            <p>${data.projects[i].sousTitre}</p>
                                        </section>
                                     </div>`)
         /*$("#grid-container").append(`<div class="grid-item" onclick="changePage(` + i +`)" style="background-image: url('${data.projects[i].image}')">a</div>`)*/

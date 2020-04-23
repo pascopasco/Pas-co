@@ -1,0 +1,63 @@
+main
+{
+    width:100%;
+    height:auto;
+}
+
+#descContent
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#pageName
+{
+    text-transform: uppercase;
+}
+
+main>section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 59vw;
+    position:relative;
+}
+#video
+{
+
+}
+iframe
+{
+    width: 59vw;
+    height: 33vw;
+    margin: 10px;
+}
+#description
+{
+    font-family: Oxygen,sans-serif;
+    font-size: 11.5pt;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+#text
+{
+    font-family: Oxygen,sans-serif;
+    font-size: 11.5pt;
+    letter-spacing: 1px;
+}
+
+#whiteBox
+{
+    position: absolute;
+    z-index: 1;
+    height: 10vh;
+    width: 59vw;
+    border: 1px solid white;
+    bottom: 0px;
+}
+footer
+{
+    position: relative;
+    margin-top: 20px;
+}

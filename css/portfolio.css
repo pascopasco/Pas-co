@@ -1,5 +1,5 @@
 
-#main
+main
 {
     width: 100%;
     height: auto;
@@ -9,6 +9,7 @@ main>section{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #gridContainer
 {
@@ -38,7 +39,7 @@ main>section{
     background-position: center;
     background-size: 35vw;
     background-repeat: no-repeat;
-    transition: background-size 1s,filter 0.2s 0s;
+    transition: background-size 1s,filter 1s;
 }
 .gridItem:hover>section:first-of-type
 {
@@ -72,6 +73,7 @@ main>section{
     font-size: 3.5vh;
     padding: 0;
     margin:0.75vh;
+    text-align: center;
 }
 .description p
 {
