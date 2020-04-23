@@ -1,4 +1,7 @@
-
+body::-webkit-scrollbar
+{
+    display: none;
+}
 main
 {
     width: 100%;
