@@ -1,5 +1,11 @@
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Lora', serif;*/
+html
+{
+    --rouge : #FF5C5C;
+    --rougeFonce : rgba(255, 92, 92, 0.2);
+}
+
 #bandesNoires
 {
     height : 100vh;
@@ -9,69 +15,60 @@
     flex-direction: column;
     justify-content: center;
 }
-#background
+#showreel
 {
     width : 100vw;
     height: 80vh;
-    background-image: url("../img/bg2.jpg");
-    background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-
+#showreel iframe
+{
+    height: 100%;
+    width: 100%;
+}
 #contenu
 {
-    flex-basis: 75%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
+    align-items: center;
     /*background-color: red;*/
 
     text-transform: uppercase;
     color: white;
+    position: absolute;
 }
 
-#titres
+menu
 {
-    height: 40%;
-    /*background-color: blue;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#titres h1
-{
-
-    /*background-color: green;*/
-    margin: 0;
-}
-#titres h2
-{
-    height:20%;
-    /*background-color: yellow;*/
-    margin:0;
-}
-#menu
-{
-    color: white;
-}
-#menu ul
-{
+    font-family: 'Hammersmith One', sans-serif;
+    width : 31vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
+    margin : 2.5vh;
     padding: 0;
 }
-#menu ul a
+
+menu>li
 {
-    text-decoration: none;
-    color: white;
+
 }
-#menu ul a:hover
+menu>li>a
 {
-    text-shadow : 0px 1px 6px;
+    color: white;
+    text-decoration: none;
+}
+menu>li>a:hover
+{
+    border-bottom: solid 2px var(--rouge);
+}
+.active
+{
+    border-bottom: solid 2px var(--rouge);
 }
 
