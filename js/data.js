@@ -113,5 +113,17 @@ let data = {
                     "materiel" : ["Camescope Canon C200", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Aputure Light Dome 2"],
                     "lien_video" : `<iframe src="https://www.youtube.com/embed/q0oXeWyd3DA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
                     "equipe" : ["Elisa Sibert", "Tristan Grossetti", "Lutrycia Valentin", "Titouan Poudens", "Anais Verrier", "Clara Guyot", "Nathanaël Rovere", "Giovanna Koua", "Inès Serafini", "Victoria Marcourt."]
+                },
+                {
+                    "titre": "Showreel",
+                    "sousTitre": "Clip vidéo",
+                    "date": "12/2019",
+                    "image": ``,
+                    "tags": [ "icebergs", "low poly", "voyage" ],
+                    "categories": ["3D", "Animation"],
+                    "description" : "Showreel",
+                    "materiel" : ["Camescope Canon C200", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Aputure Light Dome 2"],
+                    "lien_video" : `<iframe src="https://www.youtube.com/embed/Iz5lgm7hIog" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+                    "equipe" : ["Elisa Sibert", "Tristan Grossetti", "Lutrycia Valentin", "Titouan Poudens", "Anais Verrier", "Clara Guyot", "Nathanaël Rovere", "Giovanna Koua", "Inès Serafini", "Victoria Marcourt."]
                 }
     ]}

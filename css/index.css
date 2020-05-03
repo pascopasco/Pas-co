@@ -1,9 +1,22 @@
-/*font-family: 'Raleway', sans-serif;*/
-/*font-family: 'Lora', serif;*/
+
 html
 {
     --rouge : #FF5C5C;
     --rougeFonce : rgba(255, 92, 92, 0.2);
+}
+section,div,p
+{
+    cursor: default;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+span
+{
+    color: var(--rouge);
+    transition: padding-right 0.5s ease,padding-left 0.5s ease;
 }
 
 #bandesNoires
@@ -34,15 +47,16 @@ html
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    /*background-color: red;*/
+    height: 65vh;
 
     text-transform: uppercase;
     color: white;
     position: absolute;
 }
 
-menu
+#contenu menu
 {
     font-family: 'Hammersmith One', sans-serif;
     width : 31vw;
@@ -54,16 +68,16 @@ menu
     padding: 0;
 }
 
-menu>li
+#contenu menu>li
 {
 
 }
-menu>li>a
+#contenu menu>li>a
 {
     color: white;
     text-decoration: none;
 }
-menu>li>a:hover
+#contenu menu>li>a:hover
 {
     border-bottom: solid 2px var(--rouge);
 }
@@ -72,3 +86,53 @@ menu>li>a:hover
     border-bottom: solid 2px var(--rouge);
 }
 
+#contenu section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenu section h1
+{
+    font-family: Hammersmith One, sans-serif;
+    font-size: 9vh;
+    font-weight: lighter;
+    letter-spacing: 1.3vw;
+    margin :0;
+    transition: letter-spacing 1s;
+}
+#contenu section h1:hover
+{
+    letter-spacing: 1.6vw;
+}
+
+#contenu section h2
+{
+    font-family: Hammersmith One, sans-serif;
+    font-size: 2vh;
+    font-weight: lighter;
+    letter-spacing: 0.75vw;
+    margin: 0.5vh;
+    transition: letter-spacing 1s;
+}
+#contenu section h2:hover
+{
+    letter-spacing: 0.85vw;
+}
+#contenu section p
+{
+    font-family: Nobile,sans-serif;
+    text-transform: none;
+    margin-top: 15vh;
+    cursor: pointer;
+}
+#contenu p:hover
+{
+    font-weight: 600;
+}
+#contenu p:hover span
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}

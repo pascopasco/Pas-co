@@ -22,6 +22,10 @@ function onPlayerReady(event) {
     event.target.playVideo();
 }
 
+function loadShowreel() {
+    localStorage.setItem("selectedProject", data.projects.length-1);
+    window.location.href = "project.html";
+}
 // 5. The API calls this function when the player's state changes.
 //    The function indicates that when playing a video (state=1),
 //    the player should play for six seconds and then stop.

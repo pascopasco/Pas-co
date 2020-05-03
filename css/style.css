@@ -35,7 +35,7 @@ header
 }
 header menu
 {
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: Hammersmith One, sans-serif;
     width : 31vw;
     display: flex;
     flex-direction: row;
