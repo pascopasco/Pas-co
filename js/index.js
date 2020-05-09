@@ -11,6 +11,7 @@ var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
         videoId: 'Iz5lgm7hIog',
+        playerVars: { 'modestbranding':1,'controls': 0,'color':'red','showinfo':0,rel:0},
         events: {
             'onReady': onPlayerReady
         }
