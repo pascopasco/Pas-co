@@ -1,10 +1,14 @@
 $("#bars").on("click",function () {
-    $("header menu").toggleClass("display");
-    $("#bars").css("display","none");
-    $("#cross").css("display","inherit");
+    $("menu").toggleClass("display");
+    $("#bars").toggleClass("displayMobile");
+    $("#bars").toggleClass("notDisplay");
+    $("#cross").toggleClass("displayMobile");
+    $("#cross").toggleClass("notDisplay");
 })
 $("#cross").on("click",function () {
-    $("header menu").toggleClass("display");
-    $("#cross").css("display","none");
-    $("#bars").css("display","inherit");
+    $("menu").toggleClass("display");
+    $("#bars").toggleClass("displayMobile");
+    $("#bars").toggleClass("notDisplay");
+    $("#cross").toggleClass("displayMobile");
+    $("#cross").toggleClass("notDisplay");
 })

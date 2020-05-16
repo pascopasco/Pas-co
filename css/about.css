@@ -88,5 +88,31 @@ a
     text-decoration: none;
     color: white;
 }
+@media (max-width: 1080px) {
+    main
+    {
+        height: auto;
+    }
+    main>section>section
+    {
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+    }
+    .whiteBox
+    {
+        display: none;
+    }
+    .imageCombustion
+    {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .columnText
+    {
+        width: 100%;
+    }
+}
 
 

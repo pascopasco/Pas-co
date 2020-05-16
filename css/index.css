@@ -42,6 +42,12 @@ span
     height: 100%;
     width: 100%;
 }
+#showreel video
+{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
 #contenu
 {
     width: 100%;
@@ -55,8 +61,15 @@ span
     color: white;
     position: absolute;
 }
-
-#contenu menu
+#contenu img.displayMobile
+{
+    display: none;
+}
+#contenu img.notDisplay
+{
+    display: none;
+}
+menu
 {
     font-family: 'Hammersmith One', sans-serif;
     width : 31vw;
@@ -135,4 +148,53 @@ span
 {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+@media (max-width: 1080px){
+
+    #showreel
+    {
+        background-image: url("../img/icones_videos/combustionU.jpg");
+    }
+    #showreel video
+    {
+        display: none;
+    }
+    #contenu
+    {
+        justify-content: center;
+        height: 100%;
+    }
+    #contenu img
+    {
+        position: fixed;
+        z-index: 5;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+    }
+    #contenu img.displayMobile
+    {
+        display: inherit;
+    }
+    menu
+    {
+        display: none;
+        margin: 0;
+        position: fixed;
+        top:0;
+        z-index: 4;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .display
+    {
+        display: inherit;
+    }
 }

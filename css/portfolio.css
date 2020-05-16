@@ -92,3 +92,23 @@ footer
 {
     position: relative;
 }
+
+@media (max-width: 1080px){
+    header>div #descContent
+    {
+        font-size: 1vw;
+    }
+    #gridContainer
+    {
+        grid-template-columns: 80vw;
+    }
+    .gridItem>section:first-of-type
+    {
+        background-size: 80vw;
+    }
+    .gridItem:hover>section:first-of-type
+    {
+        background-size: 100vw;
+    }
+}
+@media (max-width: 800px)
