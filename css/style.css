@@ -124,11 +124,12 @@ footer p
 
     header #pageName
     {
-        font-size: 8.5vw;
+        font-size: 10vw;
+        text-align: center;
     }
-    header #descContent
+    header>div>#descContent
     {
-        font-size:1vw;
+        font-size:1.5vw;
     }
     header img
     {
@@ -137,8 +138,8 @@ footer p
         right: 20px;
         top: 20px;
         cursor: pointer;
-        height : 15px;
-        width: 15px;
+        height : 20px;
+        width: 20px;
     }
     header img.displayMobile
     {

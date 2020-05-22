@@ -38,6 +38,11 @@ main>section>section
     font-style: italic;
     padding: 1.5vh;
     margin: 0;
+    cursor: pointer;
+}
+.whiteBox p:hover
+{
+    text-decoration: underline;
 }
 .imageCombustion
 {
@@ -111,7 +116,11 @@ a
     }
     .columnText
     {
-        width: 100%;
+        width: 90%;
+    }
+    footer p
+    {
+        margin-top :5px;
     }
 }
 

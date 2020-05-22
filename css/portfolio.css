@@ -94,9 +94,13 @@ footer
 }
 
 @media (max-width: 1080px){
+    header #pageName
+    {
+        font-size: 12.5vw;
+    }
     header>div #descContent
     {
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
     #gridContainer
     {
@@ -111,4 +115,4 @@ footer
         background-size: 100vw;
     }
 }
-@media (max-width: 800px)
+

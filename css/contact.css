@@ -92,3 +92,39 @@ section section:first-child
     left: 9vw;
     z-index: 1;
 }
+
+@media (max-width: 1080px)
+{
+    header #pageName
+    {
+        font-size: 13vw;
+    }
+    section section:first-child
+    {
+        flex-direction: column;
+        height: 60%;
+    }
+    .box
+    {
+        width: 65vw;
+        height:13.5vh;
+    }
+    #boxBotRight
+    {
+        width:45vw;
+    }
+    #whiteBox1
+    {
+        width: 88vw;
+        height: 42vh;
+        bottom: 6vh;
+        right: 3vw;
+    }
+    #whiteBox2
+    {
+        width: 88vw;
+        height: 42vh;
+        top:4vh;
+        left: 3vw;
+    }
+}
