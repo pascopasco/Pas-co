@@ -18,44 +18,58 @@ span
     color: var(--rouge);
     transition: padding-right 0.5s ease,padding-left 0.5s ease;
 }
-
-#bandesNoires
+body
 {
-    height : 100vh;
-    width : 100vw;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    overflow: hidden;
 }
 #videoAccueil
 {
-    width : 100vw;
-    height: 100vh;
+    width : 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    top:10vh;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
 }
 
 #videoAccueil video
 {
-    width: 100vw;
-    /*object-fit: fill;*/
+    width:100vw;
+    min-width: 100vw;
+    min-height: 100vh;
 }
+main
+{
+    width: 100vw;
+    position: relative;
+    z-index: 2;
+    top: 0;
+}
+.blackStripe
+{
+    height : 11.5vh;
+    width : 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #contenu
+{
+    width: 100%;
+    height: 77vh;
+    color: white;
+}
+#contenu>section
 {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 65vh;
-
-    text-transform: uppercase;
-    color: white;
-    position: absolute;
+    height: 60vh;
 }
 #contenu img.displayMobile
 {
@@ -76,6 +90,7 @@ menu
     margin : 2.5vh;
     padding: 0;
     font-size: 1.75vh;
+    letter-spacing: 0.3vh;
 }
 
 #contenu menu>li
@@ -96,7 +111,7 @@ menu
     border-bottom: solid 2px var(--rouge);
 }
 
-#contenu section
+#contenu>section>section
 {
     display: flex;
     flex-direction: column;
@@ -152,7 +167,8 @@ menu
     padding-left: 5px;
     padding-right: 5px;
 }
-@media (max-width: 1080px){
+
+/*@media (max-width: 1080px){
 
     #showreel
     {
@@ -200,4 +216,4 @@ menu
     {
         display: inherit;
     }
-}
+}*/

@@ -10,16 +10,15 @@
 
 </head>
 <body>
+    <section id="videoAccueil">
+        <video autoplay muted loop="1">
+            <source src="accueil.mp4" type="video/mp4">
+        </video>
+    </section>
     <main>
-        <section id="bandesNoires">
-            <div id="videoAccueil">
-                <video autoplay muted loop="1">
-                    <source src="accueil.mp4" type="video/mp4">
-                </video>
-                <!--<div id="player"></div>-->
-
-
-                <div id="contenu">
+           <div class="blackStripe"></div>
+            <div id="contenu">
+                <section>
                     <img id="bars" class="displayMobile" src="img/assets/open-menu.png" />
                     <img id="cross" class="notDisplay" src="img/assets/close.png"/>
                     <menu>
@@ -33,14 +32,13 @@
                         <h2>CADREUR <span>|</span> APPRENTI CHEF OPÉRATEUR</h2>
                         <p><span>|</span> <a href="about.html">Voir mon showreel </a><span>|</span></p>
                     </section>
-                </div>
+                </section>
             </div>
-        </section>
+        <div class="blackStripe"></div>
     </main>
 </body>
 
 <script src="js/jquery.js"></script>
 <script src="js/data.js"></script>
-<script src="js/index.js"></script>
 <script src="js/mobileMenu.js"></script>
 </html>
