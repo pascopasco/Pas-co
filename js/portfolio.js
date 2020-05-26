@@ -16,7 +16,7 @@ function generateProject () {
     console.log(allProjects);
     document.getElementById('grid-container').innerHTML = allProjects;*/
 
-    for(i=0; i<data.projects.length-1; i++) {
+    for(i=0; i<data.projects.length; i++) {
         $("#gridContainer").append(`<div class="gridItem" onclick="changePage(${i})">
                                        <section style="background-image: url(${data.projects[i].image})"></section>
                                        <section class="description">

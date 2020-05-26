@@ -152,6 +152,7 @@ menu
     text-transform: none;
     margin-top: 15vh;
     cursor: pointer;
+    font-weight: 400;
 }
 #contenu p:hover
 {
@@ -217,3 +218,4 @@ menu
         display: inherit;
     }
 }*/
+
