@@ -23,7 +23,7 @@ let data = {
                     "lien_video" : `<iframe src="https://www.youtube.com/embed/TbkrWrhmsLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
                     "equipe" : ["Martin BOUVET", "Mathis CHANIOL"]
                 },{
-                    "titre": "Aftermovie - Festival du cinéma OJO LOCO",
+                    "titre": "Festival du cinéma OJO LOCO",
                     "sousTitre": "Aftermovie",
                     "date": "12/2019",
                     "image": `./img/icones_videos/OJO.jpg`,
@@ -45,7 +45,7 @@ let data = {
                     "lien_video" : `<iframe src="https://www.youtube.com/embed/8RWPNxNajME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
                     "equipe" : []
                 },{
-                    "titre": "INTERPHOBE ",
+                    "titre": "Interphobe",
                     "sousTitre": "72h du Cinéma",
                     "date": "12/2019",
                     "image": `./img/icones_videos/Interphobe.jpg`,
