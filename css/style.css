@@ -8,13 +8,14 @@ font-family: 'Montserrat', sans-serif;
 html
 {
     --rouge : #FF5C5C;
-    --rougeFonce : rgba(255, 92, 92, 0.2);
+    --rougeFonce : rgba(255, 92, 92, 0.15);
 }
 
 section,div,p
 {
     cursor: default;
 }
+
 
 main
 {
@@ -32,18 +33,21 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 25px;
 }
 header menu
 {
-    font-family: Hammersmith One, sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     width : 31vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    margin : 2.5vh;
+    margin : 2.5vh 2.5vh 5vh 2.5vh;
     padding: 0;
     min-width: 295px;
+    letter-spacing: 0.3vh;
+    font-size: 1.75vh;
 }
 header img.displayMobile
 {
@@ -85,11 +89,11 @@ header>div
 }
 header #pageName
 {
-    font-size: 13vh;
+    font-size: 15vh;
     color: var(--rougeFonce);
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    letter-spacing: 0.975vh;
+    font-weight: 600;
+    letter-spacing: 1.5vh;
 }
 
 header>div #descContent
@@ -97,14 +101,15 @@ header>div #descContent
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: 1.75vh;
-    letter-spacing: 0.75vh;
+    font-size: 2vh;
+    letter-spacing: 0.9vh;
     display: flex;
     flex-wrap: nowrap;
 }
 span
 {
     color: var(--rouge);
+
 }
 
 footer
@@ -117,7 +122,8 @@ footer
 
 footer p
 {
-    margin :0;
+    margin: 30px 0 0 0;
+
 }
 
 @media (max-width: 1080px){
