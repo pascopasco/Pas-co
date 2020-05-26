@@ -2,7 +2,7 @@ main section:first-of-type
 {
     height : 55vh;
     width: 100vw;
-    background-image: url("../img/icones_videos/CombustionU.jpg");
+    background-image: url("../img/icones_videos/combustion_dark.jpg");
     background-size: cover;
     background-position-y: 50% ;
     margin-bottom: 2vh;
