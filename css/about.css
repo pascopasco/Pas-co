@@ -83,6 +83,10 @@ main>section>section
     padding-right: 1vw;
     padding-left: 1vw;
 }
+#CV
+{
+    margin-top: 40px;
+}
 
 p:hover a
 {
