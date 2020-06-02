@@ -27,15 +27,15 @@ let data = {
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/UseFh5uRpTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
                    "equipe" : ["Lou JACQUET", "Remi LAMOUR","Charlotte COTTIN"]
                },
-               {
+               /*{
                    "titre": "Le Voisin",
                    "sousTitre": "Court-métrage",
                    "image": `./img/icones_videos/voisin.jpg`,
-                   "description" : "Le voisin est un drame psychologique sur l’aspect dangereux des troubles mentaux dont sont victimes de nombreuses personnes. Tourné caméra épaule en lumière naturelle et seul car le confinement était exigeant en termes de contraintes. Un court métrage qui rappelle que n’importe qui pourrait faire des actions dangereuses sans pour autant en être totalement conscient, même votre voisin !",
+                   "description" : "Ce court métrage est temporairement indisponible car séléctionné pour le Festival Du Nouveau Cinéma à Montréal <br/> <br/> Le voisin est un drame psychologique sur l’aspect dangereux des troubles mentaux dont sont victimes de nombreuses personnes. Tourné caméra épaule en lumière naturelle et seul car le confinement était exigeant en termes de contraintes. Un court métrage qui rappelle que n’importe qui pourrait faire des actions dangereuses sans pour autant en être totalement conscient, même votre voisin !",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/xbtRDTbm3rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                   "equipe" : ["Julien FABRE"]
-               },
+                   "equipe" : ["Julien FABRE", "Lauren BÉLEC"]
+               },*/
                {
                    "titre": "J’ai viré – Deuzel ",
                    "sousTitre": "Clip vidéo",
