@@ -1,4 +1,4 @@
-main section:first-of-type
+main>section:first-of-type
 {
     height : 55vh;
     width: 100vw;
@@ -19,8 +19,10 @@ section section:first-child
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 40vw;
     position: relative;
+    margin: 0;
 }
 
 .box
@@ -98,6 +100,15 @@ section section:first-child
 
 @media (max-width: 1080px)
 {
+    main
+    {
+        height:100%;
+    }
+    main>section:first-of-type
+    {
+        height: 66vh;
+        background-position: 30%;
+    }
     header #pageName
     {
         font-size: 13vw;
@@ -116,18 +127,22 @@ section section:first-child
     {
         width:45vw;
     }
+    #boxBotRight i
+    {
+        font-size: 10vw;
+    }
     #whiteBox1
     {
         width: 88vw;
-        height: 42vh;
-        bottom: 6vh;
-        right: 3vw;
+        height: 54vh;
+        bottom: 5vh;
+        right: 5vw;
     }
     #whiteBox2
     {
         width: 88vw;
-        height: 42vh;
-        top:4vh;
-        left: 3vw;
+        height: 54vh;
+        top:5vh;
+        left: 5vw;
     }
 }

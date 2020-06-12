@@ -1,7 +1,7 @@
-body::-webkit-scrollbar
+/*body::-webkit-scrollbar
 {
     display: none;
-}
+}*/
 main
 {
     width: 100%;
@@ -97,13 +97,9 @@ footer
 }
 
 @media (max-width: 1080px){
-    body::-webkit-scrollbar
+    /*body::-webkit-scrollbar
     {
         display: initial;
-    }
-    /*main
-    {
-        width: 100%;
     }*/
     header img
     {
