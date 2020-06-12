@@ -82,27 +82,30 @@ main
 menu
 {
     font-family: 'Hammersmith One', sans-serif;
-    width : 31vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
     margin : 2.5vh;
     padding: 0;
     font-size: 1.75vh;
     letter-spacing: 0.3vh;
 }
-
-#contenu menu>li
+#contenu menu>ul
 {
-
+    width : 31vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
 }
-#contenu menu>li>a
+#contenu menu>ul>li
+{
+    list-style: none;
+    width: auto;
+}
+#contenu menu>ul>li>a
 {
     color: white;
     text-decoration: none;
 }
-#contenu menu>li>a:hover
+#contenu menu>ul>li>a:hover
 {
     border-bottom: solid 2px var(--rouge);
 }
@@ -169,35 +172,60 @@ menu
     padding-right: 5px;
 }
 
-/*@media (max-width: 1080px){
+@media (max-width: 1080px){
 
-    #showreel
+    #videoAccueil
     {
-        background-image: url("../img/icones_videos/combustionU.jpg");
-        background-repeat: no-repeat;
+
     }
-    #showreel video
+    #videoAccueil video
     {
         display: none;
     }
+    main
+    {
+        height: 100vh;
+    }
     #contenu
     {
-        justify-content: center;
-        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 77vh;
+        background-image: url("../img/icones_videos/combustion_dark.jpg");
+        background-repeat: no-repeat;
+        background-size: auto 110%;
+        background-origin: border-box;
+        background-position: 25%;
     }
-    #contenu img
+
+    #contenu section
+    {
+        height: 42.5vh;
+        text-align: center;
+    }
+    #contenu section img
     {
         position: fixed;
         z-index: 5;
-        right: 20px;
-        top: 20px;
+        right: 40px;
+        top: 40px;
         cursor: pointer;
-        height: 15px;
-        width: 15px;
+        height: 7.5vw;
+        width: 7.5vw;
     }
-    #contenu img.displayMobile
+    #contenu section img.displayMobile
     {
         display: inherit;
+    }
+
+    #contenu section h1
+    {
+        font-size: 10vw;
+    }
+    #contenu section p
+    {
+        font-size: 4vw
     }
     menu
     {
@@ -213,9 +241,16 @@ menu
         align-items: center;
         justify-content: space-around;
     }
+    #contenu menu>ul
+    {
+        flex-direction: column;
+        width: auto;
+        height: 50vh;
+        font-size: 5vw;
+    }
     .display
     {
-        display: inherit;
+        display: flex;
     }
-}*/
+}
 
