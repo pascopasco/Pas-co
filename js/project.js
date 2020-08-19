@@ -21,8 +21,6 @@ function generatePage() {
             $("#team").append((`<p><span>—</span>${data.projects[selectedProject].equipe[i]}</p>`));
         }
     }
-
-
 }
 
 generatePage();

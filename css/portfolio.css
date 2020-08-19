@@ -101,6 +101,10 @@ footer
     {
         display: initial;
     }*/
+    body
+    {
+        width: 113%;
+    }
     header img
     {
         width: 6vw;
