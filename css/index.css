@@ -104,18 +104,39 @@ menu
 {
     color: white;
     text-decoration: none;
+    position: relative;
 }
-#contenu menu>ul>li>a:hover
-{
-    border-bottom: solid 2px var(--rouge);
+#contenu menu>ul>li>a:hover {
+    color: white;
+    opacity: 1;
 }
-.active
-{
-    border-bottom: solid 2px var(--rouge);
+#contenu menu>ul>li>a:before {
+    color: white;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--rouge);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
-
-#contenu>section>section
-{
+#contenu menu>ul>li>a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.active {
+    border-bottom: solid 3px var(--rouge);
+}
+.active:hover {
+    border-bottom: none;
+}
+#contenu>section>section {
     display: flex;
     flex-direction: column;
     align-items: center;
