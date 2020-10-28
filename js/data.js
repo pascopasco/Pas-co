@@ -16,7 +16,7 @@ let data = {
                    "description" : "Je ne voulais pas laisser mourir des images que j'appréciais d'un tournage servant le Clip de Déréliction (on peut mettre le lien ?) tourné en décembre 2019. J'ai donc repris les rushes que j’avais tourné et en ait fait un montage basé sur la même protagoniste de Déréliction. J’ai travaillé le montage afin de changer l’ambiance de précèdent projet. On peut le voir comme une suite, avec ce personnage principal qui évolue de manière inquiétante, comme touché par une magie noire. Libre à vous de saisir le propos de l’histoire. Le personnage devient une sorte de malfaisante shamanique qui ne restera pas les bras croisés pendant cette soirée étrange dans laquelle se sont embarqué les invités insouciants…",
                    "materiel" : ["Camescope Canon C200", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Aputure Light Dome 2"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/q0oXeWyd3DA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                   "equipe" : ["Elisa SIBERT", "Tristan GROSSETTI", "Lutrycia VALENTIN", "Titouan POUDENS", "Anais VERRIER", "Clara GUYOT", "Nathanaël ROVERE", "Giovanna KOUA", "Inès SERAFINI", "Victoria MARCOURT"]
+                   "equipe" : ["<a href='https://elisasibert.myportfolio.com/home'>Elisa SIBERT</a>", "Anais VERRIER", "Clara GUYOT"]
                },
                {
                    "titre": "Combustion",
@@ -25,7 +25,7 @@ let data = {
                    "description" : "Combustion est un projet réalisé en 48h dans le cadre du KINO, une expérience cinématographique que met en place un professeur lors de son temps libre chaque année. C’est mon premier projet en noir et blanc que l’on a donc écris, tourné et monté dans le rush en 48h. Ces projets réalisé en quelques jours et parfois un seul sont des exercices très formateurs car ils apprennent à travailler en équipe l’efficacité, l’organisation en obligeant à donner le maximum pendant un temps limité. Ce sont aussi des expérience de vie car on reste ensemble sans arrêt durant ces week-end de rushes. Très plaisant et gratifiant, j’ai hâte d’en refaire. En attendant voici deux personnes qui font un pari sur un homme d’apparence très mystérieuse…",
                    "materiel" : ["Camescope Canon C200", "Objectif Rokinon 35mm T1.5", "Rokinon 85mm T1.5", "Objectif Canon EF 70-200mm f/2.8 IS II USM", "Ecran SmallHD"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/UseFh5uRpTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                   "equipe" : ["Lou JACQUET", "Remi LAMOUR","Charlotte COTTIN"]
+                   "equipe" : ["<a href='https://www.jacquetlourealisation.com/films'>Lou JACQUET</a>", "Remi LAMOUR","<a href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin'>Charlotte COTTIN</a>"]
                },
                /*{
                    "titre": "Le Voisin",
@@ -62,7 +62,7 @@ let data = {
                        "Encore une fois, on retiendra plus les expériences uniques de contextes de tournages comme les lames de couteaux du vent arctique glacial au bord du lac qui viennent fouetter nos visages et une neige abondante apportant un décor absolument extraordinaire. Des ambiances féériques et fabuleuses qui permettent de rajouter de la magie à ces projets très formateurs durant cette année canadienne.",
                    "materiel" : ["Camescope Canon C200","Stabilisateur Glidecam X-22 (avec veste et bras)", "Ecran SmallHD", "Caméra Canon 6D Mark II", "Objectif Sigma 18-35mm F1.8", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Éclairage LED Amaran", "Aputure Light Dome 2", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H4n et Zoom H6", "Panasonic Lumix GH5","Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/hRzoivmfwbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                   "equipe" : ["Élisa SIBERT", "Anaïs VERRIER", "Clara GUYOT"]
+                   "equipe" : ["<a href='https://elisasibert.myportfolio.com/home'>Élisa SIBERT</a>", "Anaïs VERRIER", "Clara GUYOT"]
                },
                {
                    "titre": "La main sur le cœur – Deuzel",
@@ -80,7 +80,7 @@ let data = {
                    "description" : "Apocalypse Snow est une bande annonce d'un ''western dans la neige''. Si le froid canadien a sûrement été la plus grosse difficulté pendant le tournage (-30° au quotidien), le plaisir de s’aventurer en équipe réduite sur un immense lac gelé, dans une forêt fraîchement recouverte de quelques mètres de neige, de faire un feu sur la neige de nuit et finalement de côtoyer la flore unique des paysages nordique de cet immense pays ont marqué au fer rouge des souvenirs de tournages fantastiques… Les costumes étant très légers, les acteurs et l'actrice ont fait beaucoup d'efforts et le planning de tournage a coûte que coûte été respecté. Le montage qui vous est présenté ci-dessus est une première version longue de la bande annonce. Le projet est à raccourcir et à retravailler en termes de design sonore et de montage mais les images sont là. J’ai eu la chance de cadrer les 90% du projet à main nue sur la merveilleuse Canon C200 !",
                    "materiel" : ["Camescope Sony PXW-FS7", "Objectif Rokinon 35mm T1.5", "Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure C120D II", "Éclairage LED Amaran", "Trépied Manfrotto Combi-boom 420B", "Aputure Light Dome 2", "Ecran SmallHD", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H6"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/L0fqMj0kHnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                   "equipe" : ["Titouan POUDENS", "Nathanaël ROVERE", "Julian BRUXELLE"]
+                   "equipe" : ["<a href='https://kronosvevo.wixsite.com/website/videos'>Titouan POUDENS</a>", "<a href='https://www.nathanael-rovere.fr/aboutMe.html'>Nathanaël ROVERE</a>", "<a href='http://julianbruxelle.fr/about'>Julian BRUXELLE</a>"]
                },
                {
                    "titre": "Interphobe",
@@ -89,7 +89,7 @@ let data = {
                    "description" : "Voici un huis-clos réalisé dans le cadre du 72h du Cinéma du Téléthon 2019. Le but étant de réaliser un court métrage de maximum 3 minutes dans lequel on sensibilise les gens au handicap en général. Tout le propos est basé sur le dialogue qui s’opère entre deux passants qui se retrouve dans un SAS. L’un aimerait rentrer dans le bâtiment mais il semble incapable de toucher l’interphone. Incapable ?",
                    "materiel" : ["Sony PXW-FS7 II, Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure LS C120D II, Reflecteur/Diffuseur MultiDisc", "Aputure Light Dome 2", "Enregistreur audio Zoom H6", "Microphone Sennheiser ME66-K6 + Zeppelin", "Perche Audio pour Shotgun"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/TaKiSWrqE1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                   "equipe" : ["Thibault GUICHARD", "Tristan GROSSETTI", "Nathanaël ROVERE", "Mathilde WILDMAN", "Antoine BALLAND"]
+                   "equipe" : ["<a href='http://thibaultguichard21.free.fr/'>Thibault GUICHARD</a>", "Tristan GROSSETTI", "<a href='https://www.nathanael-rovere.fr/aboutMe.html'>Nathanaël ROVERE</a>", "Mathilde WILDMAN", "<a href='https://antoineballand.com/'>Antoine BALLAND</a>"]
                },
                {
                    "titre": "Festival du cinéma OJO LOCO",
