@@ -49,19 +49,19 @@ iframe
     border-right: 1px solid white;
     top: 34vh;
 }
-#description
-{
-    font-family: Oxygen,sans-serif;
-    font-size: 11.5pt;
-    letter-spacing: 1px;
+#description {
+    font-family: Oxygen, sans-serif;
+    font-size: 1.5vh;
+    letter-spacing: .15em;
     font-weight: 800;
 }
-#text
-{
-    font-family: Oxygen,sans-serif;
-    font-size: 11.5pt;
-    letter-spacing: 1px;
+
+#text {
+    font-family: "Oxygen", sans-serif;
+    font-size: 16.5px;
+    letter-spacing: .1em;
     padding-bottom: 8vh;
+    font-weight: 200;
 }
 
 #whiteBox2

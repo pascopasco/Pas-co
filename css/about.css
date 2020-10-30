@@ -28,7 +28,7 @@ main>section>section
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 88vw;
+    width: 84vw;
     height: 35vw;
     position :relative;
 }
@@ -76,12 +76,15 @@ main>section>section
 
 .columnText p
 {
-    font-family: "Oxygen",sans-serif;
-    font-size: 2vh;
-    color: white;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
     text-align: justify;
-    padding-right: 1vw;
-    padding-left: 1vw;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
 #CV
 {
@@ -132,7 +135,7 @@ footer
     }
     .videoShowreel
     {
-        width: 90vw;
+        width: 100vw;
         min-height: 54vw;
     }
     .videoShowreel iframe
@@ -148,12 +151,25 @@ footer
     }
     .columnText
     {
-        width: 80%;
+        width: 84%;
         margin-top: 2vh;
+    }
+    .columnText p
+    {
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 29px;
+        line-height: 32px;
+        text-align: justify;
+        letter-spacing: 0.04em;
     }
     footer p
     {
         margin-top :5px;
+    }
+    .hidden_phone {
+        display: none;
     }
 }
 
