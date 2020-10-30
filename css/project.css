@@ -62,8 +62,12 @@ iframe
     letter-spacing: .1em;
     padding-bottom: 8vh;
     font-weight: 200;
+    z-index: 2;
 }
-
+.lien_int {
+    color: var(--rouge);
+    text-decoration: none;
+}
 #whiteBox2
 {
     position: absolute;
