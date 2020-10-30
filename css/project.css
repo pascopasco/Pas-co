@@ -107,6 +107,10 @@ iframe
     margin-bottom: 5px;
     /*letter-spacing: 0.75vh;*/
 }
+.colab_style {
+    color: white;
+    text-decoration: none;
+}
 footer
 {
     position: relative;
