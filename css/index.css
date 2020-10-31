@@ -243,11 +243,11 @@ menu
         flex-direction: column;
         justify-content: flex-end;
         height: 77vh;
-        background-image: url("../img/icones_videos/combustion_dark.jpg");
+        background-image: url("../img/icones_videos/Apocalypse_Snow.jpg");
         background-repeat: no-repeat;
-        background-size: auto 110%;
+        background-size: auto 100%;
         background-origin: border-box;
-        background-position: 25%;
+        background-position: 45%;
     }
 
 
@@ -312,10 +312,9 @@ menu
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        width: 60vw;
+        width: 40vw;
         position: absolute;
         bottom: 3vh;
-        font-size: 4vh;
     }
 
     .display
