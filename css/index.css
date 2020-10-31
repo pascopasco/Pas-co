@@ -200,7 +200,7 @@ menu
 
 #contenu>div
 {
-    width:16vw;
+    width:202px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
