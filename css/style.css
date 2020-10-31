@@ -140,6 +140,9 @@ footer p
     margin: 30px 0 0 0;
 
 }
+.hidden_desktop {
+    display: none;
+}
 
 @media (max-width: 1080px){
 
@@ -150,7 +153,7 @@ footer p
     }
     header>div>#descContent
     {
-        font-size:1.5vw;
+        font-size: 3vw;
     }
     header img
     {
@@ -194,6 +197,12 @@ footer p
     {
         position: relative;
         padding: 10px;
+    }
+    .hidden_phone {
+        display: none;
+    }
+    .hidden_desktop {
+        display:inline;
     }
 }
 
