@@ -144,7 +144,7 @@ footer
     }
     main>section
     {
-        width: 90vw;
+        width: 100vw;
         font-size: 2vh;
     }
     #description
@@ -163,11 +163,16 @@ footer
     {
         flex-direction: column;
         width: 90vw;
-        padding-left: 40px;
     }
     #text
     {
         font-size: 2vh;
+    }
+    iframe
+    {
+        width: 100vw;
+        height: 50vw;
+        margin: 10px;
     }
 }
 
