@@ -61,7 +61,7 @@ section section:first-child
 }
 #boxBotRight
 {
-    width:12vw;
+    width:14vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -71,7 +71,7 @@ section section:first-child
 #boxBotRight i
 {
     color: white;
-    font-size: 5vh;
+    font-size: 4.5vh;
 }
 #boxBotRight a:hover
 {
