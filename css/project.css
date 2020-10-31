@@ -144,7 +144,7 @@ footer
     }
     main>section
     {
-        width: 100vw;
+        width: 90vw;
         font-size: 2vh;
     }
     #description
@@ -166,13 +166,17 @@ footer
     }
     #text
     {
-        font-size: 2vh;
+        font-size: 1.7vh;
+        padding-bottom: 2vh;
     }
     iframe
     {
         width: 100vw;
         height: 50vw;
         margin: 10px;
+    }
+    #team {
+        padding-top: 1vh;
     }
 }
 
