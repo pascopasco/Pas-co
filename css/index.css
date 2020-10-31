@@ -133,6 +133,10 @@ menu
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+#contenu menu div
+{
+    display: none;
+}
 .active {
     border-bottom: solid 3px var(--rouge);
 }
@@ -246,6 +250,7 @@ menu
         background-position: 25%;
     }
 
+
     #contenu section
     {
         height: 42.5vh;
@@ -274,6 +279,10 @@ menu
     {
         font-size: 4vw
     }
+    #contenu>div
+    {
+        display: none;
+    }
 
     menu
     {
@@ -287,15 +296,28 @@ menu
         background-color: rgba(0, 0, 0, 0.9);
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
     }
     #contenu menu>ul
     {
         flex-direction: column;
+        align-items: center;
         width: auto;
         height: 50vh;
         font-size: 5vw;
     }
+
+    #contenu menu div
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60vw;
+        position: absolute;
+        bottom: 3vh;
+        font-size: 4vh;
+    }
+
     .display
     {
         display: flex;
