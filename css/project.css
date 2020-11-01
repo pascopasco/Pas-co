@@ -167,7 +167,7 @@ footer
     #text
     {
         font-size: 1.7vh;
-        padding-bottom: 2vh;
+        padding: 2vh 0 2vh 0;
     }
     iframe
     {

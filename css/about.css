@@ -21,6 +21,7 @@ main>section
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10vh;
+    margin-top: 5vh;
 }
 main>section>section
 {
@@ -28,7 +29,7 @@ main>section>section
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 84vw;
+    width: 92vw;
     height: 35vw;
     position :relative;
 }
@@ -71,12 +72,16 @@ main>section>section
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 19vw;
+    width: 24vw;
 }
 
+/*.columnText p:first-of-type
+{
+    margin: 0;
+}*/
 .columnText p
 {
-    font-family: Oxygen;
+    font-family: "Oxygen", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -118,6 +123,10 @@ footer
     {
         min-height: 100vh;
         width: 100%;
+    }
+    header #pageName
+    {
+        font-size: 12vw;
     }
     main>section
     {

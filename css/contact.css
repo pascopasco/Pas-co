@@ -102,7 +102,7 @@ section section:first-child
 {
     main
     {
-        height:100vh;
+        /*height:100vh;*/
     }
     main>section:first-of-type
     {

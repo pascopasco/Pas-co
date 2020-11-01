@@ -90,6 +90,10 @@ header menu>ul>li>a:hover:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+menu div
+{
+    display: none;
+}
 .active {
     border-bottom: solid 2px var(--rouge);
 }
@@ -188,6 +192,19 @@ footer p
         align-items: center;
         height: 50vh;
         font-size: 5vw;
+    }
+    menu div
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 40vw;
+        position: absolute;
+        bottom: 3vh;
+    }
+    menu div a
+    {
+        color: white;
     }
     .display
     {
