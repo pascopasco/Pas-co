@@ -96,11 +96,11 @@ main>section>section
     margin-top: 40px;
 }
 
-p:hover a
+/*p:hover a
 {
-    /*transition: font-weight 0.5s ease;*/
+    transition: font-weight 0.5s ease;
     font-weight: 600;
-}
+}*/
 .columnText p:hover span
 {
     padding-left: 15px;

@@ -187,9 +187,9 @@ menu
     cursor: pointer;
     font-weight: 400;
 }
-#contenu p:hover
-{
-    font-weight: 600;
+.button:hover {
+    transition: color 0.5s ease;
+    color: var(--rouge);
 }
 #contenu p:hover span
 {
