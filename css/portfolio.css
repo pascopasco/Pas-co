@@ -141,5 +141,11 @@ footer
     {
         background-size: 100vw;
     }
+
+    footer
+    {
+        margin-top: 3vh;
+    }
+
 }
 

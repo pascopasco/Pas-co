@@ -50,14 +50,14 @@ iframe
     top: 34vh;
 }
 #description {
-    font-family: Oxygen, sans-serif;
+    font-family: 'Oxygen',sans-serif;
     font-size: 1.5vh;
     letter-spacing: .15em;
     font-weight: 800;
 }
 
 #text {
-    font-family: "Oxygen", sans-serif;
+    font-family: 'Oxygen',sans-serif;
     font-size: 16.5px;
     letter-spacing: .1em;
     padding-bottom: 8vh;
@@ -102,7 +102,7 @@ iframe
 
 #infos p
 {
-    font-family: Oxygen,sans-serif;
+    font-family: 'Oxygen',sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
     /*letter-spacing: 0.75vh;*/

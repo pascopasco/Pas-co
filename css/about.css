@@ -84,8 +84,8 @@ main>section>section
     font-family: "Oxygen", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 1vw;
+    line-height: 1.45vw;
     text-align: justify;
     letter-spacing: 0.05em;
 
@@ -113,8 +113,7 @@ main>section>section
 }
 footer
 {
-    position: inherit;
-    margin-bottom: 20px;
+    position: relative;
 }
 
 
@@ -165,7 +164,7 @@ footer
     }
     .columnText p
     {
-        font-family: Oxygen;
+        font-family: 'Oxygen',sans-serif;
         font-style: normal;
         font-weight: lighter;
         font-size: 29px;
@@ -173,9 +172,9 @@ footer
         text-align: justify;
         letter-spacing: 0.04em;
     }
-    footer p
+    footer
     {
-        margin-top :5px;
+        margin-top: 3vh;
     }
 
 }
