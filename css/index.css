@@ -85,14 +85,17 @@ main
 menu
 {
     font-family: 'Hammersmith One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     margin : 2.5vh;
     padding: 0;
-    font-size: 1.75vh;
-    letter-spacing: 0.3vh;
+    font-size: 1.5vh;
+    line-height: 17px;
+    letter-spacing: 0.15em;
 }
 #contenu menu>ul
 {
-    width : 31vw;
+    width : 32vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -138,7 +141,7 @@ menu
     display: none;
 }
 .active {
-    border-bottom: solid 3px var(--rouge);
+    border-bottom: solid 2px var(--rouge);
 }
 .active:hover {
     border-bottom: none;
@@ -204,18 +207,18 @@ menu
 
 #contenu>div
 {
-    width:202px;
+    width:200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     position: relative;
-    bottom: -12.5vh;
+    bottom: -13vh;
 }
 
 #contenu>div i
 {
     color: white;
-    font-size: 3vh;
+    font-size: 20px;
 }
 
 #contenu>div a:hover

@@ -29,14 +29,14 @@ main>section>section
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 92vw;
+    width: 84vw;
     height: 35vw;
     position :relative;
 }
 .whiteBox
 {
-    width: 62vw;
-    height: 35vw;
+    width: 57vw;
+    height: 33.5vw;
     border: #C4C4C4 1px solid;
     position: absolute;
     left: -1.5vw;
@@ -57,8 +57,8 @@ main>section>section
 }
 .videoShowreel
 {
-    width : 62vw;
-    height: 35vw;
+    width : 57vw;
+    height: 32vw;
     display: flex;
     z-index: 2;
 }
@@ -72,7 +72,7 @@ main>section>section
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 24vw;
+    width: 20vw;
 }
 
 /*.columnText p:first-of-type
