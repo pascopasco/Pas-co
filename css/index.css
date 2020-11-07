@@ -264,11 +264,11 @@ menu
     {
         position: fixed;
         z-index: 5;
-        right: 40px;
-        top: 40px;
+        right: 60px;
+        top: 60px;
         cursor: pointer;
-        height: 6vw;
-        width: 6vw;
+        height: 8vw;
+        width: 8vw;
     }
     #contenu section img.displayMobile
     {
