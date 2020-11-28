@@ -1,22 +1,35 @@
+/*<a class='lien_int' href='https://www.youtube.com/embed/c4KTlnSLx8Q' target='_blank'>J'ai viré</a>*/ 
+
+
+
 let data = {
    "projects":[
                {
-                   "titre": "Soirée crêpes ",
+                   "titre": "Soirée crêpes",
                    "sousTitre": "Clip Vidéo",
                    "image": `./img/icones_videos/crepes.jpg`,
-                   "description" : "Cette production est le résultat d'un défi technique : filmer caméra portée avec uniquement des mouvement fait à la main. Le but était dans un premier temps d’offrir une immersion au cœur de l’action de ce qui se passe à travers cette « soirée crêpes » que s’offre quelques amis. Mais le projet s’est vu évoluer vers une volonté de capturer plus simplement une esthétique et une poésie de l’image. J'avais vraiment l'envie de mettre en avant la qualité visuelle, la beauté de l'image. Une ambiance qui passe du chaleureux avec la bougie et qui évolue vers un inquiétante étrangeté de ces personnages marqués par un sourire angoissant. Un projet que j'ai écrit, réalisé, filmé et monté. J'ai eu la chance de travailler Gabriel CAMPOS, un compositeur qui a construit une superbe musique pour mon projet.",
+                   "description" : "Cette production est le résultat d'un défi technique : filmer caméra portée avec uniquement des mouvement fait à la main. Le but était dans un premier temps d’offrir une immersion au cœur de l’action de ce qui se passe à travers cette « soirée crêpes » que s’offre quelques amis. Mais le projet s’est vu évoluer vers une volonté de capturer plus simplement une esthétique et une poésie de l’image. J'avais vraiment l'envie de mettre en avant la qualité visuelle, la beauté de l'image. Une ambiance qui passe du chaleureux avec la bougie et qui évolue vers un inquiétante étrangeté de ces personnages marqués par un sourire angoissant. Un projet que j'ai écrit, réalisé, filmé et monté. J'ai eu la chance de travailler <a class='lien_int' href='https://gabcamposmusic.wixsite.com/gabrielcampos' target='_blank'>Gabriel CAMPOS</a>, un compositeur qui a construit une superbe musique pour mon projet.",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Sigma 18-35mm F1.8", "Éclairage LED Aputure LS C120D", "Aputure Light Dome II"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/385282303" frameborder="0" allow="fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
                },
                {
-                   "titre": "Soirée Déréliction ",
+                   "titre": "Soirée Déréliction",
                    "sousTitre": "Clip vidéo",
                    "image": `./img/icones_videos/dereliction_soiree.jpg`,
                    "description" : "Je ne voulais pas laisser mourir des images que j'appréciais d'un tournage servant le clip de <a class='lien_int' title='Déréliction' href='https://vimeo.com/471897548' target='_blank'>Déréliction</a> tourné en décembre 2019. J'ai donc repris les rushes que j’avais tourné et en ait fait un montage basé sur la même protagoniste de Déréliction. J’ai travaillé le montage afin de changer l’ambiance de précédent projet. On peut le voir comme une suite, avec ce personnage principal qui évolue de manière inquiétante, comme touché par une magie noire. Libre à vous de saisir le propos de l’histoire. Le personnage devient une sorte de malfaisante shamanique qui ne restera pas les bras croisés pendant cette soirée étrange dans laquelle se sont embarqué les invités insouciants…",
                    "materiel" : ["Camescope Canon C200", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Aputure Light Dome 2"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471895090" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : ["<a class='colab_style' target=”_blank” href='https://elisasibert.myportfolio.com/home'>Elisa SIBERT</a>", "Anais VERRIER", "Clara GUYOT"]
+                   "equipe" : ["<a class='colab_style' target=”_blank” href='https://elisasibert.myportfolio.com/home'>Elisa SIBERT</a>", "Anais VERRIER", "<a class='colab_style' href='https://claraguyot.myportfolio.com/' target='_blank'>Clara GUYOT</a>"]
+               },
+               {
+                   "titre": "Quelques battements d'ailes",
+                   "sousTitre": "Projet Esthétique",
+                   "image": `./img/icones_videos/quelques_battements_L2.png`,
+                   "description" : "Entres les herbes, le long d'un cerisier tout blanc, sillonnant au travers d'un envoutante glycine, le vent caresse les fleurs fraîchement sorties de leurs cocons. Les insectes viennent alors participer au maintient en vie des plantes.</br></br>Mon objectif premier était d'arriver à filmer un papillon de dos en plein vol. Un défi qui s'est révélé à ce jour trop compliqué. Ca m'a permis d'apprendre le mot erratique - la manière dont mon père défini le vol du papillon - et de capturer ces douces images.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/484622343" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
                },
                {
                    "titre": "Combustion",
@@ -27,23 +40,23 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471892988" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : ["<a class='colab_style' target=”_blank” href='https://www.jacquetlourealisation.com/films'>Lou JACQUET</a>", "Remi LAMOUR","<a class='colab_style' target=”_blank” href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin'>Charlotte COTTIN</a>"]
                },
-               /*{
+               {
                    "titre": "Le Voisin",
                    "sousTitre": "Court-métrage",
                    "image": `./img/icones_videos/voisin.jpg`,
                    "description" : "Ce court métrage est temporairement indisponible car séléctionné pour le Festival Du Nouveau Cinéma à Montréal <br/> <br/> Le voisin est un drame psychologique sur l’aspect dangereux des troubles mentaux dont sont victimes de nombreuses personnes. Tourné caméra épaule en lumière naturelle et seul car le confinement était exigeant en termes de contraintes. Un court métrage qui rappelle que n’importe qui pourrait faire des actions dangereuses sans pour autant en être totalement conscient, même votre voisin !",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/424711197" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : ["Julien FABRE", "Lauren BÉLEC"]
-               },*/
+                   "equipe" : ["Julien FABRE", "<a class='colab_style' href='http://laurenbelecmusic.com/' target='_blank'>Lauren BÉLEC</a>"]
+               },
                {
-                   "titre": "J’ai viré – Deuzel ",
+                   "titre": "J’ai viré – Deuzel",
                    "sousTitre": "Clip vidéo",
                    "image": `./img/icones_videos/jai_vire.jpg`,
-                   "description" : "Voici mon premier clip vidéo réalisé pour le groupe Deuzel. Un projet qui m'a donné beaucoup d'espoir car le résultat fut très satisfaisant pour une première. Une danseuse professionnelle s’est offerte à l’objectif par la danse à merveille. Une première qui m’a donné goût au cadrage en action. La danse est un art que j’apprécie à filmer car il incite à tenter des mouvements de caméras très satisfaisants.",
+                   "description" : "Voici mon premier clip vidéo réalisé pour le groupe <a class='lien_int' title='Deuzel' href='https://www.youtube.com/channel/UCsqMk2CX_FfdmogZE0tOclQ' target='_blank'>Deuzel</a>. Un projet qui m'a donné beaucoup d'espoir car le résultat fut très satisfaisant pour une première. Une danseuse professionnelle s’est offerte à l’objectif par la danse à merveille. Une première qui m’a donné goût au cadrage en action. La danse est un art que j’apprécie à filmer car il incite à tenter des mouvements de caméras très satisfaisants.",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471897334" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : ["Martin BOUVET", "Mathis CHANIOL"]
+                   "equipe" : ["<a class='lien_int' href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ' target='_blank'>Martin BOUVET</a>", "Mathis CHANIOL"]
                },
                {
                    "titre": "Pain et Compagnie",
@@ -67,10 +80,10 @@ let data = {
                    "titre": "La main sur le cœur – Deuzel",
                    "sousTitre": "Clip Vidéo",
                    "image": `./img/icones_videos/La_main_sur_le_coeur.jpg`,
-                   "description" : "La main sur le cœur est le titre qui reflète parfaitement l'image du groupe d'artiste des deux jeunes chanteurs qui m’ont proposé de réaliser le deuxième clip de leur EP fraîchement élaboré. Une production qui suit la bonne ambiance du premier clip de J’ai viré (on peut mettre le lien quand on clique dessus ?) que j'ai fait avec eux. Un clip qui nous permet de déambuler à travers les endroits que Martin aime tout particulièrement. Bonne balade à vous !",
+                   "description" : "La main sur le cœur est le titre qui reflète parfaitement l'image du groupe d'<a class='lien_int' title='Deuzel' href='https://www.youtube.com/channel/UCsqMk2CX_FfdmogZE0tOclQ' target='_blank'>artiste</a> des deux jeunes chanteurs qui m’ont proposé de réaliser le deuxième clip de leur EP fraîchement élaboré. Une production qui suit la bonne ambiance du premier clip de <a class='lien_int' href='https://www.youtube.com/embed/c4KTlnSLx8Q' target='_blank'>J'ai viré</a> que j'ai fait avec eux. Un clip qui nous permet de déambuler à travers les endroits que Martin aime tout particulièrement. Bonne balade à vous !",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471897764" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : ["Martin BOUVET", "Mathis CHANIOL"]
+                   "equipe" : ["<a class='lien_int' href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ' target='_blank'>Martin BOUVET</a>", "Mathis CHANIOL"]
                },
                {
                    "titre": "Apocalypse Snow",
