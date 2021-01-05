@@ -1,3 +1,8 @@
+i
+{
+    font-size: 1vw;
+}
+
 main
 {
     width:100%;
@@ -108,22 +113,25 @@ iframe
     /*letter-spacing: 0.75vh;*/
 }
 .colab_style {
-    color: var(--rouge);
+    color: white;
     text-decoration: none;
+}
+.icone_external_link
+{
+    font-size: 1.75vh;
+    vertical-align: 0.15vh;
+    word-spacing: 1rem;
+    position: relative;
+    left: 0.25rem;
 }
 footer
 {
     position: relative;
     margin-top: 20px;
 }
-@media (max-width: 800px) {
 
-    main>header>div>#pageName {
-        font-size: 7vw;
-    }
-}
 
-@media (max-width: 1080px){
+@media (max-width: 800px){
 
     main>header>div>#pageName
     {
@@ -133,6 +141,10 @@ footer
     #arrow
     {
         left: 20px;
+    }
+    header>a>img 
+    {
+        left: 60px;
     }
     header>div>#descContent
     {

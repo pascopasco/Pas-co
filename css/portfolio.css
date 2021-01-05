@@ -96,15 +96,15 @@ footer
     position: relative;
 }
 
-@media (max-width: 1080px){
+@media (max-width: 800px){
     /*body::-webkit-scrollbar
     {
         display: initial;
     }*/
-    body
+    /*body
     {
         width: 113%;
-    }
+    }*/
     header menu
     {
         height: 100%;

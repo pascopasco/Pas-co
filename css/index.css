@@ -226,7 +226,16 @@ menu
     text-shadow: #cbcbcb 0px 0px 10px;
 }
 
-@media (max-width: 1080px){
+@media (max-width: 900px){
+    
+    menu 
+    {
+        font-size : 1.25vw;
+    }
+
+}
+
+@media (max-width: 800px){
 
     #videoAccueil
     {

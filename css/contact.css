@@ -98,12 +98,12 @@ section section:first-child
     z-index: 1;
 }
 
-@media (max-width: 1080px)
+@media (max-width: 800px)
 {
-    main
+    /*main
     {
-        /*height:100vh;*/
-    }
+        height:100vh;
+    }*/
     main>section:first-of-type
     {
         height: 58vh;

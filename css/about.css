@@ -73,6 +73,7 @@ main>section>section
     justify-content: space-around;
     align-items: center;
     width: 20vw;
+    padding-top: 6vw;
 }
 
 /*.columnText p:first-of-type
@@ -115,9 +116,13 @@ footer
 {
     position: relative;
 }
-
-
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
+    main
+        {
+            height: 100vh;
+        }
+}
+@media (max-width: 800px) {
     main
     {
         min-height: 100vh;
@@ -161,6 +166,7 @@ footer
     {
         width: 84%;
         margin-top: 2vh;
+        padding-top: 0;
     }
     .columnText p
     {
