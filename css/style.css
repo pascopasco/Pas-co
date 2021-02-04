@@ -152,15 +152,7 @@ footer
     color: var(--rouge);
 }
 
-@media (max-width: 1000px) {
-    
-    header menu
-    {
-        font-size: 1.25vw;
-    }
-    
-}
-@media (max-width: 800px){
+@media (max-width: 1024px){
 
     header #pageName
     {
@@ -245,6 +237,7 @@ footer
         display:inline;
     }
 }
+
 
 
 
