@@ -152,16 +152,20 @@ footer
     color: var(--rouge);
 }
 
-@media (max-width: 1024px){
+@media (max-width: 980px){
 
+    header
+    {
+        margin : 0;
+    }
     header #pageName
     {
-        font-size: 10vw;
         text-align: center;
     }
     header>div {
         height: 8vh;
-        margin-top : 14vh;
+        margin-top : 11.5vh;
+        margin-bottom: 1.5vh;
     }
     header>div>#descContent
     {

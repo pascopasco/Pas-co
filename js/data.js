@@ -106,7 +106,7 @@ let data = {
                    "equipe" : [`<a ${class_target} href='http://thibaultguichard21.free.fr/'>Thibault GUICHARD ${icone}</a>`, "Tristan GROSSETTI", `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, "Mathilde WILDMAN", `<a ${class_target} href='https://antoineballand.com/'>Antoine BALLAND ${icone}</a>`]
                },
                {
-                   "titre": "Festival du cinéma OJO LOCO",
+                   "titre": "Festival du cinéma </br> OJO LOCO",
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/ojo_loco.jpg",
                    "description" : "J'ai eu la chance d'être stagiaire dans la 7ème édition du festival du cinéma ibérique et latino-américain. J'ai réalisé plusieurs vidéos visant à promouvoir le festival dont cet Aftermovie. Un projet dans lequel j’étais très libre ce qui m’a amené à monter le projet en gardant un esprit humoristique mettant en scène mon assistant caméra.",
