@@ -141,9 +141,10 @@ footer
     }
     main>header>div>#pageName
     {
-        font-size: 8vw;
+        font-size: 10vw;
         text-align: center;
         letter-spacing: 0.75vh;
+        line-height: 0.8;
     }
     #arrow
     {
@@ -155,7 +156,7 @@ footer
     }
     header>div>#descContent
     {
-        font-size: 2.4vw;
+        font-size: 2.95vw;
     }
     main>section
     {
