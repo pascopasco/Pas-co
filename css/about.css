@@ -73,7 +73,7 @@ main>section>section
     justify-content: space-around;
     align-items: center;
     width: 20vw;
-    padding-top: 6vw;
+    padding-top: 8.5vw;
 }
 
 /*.columnText p:first-of-type
@@ -112,7 +112,7 @@ main>section>section
     padding-left: 5px;
     padding-right: 5px;
 }
-footer
+footer 
 {
     position: relative;
 }
