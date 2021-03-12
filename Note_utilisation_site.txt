@@ -1,0 +1,21 @@
+clique droit "Git bash here"
+
+Avant toute modification du site :
+
+Git pull origin master      pour récupérer les éventuelles modifs du site.
+
+Pour faire des modifs :
+
+(git status 		    permets de voir si on a fait des modifs depuis le dernier git push)
+
+git add *		    pour ajouter toutes les modifs dans le paquet de données que tu vas envoyer sur le site
+
+git commit -m "un message pour dire ce que t'as modifié"       pour emballer le paquet et préparer l'envoi
+
+git push origin master	    pour envoyer le paquet sur l'hébergeur
+
+
+
+Les données du portfolio sont dans js/data.js.
+
+Clique droit -> ouvrir avec -> Brackets
