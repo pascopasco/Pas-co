@@ -152,6 +152,15 @@ footer
     color: var(--rouge);
 }
 
+@media (max-width: 1300px){
+    header menu {
+        font-size: 1.25vw;
+    }
+    header menu ul {
+        min-width: 400px;
+    }
+}    
+
 @media (max-width: 980px){
 
     header
