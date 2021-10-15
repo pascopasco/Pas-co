@@ -96,22 +96,4 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471898287" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://kronosvevo.wixsite.com/website/videos'>Titouan POUDENS ${icone}</a>`, `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, `<a ${class_target} href='http://julianbruxelle.fr/about'>Julian BRUXELLE ${icone}</a>`]
                },
-               {
-                   "titre": "Interphobe",
-                   "sousTitre": "72h du Cinéma",
-                   "image": "./img/icones_videos/interphobe.jpg",
-                   "description" : "Voici un huis-clos réalisé dans le cadre du 72h du Cinéma du Téléthon 2019. Le but était de réaliser un court métrage de maximum 3 minutes dans lequel on voulait sensibiliser les gens au handicap en général. Tout le propos est basé sur le dialogue qui s’opère entre deux passants qui se retrouvent dans un SAS. L’un des deux aimerait rentrer dans le bâtiment mais il semble incapable de toucher l’interphone...",
-                   "materiel" : ["Sony PXW-FS7 II, Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure LS C120D II, Reflecteur/Diffuseur MultiDisc", "Aputure Light Dome 2", "Enregistreur audio Zoom H6", "Microphone Sennheiser ME66-K6 + Zeppelin", "Perche Audio pour Shotgun"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471898582" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='http://thibaultguichard21.free.fr/'>Thibault GUICHARD ${icone}</a>`, "Tristan GROSSETTI", `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, "Mathilde WILDMAN", `<a ${class_target} href='https://antoineballand.com/'>Antoine BALLAND ${icone}</a>`]
-               },
-               {
-                   "titre": "Festival du cinéma </br> OJO LOCO",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/ojo_loco.jpg",
-                   "description" : "J'ai eu la chance d'être stagiaire dans la 7ème édition du festival du cinéma ibérique et latino-américain. J'ai réalisé plusieurs vidéos visant à promouvoir le festival dont cet Aftermovie. Un projet dans lequel j’étais très libre ce qui m’a amené à monter le projet en le basant sur un esprit humoristique mettant en scène mon assistant caméra.",
-                   "materiel" : ["Canon EOS 77D"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471899464" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : ["Zackaria ROMANI"]
-               },
     ]}
