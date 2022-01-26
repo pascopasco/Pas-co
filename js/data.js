@@ -39,7 +39,7 @@ let data = {
                    "image": "./img/icones_videos/Une_randonnee_sur_les_cretes.jpg",
                    "description" : "C'est une vidéo qui fait partie d'un projet de films corporates visant à promouvoir des gîtes en montagne les hoteliers randonneurs. Les consignes étant de revivre une balade sur les crêtes du plateau proche du gîte. Des images prises quasi entièremment à la main au GH5. Un plaisir de travailler l'image dans un contexte qui m'attire tout partiulèremment : le sport et la montagne !",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
-                   "lien_video" : `<iframe src="https://vimeo.com/668914517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/668914517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
                },
                {
