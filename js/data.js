@@ -34,6 +34,15 @@ let data = {
                    "equipe" : []
                },
                {
+                   "titre": "Une randonnée sur les crêtes",
+                   "sousTitre": "Vidéo corporate",
+                   "image": "./img/icones_videos/Une_randonnee_sur_les_cretes.jpg",
+                   "description" : "C'est une vidéo qui fait partie d'un projet de films corporates visant à promouvoir des gîtes en montagne les hoteliers randonneurs. Les consignes étant de revivre une balade sur les crêtes du plateau proche du gîte. Des images prises quasi entièremment à la main au GH5. Un plaisir de travailler l'image dans un contexte qui m'attire tout partiulèremment : le sport et la montagne !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
+                   "lien_video" : `<iframe src="https://vimeo.com/668914517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
+               },
+               {
                    "titre": "Combustion",
                    "sousTitre": "Court-métrage",
                    "image": "./img/icones_videos/combustion.jpg",
@@ -41,15 +50,6 @@ let data = {
                    "materiel" : ["Camescope Canon C200", "Objectif Rokinon 35mm T1.5", "Rokinon 85mm T1.5", "Objectif Canon EF 70-200mm f/2.8 IS II USM", "Ecran SmallHD"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471892988" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`, "Remi LAMOUR",`<a ${class_target} href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin'>Charlotte COTTIN ${icone}</a>`]
-               },
-               {
-                   "titre": "Le Voisin",
-                   "sousTitre": "Court-métrage",
-                   "image": "./img/icones_videos/voisin.jpg",
-                   "description" : "Le voisin est un drame psychologique sur l’aspect dangereux des troubles mentaux dont sont victimes de nombreuses personnes. C'est un court métrage tourné caméra épaule en lumière naturelle et comme équipe technique moi seul car le confinement obligeait. Un court métrage qui rappelle que n’importe qui pourrait agir de manière dangereuse sans pour autant en être totalement conscient. N'importe qui, même votre voisin !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/424711197" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : ["Julien FABRE", `<a ${class_target} href='http://laurenbelecmusic.com/'>Lauren BÉLEC ${icone}</a>`]
                },
                {
                    "titre": "J’ai viré – Deuzel",
@@ -79,15 +79,6 @@ let data = {
                    "equipe" : [`<a ${class_target} href='https://elisasibert.myportfolio.com/home'>Élisa SIBERT ${icone}</a>`, "Anaïs VERRIER", "Clara GUYOT"]
                },
                {
-                   "titre": "La main sur le cœur – Deuzel",
-                   "sousTitre": "Clip Vidéo",
-                   "image": "./img/icones_videos/La_main_sur_le_coeur.jpg",
-                   "description" : "La main sur le cœur est le titre qui reflète parfaitement l'image du groupe d'<a class='lien_int' title='Deuzel' href='https://www.youtube.com/channel/UCsqMk2CX_FfdmogZE0tOclQ' target='_blank'>artiste</a> des deux jeunes chanteurs qui m’ont proposé de réaliser le deuxième clip de leur EP magnifiquement élaboré. Une production qui suit la bonne ambiance du premier clip de <a class='lien_int' href='https://www.youtube.com/embed/c4KTlnSLx8Q' target='_blank'>J'ai viré</a> que j'ai eu la chance de faire avec eux. La main sur le coeur est une déambulation à travers les endroits que Martin aime tout particulièrement. Bonne balade à vous !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471897764" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
-               },
-               {
                    "titre": "Apocalypse Snow",
                    "sousTitre": "Bande annonce",
                    "image": "./img/icones_videos/apocalypse_snow.jpg",
@@ -95,5 +86,23 @@ let data = {
                    "materiel" : ["Camescope Sony PXW-FS7", "Objectif Rokinon 35mm T1.5", "Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure C120D II", "Éclairage LED Amaran", "Trépied Manfrotto Combi-boom 420B", "Aputure Light Dome 2", "Ecran SmallHD", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471898287" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://kronosvevo.wixsite.com/website/videos'>Titouan POUDENS ${icone}</a>`, `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, `<a ${class_target} href='http://julianbruxelle.fr/about'>Julian BRUXELLE ${icone}</a>`]
+               },
+               {
+                   "titre": "Le Voisin",
+                   "sousTitre": "Court-métrage",
+                   "image": "./img/icones_videos/voisin.jpg",
+                   "description" : "Le voisin est un drame psychologique sur l’aspect dangereux des troubles mentaux dont sont victimes de nombreuses personnes. C'est un court métrage tourné caméra épaule en lumière naturelle et comme équipe technique moi seul car le confinement obligeait. Un court métrage qui rappelle que n’importe qui pourrait agir de manière dangereuse sans pour autant en être totalement conscient. N'importe qui, même votre voisin !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/424711197" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : ["Julien FABRE", `<a ${class_target} href='http://laurenbelecmusic.com/'>Lauren BÉLEC ${icone}</a>`]
+               },
+               {
+                   "titre": "La main sur le cœur – Deuzel",
+                   "sousTitre": "Clip Vidéo",
+                   "image": "./img/icones_videos/La_main_sur_le_coeur.jpg",
+                   "description" : "La main sur le cœur est le titre qui reflète parfaitement l'image du groupe d'<a class='lien_int' title='Deuzel' href='https://www.youtube.com/channel/UCsqMk2CX_FfdmogZE0tOclQ' target='_blank'>artiste</a> des deux jeunes chanteurs qui m’ont proposé de réaliser le deuxième clip de leur EP magnifiquement élaboré. Une production qui suit la bonne ambiance du premier clip de <a class='lien_int' href='https://www.youtube.com/embed/c4KTlnSLx8Q' target='_blank'>J'ai viré</a> que j'ai eu la chance de faire avec eux. La main sur le coeur est une déambulation à travers les endroits que Martin aime tout particulièrement. Bonne balade à vous !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471897764" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
                },
     ]}
