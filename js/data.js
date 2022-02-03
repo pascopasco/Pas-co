@@ -44,7 +44,7 @@ let data = {
                },
                {
                    "titre": "Combustion",
-                   "sousTitre": "Court-métrage",
+                   "sousTitre": "48H / Kino",
                    "image": "./img/icones_videos/combustion.jpg",
                    "description" : "Combustion est un projet réalisé en 48h dans le cadre du KINO, une expérience cinématographique que met en place un professeur lors de son temps libre chaque année. C’est mon premier projet en noir et blanc que l’on a écris, tourné et monté dans le rush en 48h avec <a class='lien_int' href='https://www.jacquetlourealisation.com/films' target='_blank'>Lou</a>, <a class='lien_int' href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin' target='_blank'>Charlotte</a> et Rémi. Ces projets réalisés en généralement un, deux ou trois jours sont des exercices très formateurs car ils apprennent à travailler en équipe l’efficacité et l’organisation avec des gens que vous ne connaissez pas forcément qui se regroupent juste pour l'expérience très excitante. Cela oblige à donner son maximum pendant un temps limité et à agir de manière professionnelle. Très plaisant et gratifiant, j’ai hâte d’en refaire. </br>Dans ce court-métrage, deux personnes font un pari sur un homme d’apparence très mystérieuse…",
                    "materiel" : ["Camescope Canon C200", "Objectif Rokinon 35mm T1.5", "Rokinon 85mm T1.5", "Objectif Canon EF 70-200mm f/2.8 IS II USM", "Ecran SmallHD"],
@@ -61,13 +61,13 @@ let data = {
                    "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
                },
                {
-                   "titre": "Pain et Compagnie",
-                   "sousTitre": "Projet Esthétique",
-                   "image": "./img/icones_videos/pain_et_compagnie.jpg",
-                   "description" : "Pain et compagnie est un projet qui part d’une envie soudaine de prendre des images d’un instant que j’ai voulu immortaliser : Du pain au levain fraîchement sorti du four. C’était aussi l’occasion de d’exploiter le potentiel du 180 FPS du GH5. Alors, venez déguster du bon pain frais avec sa noisette de beurre et sa pincée de sel !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471894515" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : []
+                   "titre": "Le vingt et unième sauvage",
+                   "sousTitre": "48H / Kino",
+                   "image": "./img/icones_videos/48h_kino.jpg",
+                   "description" : "Ce projet s'inclut dans un 48h - écrit, tourné et monté en 48h - auquel on a participé à distance au Canada. Avec <a class='lien_int' href='https://www.jacquetlourealisation.com/films' target='_blank'>Lou</a> nous étions à l'image avec un petit set léger mais confortable au niveau de notre série d'optique. Un projet très amusant comme se veut le rendu et enrichissant niveau technique comme tous les 48h et compagnie.",
+                   "materiel" : ["Sony Alpha 7 III", "Série optique Samyang"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/662362058" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`,`<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, "Tristan GROSSETTI", "Hugo VILLARD"]
                },
                {
                    "titre": "Déréliction",
@@ -104,5 +104,14 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471897764" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
+               },
+               {
+                   "titre": "Pain et Compagnie",
+                   "sousTitre": "Projet Esthétique",
+                   "image": "./img/icones_videos/pain_et_compagnie.jpg",
+                   "description" : "Pain et compagnie est un projet qui part d’une envie soudaine de prendre des images d’un instant que j’ai voulu immortaliser : Du pain au levain fraîchement sorti du four. C’était aussi l’occasion de d’exploiter le potentiel du 180 FPS du GH5. Alors, venez déguster du bon pain frais avec sa noisette de beurre et sa pincée de sel !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471894515" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
                },
     ]}
