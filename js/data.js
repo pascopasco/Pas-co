@@ -43,6 +43,15 @@ let data = {
                    "equipe" : []
                },
                {
+                   "titre": "Interview Manu Théry",
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/Interview_Manu_Thery.jpg",
+                   "description" : "Voici une des 8 interviews réalisées dans le cadre de la promotion de l'école <a class='lien_int' href='http://www.arfis.com/' target='_blank'>Arfis</a> pendant ma dernière année d'étude au sein de l'école. J'ai travaillé la lumière et la cadrage en tant que chef opérateur. Cet exercice m'a permis d'apprendre à efficacement réaliser de manière professionnelle une interview. Ici on retrouve mon mentor, Manu Théry qui parle de la filière image. ",
+                   "materiel" : ["Camescope Sony PMW 200", "Mandarines", "Arri Fresnel 300W", "Gelatines CTO/CTB/ND"],
+                   "lien_video" : `<iframe src="https://www.youtube.com/embed/9EmOA4tvIt8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : ["Baptiste Perez"]
+               },
+               {
                    "titre": "Combustion",
                    "sousTitre": "48H / Kino",
                    "image": "./img/icones_videos/combustion.jpg",
