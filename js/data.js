@@ -34,22 +34,22 @@ let data = {
                    "equipe" : []
                },
                {
-                   "titre": "Une randonnée sur les crêtes",
-                   "sousTitre": "Vidéo corporate",
-                   "image": "./img/icones_videos/Une_randonnee_sur_les_cretes.jpg",
-                   "description" : "C'est une vidéo qui fait partie d'un projet de films corporates visant à promouvoir des gîtes en montagne les hoteliers randonneurs. Les consignes étant de revivre une balade sur les crêtes du plateau proche du gîte. Des images prises quasi entièremment à la main au GH5. Un plaisir de travailler l'image dans un contexte qui m'attire tout partiulèremment : le sport et la montagne !",
+                   "titre": "L'Échaillon, maison d'hôtes",
+                   "sousTitre": "Teaser",
+                   "image": "./img/icones_videos/Teaser_echaillon.jpg",
+                   "description" : "Un petit bout de paradis à Névache, proche de Briançon. un village entouré des montagnes. Robin vous accueillera et vous proposera ski de fond, raquettes, ski de randonnée détente absolue dans ses chalets en bois et cuisine par un chef talentueux. Un travail en pleine nature dans la neige, un plaisir sans nom de travailler dans ce qui restera ce qui restera à jamais le meilleur des monde pour moi. Des vidéos estivales sur l'été de juillet 2022 sortiront à la fin de la saison !",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/668914517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : []
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728421890" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`]
                },
                {
-                   "titre": "Interview Manu Théry",
-                   "sousTitre": "Corporate",
-                   "image": "./img/icones_videos/Interview_Manu_Thery.jpg",
-                   "description" : "Voici une des 8 interviews réalisées dans le cadre de la promotion de l'école <a class='lien_int' href='http://www.arfis.com/' target='_blank'>Arfis</a> pendant ma dernière année d'étude au sein de l'école. J'ai travaillé la lumière et la cadrage en tant que chef opérateur. Cet exercice m'a permis d'apprendre à efficacement réaliser de manière professionnelle une interview. Ici on retrouve mon mentor, Manu Théry qui parle de la filière image. ",
-                   "materiel" : ["Camescope Sony PMW 200", "Mandarines", "Arri Fresnel 300W", "Gelatines CTO/CTB/ND"],
-                   "lien_video" : `<iframe src="https://www.youtube.com/embed/9EmOA4tvIt8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : ["Baptiste Perez"]
+                   "titre": "Contest Mroc - Escalade en bloc",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Contest_Mroc.jpg",
+                   "description" : "J'ai pu participer à un Contest d'escalade (tournoi) sur du Bloc avec le vice champion du monde Mejdi Schalck et bien d'autres génies de la grimpe. Un tournage sportif où j'ai été très limité dans l'utilisation de mon matériel et de mon placement dans la salle remplie à bloc de public. Mais qui m'a permis tout de même de réaliser cette vidéo résumant l'évènement. Une chouette expérience où l'ambiance et l'ambiance de travail m'ont beaucoup plu !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728420770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
                },
                {
                    "titre": "Combustion",
@@ -70,15 +70,6 @@ let data = {
                    "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
                },
                {
-                   "titre": "Le vingt et unième sauvage",
-                   "sousTitre": "48H / Kino",
-                   "image": "./img/icones_videos/48h_kino.jpg",
-                   "description" : "Ce projet s'inclut dans un 48h - écrit, tourné et monté en 48h - auquel on a participé à distance au Canada. Avec <a class='lien_int' href='https://www.jacquetlourealisation.com/films' target='_blank'>Lou</a> nous étions à l'image avec un petit set léger mais confortable au niveau de notre série d'optique. Un projet très amusant comme se veut le rendu et enrichissant niveau technique comme tous les 48h et compagnie.",
-                   "materiel" : ["Sony Alpha 7 III", "Série optique Samyang"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/662362058" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`,`<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, "Tristan GROSSETTI", "Hugo VILLARD"]
-               },
-               {
                    "titre": "Déréliction",
                    "sousTitre": "Clip vidéo",
                    "image": "./img/icones_videos/dereliction.jpg",
@@ -95,6 +86,51 @@ let data = {
                    "materiel" : ["Camescope Sony PXW-FS7", "Objectif Rokinon 35mm T1.5", "Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure C120D II", "Éclairage LED Amaran", "Trépied Manfrotto Combi-boom 420B", "Aputure Light Dome 2", "Ecran SmallHD", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471898287" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://kronosvevo.wixsite.com/website/videos'>Titouan POUDENS ${icone}</a>`, `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, `<a ${class_target} href='http://julianbruxelle.fr/about'>Julian BRUXELLE ${icone}</a>`]
+               },
+               {
+                   "titre": "Service National Universel",
+                   "sousTitre": "Éducation Nationale",
+                   "image": "./img/icones_videos/SNU.jpg",
+                   "description" : "J'ai eu la chance de filmer pour la première fois le Service National Universel en 2021 en stage. Le travail étant satisfaisant, le ministère de l'éducation nationale, des armées et de l'intérieur nous ont fait confiance et le contrat s'est renouvelé cette année. Une expérience de tournage très intéressante sur les conditions de tournages : type reportage / journalisme, l'idée est de suivre les jeunes du SNU dans les divers activités qu'ils peuvent faire. L'autonomie est quasi totale et la matériel léger. L'important c'est de filmer tout ce qui est important de manière à retranscrire en vidéo l'essentiel des activités que vivent les jeunes. Tout cela en filmant librement chaque scène sur lesquelles j'interviens… J'ai adoré !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728431347" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
+               },
+               {
+                   "titre": "Le vingt et unième sauvage",
+                   "sousTitre": "48H / Kino",
+                   "image": "./img/icones_videos/48h_kino.jpg",
+                   "description" : "Ce projet s'inclut dans un 48h - écrit, tourné et monté en 48h - auquel on a participé à distance au Canada. Avec <a class='lien_int' href='https://www.jacquetlourealisation.com/films' target='_blank'>Lou</a> nous étions à l'image avec un petit set léger mais confortable au niveau de notre série d'optique. Un projet très amusant comme se veut le rendu et enrichissant niveau technique comme tous les 48h et compagnie.",
+                   "materiel" : ["Sony Alpha 7 III", "Série optique Samyang"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/662362058" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`,`<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, "Tristan GROSSETTI", "Hugo VILLARD"]
+               },
+               {
+                   "titre": "Le ski de randonnée - Échaillon",
+                   "sousTitre": "Vidéo corporate",
+                   "image": "./img/icones_videos/Ski_de_randonnee.jpg",
+                   "description" : "Dans la suite des vidéos de l'Échaillon, voici celle du ski de randonnée. Un tournage embarquée dans une belle journée aux côté de deux guerrières du ski de randonnée. Un bonheur de travailler au milieu de cet univers tout blanc !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728422814" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`]
+               },
+               {
+                   "titre": "Une randonnée sur les crêtes",
+                   "sousTitre": "Vidéo corporate",
+                   "image": "./img/icones_videos/Une_randonnee_sur_les_cretes.jpg",
+                   "description" : "C'est une vidéo qui fait partie d'un projet de films corporates visant à promouvoir des gîtes en montagne les hoteliers randonneurs. Les consignes étant de revivre une balade sur les crêtes du plateau proche du gîte. Des images prises quasi entièremment à la main au GH5. Un plaisir de travailler l'image dans un contexte qui m'attire tout partiulèremment : le sport et la montagne !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/668914517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
+               },
+               {
+                   "titre": "Interview Manu Théry",
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/Interview_Manu_Thery.jpg",
+                   "description" : "Voici une des 8 interviews réalisées dans le cadre de la promotion de l'école <a class='lien_int' href='http://www.arfis.com/' target='_blank'>Arfis</a> pendant ma dernière année d'étude au sein de l'école. J'ai travaillé la lumière et la cadrage en tant que chef opérateur. Cet exercice m'a permis d'apprendre à efficacement réaliser de manière professionnelle une interview. Ici on retrouve mon mentor, Manu Théry qui parle de la filière image. ",
+                   "materiel" : ["Camescope Sony PMW 200", "Mandarines", "Arri Fresnel 300W", "Gelatines CTO/CTB/ND"],
+                   "lien_video" : `<iframe src="https://www.youtube.com/embed/9EmOA4tvIt8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : ["Baptiste Perez"]
                },
                {
                    "titre": "Le Voisin",
@@ -122,5 +158,14 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471894515" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
+               },
+               {
+                   "titre": "Les randonnées en raquette - L'Échaillon",
+                   "sousTitre": "Vidéo corporate",
+                   "image": "./img/icones_videos/Rando_raquettes.jpg",
+                   "description" : "Dans la série des vidéo de l'Échaillon, voici celle d'une journée en raquette. Le plaisir de marcher dans des endroits où les raquettes sont indispensables. Le paysage magnifique, le silence, le blanc omniprésent…",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728423579" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`]
                },
     ]}
