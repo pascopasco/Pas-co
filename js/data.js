@@ -52,15 +52,6 @@ let data = {
                    "equipe" : []
                },
                {
-                   "titre": "Combustion",
-                   "sousTitre": "48H / Kino",
-                   "image": "./img/icones_videos/combustion.jpg",
-                   "description" : "Combustion est un projet réalisé en 48h dans le cadre du KINO, une expérience cinématographique que met en place un professeur lors de son temps libre chaque année. C’est mon premier projet en noir et blanc que l’on a écris, tourné et monté dans le rush en 48h avec <a class='lien_int' href='https://www.jacquetlourealisation.com/films' target='_blank'>Lou</a>, <a class='lien_int' href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin' target='_blank'>Charlotte</a> et Rémi. Ces projets réalisés en généralement un, deux ou trois jours sont des exercices très formateurs car ils apprennent à travailler en équipe l’efficacité et l’organisation avec des gens que vous ne connaissez pas forcément qui se regroupent juste pour l'expérience très excitante. Cela oblige à donner son maximum pendant un temps limité et à agir de manière professionnelle. Très plaisant et gratifiant, j’ai hâte d’en refaire. </br>Dans ce court-métrage, deux personnes font un pari sur un homme d’apparence très mystérieuse…",
-                   "materiel" : ["Camescope Canon C200", "Objectif Rokinon 35mm T1.5", "Rokinon 85mm T1.5", "Objectif Canon EF 70-200mm f/2.8 IS II USM", "Ecran SmallHD"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471892988" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`, "Remi LAMOUR",`<a ${class_target} href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin'>Charlotte COTTIN ${icone}</a>`]
-               },
-               {
                    "titre": "J’ai viré – Deuzel",
                    "sousTitre": "Clip vidéo",
                    "image": "./img/icones_videos/jai_vire.jpg",
@@ -68,15 +59,6 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471897334" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
-               },
-               {
-                   "titre": "Déréliction",
-                   "sousTitre": "Clip vidéo",
-                   "image": "./img/icones_videos/dereliction.jpg",
-                   "description" : "Déréliction est un Clip vidéo mettant en scène une fille chamboulée par son quotidien dans lequel elle s'isole malgré elle. Ce « sentiment d’abandon et de solitude morale » - tel que le défini le titre du projet - que vit la protagoniste met le projecteur sur ces zones d’ombres si importantes et que beaucoup de personnes intériorisent. Le projet tente de s’inclure dans le mouvement de la postmodernité et utilise des procédés de la métalepse narrative. <br/>Comme la plupart de mes projets, je garde en mémoire à jamais les expériences uniques de contextes de tournages comme ici les lames de couteaux du vent arctique glacial au bord du lac qui viennent fouetter nos visages et une neige abondante apportant un décor absolument extraordinaire. Des ambiances féériques et fabuleuses qui permettent de rajouter de la magie à ces projets très formateurs durant cette année canadienne.",
-                   "materiel" : ["Camescope Canon C200","Stabilisateur Glidecam X-22 (avec veste et bras)", "Ecran SmallHD", "Caméra Canon 6D Mark II", "Objectif Sigma 18-35mm F1.8", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Éclairage LED Amaran", "Aputure Light Dome 2", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H4n et Zoom H6", "Panasonic Lumix GH5","Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471897548" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://elisasibert.myportfolio.com/home'>Élisa SIBERT ${icone}</a>`, "Anaïs VERRIER", "Clara GUYOT"]
                },
                {
                    "titre": "Apocalypse Snow",
@@ -104,6 +86,15 @@ let data = {
                    "materiel" : ["Sony Alpha 7 III", "Série optique Samyang"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/662362058" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`,`<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, "Tristan GROSSETTI", "Hugo VILLARD"]
+               },
+               {
+                   "titre": "Combustion",
+                   "sousTitre": "48H / Kino",
+                   "image": "./img/icones_videos/combustion.jpg",
+                   "description" : "Combustion est un projet réalisé en 48h dans le cadre du KINO, une expérience cinématographique que met en place un professeur lors de son temps libre chaque année. C’est mon premier projet en noir et blanc que l’on a écris, tourné et monté dans le rush en 48h avec <a class='lien_int' href='https://www.jacquetlourealisation.com/films' target='_blank'>Lou</a>, <a class='lien_int' href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin' target='_blank'>Charlotte</a> et Rémi. Ces projets réalisés en généralement un, deux ou trois jours sont des exercices très formateurs car ils apprennent à travailler en équipe l’efficacité et l’organisation avec des gens que vous ne connaissez pas forcément qui se regroupent juste pour l'expérience très excitante. Cela oblige à donner son maximum pendant un temps limité et à agir de manière professionnelle. Très plaisant et gratifiant, j’ai hâte d’en refaire. </br>Dans ce court-métrage, deux personnes font un pari sur un homme d’apparence très mystérieuse…",
+                   "materiel" : ["Camescope Canon C200", "Objectif Rokinon 35mm T1.5", "Rokinon 85mm T1.5", "Objectif Canon EF 70-200mm f/2.8 IS II USM", "Ecran SmallHD"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471892988" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`, "Remi LAMOUR",`<a ${class_target} href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin'>Charlotte COTTIN ${icone}</a>`]
                },
                {
                    "titre": "Le ski de randonnée - Échaillon",
@@ -150,22 +141,31 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471897764" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
                },
+         //      {
+        //           "titre": "Pain et Compagnie",
+        //           "sousTitre": "Projet Esthétique",
+        //           "image": "./img/icones_videos/pain_et_compagnie.jpg",
+        //           "description" : "Pain et compagnie est un projet qui part d’une envie soudaine de prendre des images d’un instant que j’ai voulu immortaliser : Du pain au levain fraîchement sorti du four. C’était aussi l’occasion de d’exploiter le potentiel du 180 FPS du GH5. Alors, venez déguster du bon pain frais avec sa noisette de beurre et sa pincée de sel !",
+        //           "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+        //           "lien_video" : `<iframe src="https://player.vimeo.com/video/471894515" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+        //           "equipe" : []
+        //       },
                {
-                   "titre": "Pain et Compagnie",
-                   "sousTitre": "Projet Esthétique",
-                   "image": "./img/icones_videos/pain_et_compagnie.jpg",
-                   "description" : "Pain et compagnie est un projet qui part d’une envie soudaine de prendre des images d’un instant que j’ai voulu immortaliser : Du pain au levain fraîchement sorti du four. C’était aussi l’occasion de d’exploiter le potentiel du 180 FPS du GH5. Alors, venez déguster du bon pain frais avec sa noisette de beurre et sa pincée de sel !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471894515" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : []
+                   "titre": "Déréliction",
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/dereliction.jpg",
+                   "description" : "Déréliction est un Clip vidéo mettant en scène une fille chamboulée par son quotidien dans lequel elle s'isole malgré elle. Ce « sentiment d’abandon et de solitude morale » - tel que le défini le titre du projet - que vit la protagoniste met le projecteur sur ces zones d’ombres si importantes et que beaucoup de personnes intériorisent. Le projet tente de s’inclure dans le mouvement de la postmodernité et utilise des procédés de la métalepse narrative. <br/>Comme la plupart de mes projets, je garde en mémoire à jamais les expériences uniques de contextes de tournages comme ici les lames de couteaux du vent arctique glacial au bord du lac qui viennent fouetter nos visages et une neige abondante apportant un décor absolument extraordinaire. Des ambiances féériques et fabuleuses qui permettent de rajouter de la magie à ces projets très formateurs durant cette année canadienne.",
+                   "materiel" : ["Camescope Canon C200","Stabilisateur Glidecam X-22 (avec veste et bras)", "Ecran SmallHD", "Caméra Canon 6D Mark II", "Objectif Sigma 18-35mm F1.8", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Éclairage LED Amaran", "Aputure Light Dome 2", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H4n et Zoom H6", "Panasonic Lumix GH5","Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471897548" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://elisasibert.myportfolio.com/home'>Élisa SIBERT ${icone}</a>`, "Anaïs VERRIER", "Clara GUYOT"]
                },
-               {
-                   "titre": "Les randonnées en raquette - L'Échaillon",
-                   "sousTitre": "Vidéo corporate",
-                   "image": "./img/icones_videos/Rando_raquettes.jpg",
-                   "description" : "Dans la série des vidéo de l'Échaillon, voici celle d'une journée en raquette. Le plaisir de marcher dans des endroits où les raquettes sont indispensables. Le paysage magnifique, le silence, le blanc omniprésent…",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728423579" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`]
-               },
+             //  {
+                  // "titre": "Les randonnées en raquette - L'Échaillon",
+            //       "sousTitre": "Vidéo corporate",
+            //       "image": "./img/icones_videos/Rando_raquettes.jpg",
+            //       "description" : "Dans la série des vidéo de l'Échaillon, voici celle d'une journée en raquette. Le plaisir de marcher dans des endroits où les raquettes sont indispensables. Le paysage magnifique, le silence, le blanc omniprésent…",
+            //       "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+            //      "lien_video" : `<iframe src="https://player.vimeo.com/video/728423579" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+             //      "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`]
+             //  },
     ]}
