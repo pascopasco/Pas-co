@@ -25,21 +25,21 @@ let data = {
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`]
                },
                 {
+                   "titre": "Teaser - La petite Aiguebonne",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Aiguebonne2.jpg",
+                   "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
+               },
+                {
                    "titre": "Quelques battements d'ailes",
                    "sousTitre": "Projet Esthétique",
                    "image": "./img/icones_videos/quelques_battements_L2.png",
                    "description" : "Entres les herbes, le long d'un cerisier tout blanc, sillonnant au travers d'un envoûtante glycine, le vent caresse les fleurs fraîchement sorties de leurs cocons. Les insectes viennent alors participer au maintient en vie des plantes.</br></br>Mon objectif premier était d'arriver à filmer un papillon de dos en plein vol. Un défi qui s'est révélé à ce jour trop compliqué. Ça m'a permis d'apprendre le mot erratique - la manière dont mon père défini le vol du papillon - et de capturer ces douces images. Filmé à la main, en exploitant la performance du ralenti de Panasonic, cette vidéo est un moment apaisant au milieu de la vie aérienne des petites créature qui volent autour des fleurs.",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/484622343" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : []
-               },
-                {
-                   "titre": "Contest Mroc - Escalade en bloc",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Contest_Mroc.jpg",
-                   "description" : "J'ai pu participer à un Contest d'escalade (tournoi) sur du Bloc avec le vice champion du monde Mejdi Schalck et bien d'autres génies de la grimpe. Un tournage sportif où j'ai été très limité dans l'utilisation de mon matériel et de mon placement dans la salle remplie à bloc de public. Mais qui m'a permis tout de même de réaliser cette vidéo résumant l'évènement. Une chouette expérience où l'ambiance et l'ambiance de travail m'ont beaucoup plu !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728420770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
                },
                {
@@ -50,7 +50,16 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Sigma 18-35mm F1.8", "Éclairage LED Aputure LS C120D", "Aputure Light Dome II"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/385282303" frameborder="0" allow="fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
-               }, 
+               },
+                {
+                   "titre": "Mroc Fest' Beer",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Mroc_Fest_Beer2.jpg",
+                   "description" : "Voici l'Aftermovie du Mroc Fest Beer 2023, un évènement que la structure a voulu garder en mémoire. </br> J'ai appris à tourner et monter pour un format très court (autour de 30 sec).</br> Je suis prêt pour les prochaines demandes de ce type ! </br> </br> Tourné à la main avec le gros Sigma Art 50-100mm F1.8 constant et sa metabones, un set bien lourd au bout de 3h en main !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif Sigma Art 50-100mm F/1.8 DC HSM"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/879340170" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
+               },
                {
                    "titre": `Soirée Déréliction`,
                    "sousTitre": "Clip vidéo",
@@ -74,7 +83,7 @@ let data = {
                    "sousTitre": "Clip vidéo",
                    "image": "./img/icones_videos/jai_vire.jpg",
                    "description" : "Voici mon premier clip vidéo réalisé pour le groupe <a class='lien_int' title='Deuzel' href='https://www.youtube.com/channel/UCsqMk2CX_FfdmogZE0tOclQ' target='_blank'>Deuzel</a>. Un projet qui m'a donné beaucoup d'espoir car le résultat fut très satisfaisant pour une première. Une danseuse professionnelle s’est offerte à ma caméra devant un grand château. Une première qui m’a donné goût au cadrage en action. Depuis, la danse est un art que j’apprécie à filmer car il incite à tenter des mouvements de caméras très satisfaisants.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471897334" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
                },
@@ -86,6 +95,15 @@ let data = {
                    "materiel" : ["Camescope Sony PMW 200", "Mandarines", "Arri Fresnel 300W", "Gelatines CTO/CTB/ND"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/9EmOA4tvIt8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : ["Baptiste Perez"]
+               },
+                {
+                   "titre": "Contest Mroc - Escalade en bloc",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Contest_Mroc.jpg",
+                   "description" : "J'ai pu participer à un Contest d'escalade (tournoi) sur du Bloc avec le vice champion du monde Mejdi Schalck et bien d'autres génies de la grimpe. Un tournage sportif où j'ai été très limité dans l'utilisation de mon matériel et de mon placement dans la salle remplie à bloc de public. Mais qui m'a permis tout de même de réaliser cette vidéo résumant l'évènement. Une chouette expérience où l'ambiance et l'ambiance de travail m'ont beaucoup plu !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728420770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
                },
                {
                    "titre": "Apocalypse Snow",
@@ -101,7 +119,7 @@ let data = {
                    "sousTitre": "Éducation Nationale",
                    "image": "./img/icones_videos/SNU.jpg",
                    "description" : "J'ai eu la chance de filmer pour la première fois le Service National Universel en 2021 en stage. Le travail étant satisfaisant, le ministère de l'éducation nationale, des armées et de l'intérieur nous ont fait confiance et le contrat s'est renouvelé cette année. Une expérience de tournage très intéressante sur les conditions de tournages : type reportage / journalisme, l'idée est de suivre les jeunes du SNU dans les divers activités qu'ils peuvent faire. L'autonomie est quasi totale et la matériel léger. L'important c'est de filmer tout ce qui est important de manière à retranscrire en vidéo l'essentiel des activités que vivent les jeunes. Tout cela en filmant librement chaque scène sur lesquelles j'interviens… J'ai adoré !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/728431347" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
                },
@@ -137,7 +155,7 @@ let data = {
                    "sousTitre": "Vidéo corporate",
                    "image": "./img/icones_videos/Une_randonnee_sur_les_cretes.jpg",
                    "description" : "C'est une vidéo qui fait partie d'un projet de films corporates visant à promouvoir des gîtes en montagne les hoteliers randonneurs. Les consignes étant de revivre une balade sur les crêtes du plateau proche du gîte. Des images prises quasi entièremment à la main au GH5. Un plaisir de travailler l'image dans un contexte qui m'attire tout partiulèremment : le sport et la montagne !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN-S"],
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/668914517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
                },
@@ -146,7 +164,7 @@ let data = {
                    "sousTitre": "Court-métrage",
                    "image": "./img/icones_videos/voisin.jpg",
                    "description" : "Le voisin est un drame psychologique sur l’aspect dangereux des troubles mentaux dont sont victimes de nombreuses personnes. C'est un court métrage tourné caméra épaule en lumière naturelle et comme équipe technique moi seul car le confinement obligeait. Un court métrage qui rappelle que n’importe qui pourrait agir de manière dangereuse sans pour autant en être totalement conscient. N'importe qui, même votre voisin !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "RONIN S"],
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/424711197" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : ["Julien FABRE", `<a ${class_target} href='http://laurenbelecmusic.com/'>Lauren BÉLEC ${icone}</a>`]
                },
