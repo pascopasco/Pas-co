@@ -36,19 +36,10 @@ let data = {
                 {
                    "titre": "Quelques battements d'ailes",
                    "sousTitre": "Projet Esthétique",
-                   "image": "./img/icones_videos/quelques_battements_L2.png",
+                   "image": "./img/icones_videos/Quelques_battements_daile.jpg",
                    "description" : "Entres les herbes, le long d'un cerisier tout blanc, sillonnant au travers d'un envoûtante glycine, le vent caresse les fleurs fraîchement sorties de leurs cocons. Les insectes viennent alors participer au maintient en vie des plantes.</br></br>Mon objectif premier était d'arriver à filmer un papillon de dos en plein vol. Un défi qui s'est révélé à ce jour trop compliqué. Ça m'a permis d'apprendre le mot erratique - la manière dont mon père défini le vol du papillon - et de capturer ces douces images. Filmé à la main, en exploitant la performance du ralenti de Panasonic, cette vidéo est un moment apaisant au milieu de la vie aérienne des petites créature qui volent autour des fleurs.",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/484622343" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : []
-               },
-               {
-                   "titre": "Soirée crêpes",
-                   "sousTitre": "Clip Vidéo",
-                   "image": "./img/icones_videos/crepes.jpg",
-                   "description" : "Cette production est le résultat d'un défi technique : filmer caméra portée avec uniquement des mouvements de caméra faits à la main. Le but était dans un premier temps d’offrir une immersion au cœur de l’action de ce qui se passe à travers cette « soirée crêpes » que s’offrent quelques amis. Mais le projet s’est vu évoluer vers une volonté de capturer plus simplement une esthétique et une poésie de l’image. J'avais vraiment l'envie de mettre en avant la qualité visuelle, la beauté de l'image. Une ambiance qui passe du chaleureux et évolue vers une inquiétante étrangeté à travers ces personnages marqués par un sourire angoissant. Un projet que j'ai écrit, réalisé, filmé et monté. J'ai eu la chance de travailler avec <a class='lien_int' href='https://gabcamposmusic.wixsite.com/gabrielcampos' target='_blank'>Gabriel CAMPOS</a>, un compositeur qui a construit une superbe musique pour mon projet.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Sigma 18-35mm F1.8", "Éclairage LED Aputure LS C120D", "Aputure Light Dome II"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/385282303" frameborder="0" allow="fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
                },
                 {
@@ -59,6 +50,33 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif Sigma Art 50-100mm F/1.8 DC HSM"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/879340170" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : []
+               },
+                {
+                   "titre": "Contest Mroc - Escalade en bloc",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Contest_Mroc4.jpg",
+                   "description" : "J'ai pu participer à un Contest d'escalade (tournoi) sur du Bloc avec le vice champion du monde Mejdi Schalck et bien d'autres génies de la grimpe. Un tournage sportif où j'ai été très limité dans l'utilisation de mon matériel et de mon placement dans la salle remplie à bloc de public. Mais qui m'a permis tout de même de réaliser cette vidéo résumant l'évènement. Une chouette expérience où l'ambiance et l'ambiance de travail m'ont beaucoup plu !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728420770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
+               },
+                {
+                   "titre": "Spectacle - La Légende d'Andarta",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Andartaoui.jpg",
+                   "description" : "Le domaine <a class='lien_int' href='https://www.valsoyo.com/' target='_blank'>Valsoyo</a> m'a demandé de leur faire un Aftermovie pour résumer et mettre en valeur un spectacle qui rassemble maintenant plus d'une centaines de comédiens et techniciens. Du théâtre, de la danse, de la pyrotechnie, des animaux et effets spéciaux de machinerie admirables.</br> Toujours un plaisir de travailler dans le milieu de la culture, avec un structure dans la vallée de la Drôme, mon lieu d'enfance.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Drone dji Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/881622687" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
+               },
+                {
+                   "titre": "Teaser Escalade - l'Échaillon ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Echaillon_escalade.jpg",
+                   "description" : "Hop un mini-teaser possiblement adaptable aux réseaux sociaux pour mettre le projecteur sur une activité à faire autour de l'hôtel l'<a class='lien_int' href='https://www.hotel-echaillon.com/fr/' target='_blank'>Échaillon</a> : l'escalade.</br> Un format dynamique et intéressant pour communiquer ponctuellement sur l'escalade.</br></br> Un tournage sportif, bâché en pleine voie pour des prises de vue en plongée, et en immersion dans l'escalade des jeunes grimpeurs.",
+                   "materiel" : ["Panasonic Lumix GH5","Sony Alpha 7III", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35mm f/1.8"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/818380630" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`]
                },
                {
                    "titre": `Soirée Déréliction`,
@@ -88,42 +106,6 @@ let data = {
                    "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"]
                },
                 {
-                   "titre": "Interview Manu Théry",
-                   "sousTitre": "Corporate",
-                   "image": "./img/icones_videos/Interview_Manu_Thery.jpg",
-                   "description" : "Voici une des 8 interviews réalisées dans le cadre de la promotion de l'école <a class='lien_int' href='http://www.arfis.com/' target='_blank'>Arfis</a> pendant ma dernière année d'étude au sein de l'école. J'ai travaillé la lumière et la cadrage en tant que chef opérateur. Cet exercice m'a permis d'apprendre à efficacement réaliser de manière professionnelle une interview. Ici on retrouve mon mentor, Manu Théry qui parle de la filière image. ",
-                   "materiel" : ["Camescope Sony PMW 200", "Mandarines", "Arri Fresnel 300W", "Gelatines CTO/CTB/ND"],
-                   "lien_video" : `<iframe src="https://www.youtube.com/embed/9EmOA4tvIt8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : ["Baptiste Perez"]
-               },
-                {
-                   "titre": "Contest Mroc - Escalade en bloc",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Contest_Mroc.jpg",
-                   "description" : "J'ai pu participer à un Contest d'escalade (tournoi) sur du Bloc avec le vice champion du monde Mejdi Schalck et bien d'autres génies de la grimpe. Un tournage sportif où j'ai été très limité dans l'utilisation de mon matériel et de mon placement dans la salle remplie à bloc de public. Mais qui m'a permis tout de même de réaliser cette vidéo résumant l'évènement. Une chouette expérience où l'ambiance et l'ambiance de travail m'ont beaucoup plu !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728420770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : []
-               },
-               {
-                   "titre": "Apocalypse Snow",
-                   "sousTitre": "Bande annonce",
-                   "image": "./img/icones_videos/apocalypse_snow.jpg",
-                   "description" : "Apocalypse Snow est une bande annonce d'un ''western dans la neige''. Le froid canadien a probablement été la plus grosse difficulté pendant le tournage (-30° au quotidien), mais le plaisir de s’aventurer en équipe réduite sur un immense lac gelé, dans une forêt fraîchement recouverte de quelques mètres de neige, de faire un feu sur la neige de nuit et finalement de côtoyer la flore unique des paysages nordique de cet immense pays ont marqué au fer rouge des souvenirs de tournages fantastiques… <br/>Le montage qui vous est présenté ci-dessus est une première version trop longue de la bande annonce. L’objectif serait d’obtenir une format de moins de 2 min, plus rythmé. Le projet est à retravailler en terme de design sonore et de montage mais les images sont là. J’ai eu la chance de cadrer les 90% du projet à mains nues avec la merveilleuse Canon C200 !",
-                   "materiel" : ["Camescope Sony PXW-FS7", "Objectif Rokinon 35mm T1.5", "Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure C120D II", "Éclairage LED Amaran", "Trépied Manfrotto Combi-boom 420B", "Aputure Light Dome 2", "Ecran SmallHD", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H6"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471898287" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://kronosvevo.wixsite.com/website/videos'>Titouan POUDENS ${icone}</a>`, `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, `<a ${class_target} href='http://julianbruxelle.fr/about'>Julian BRUXELLE ${icone}</a>`]
-               },
-               {
-                   "titre": "Service National Universel",
-                   "sousTitre": "Éducation Nationale",
-                   "image": "./img/icones_videos/SNU.jpg",
-                   "description" : "J'ai eu la chance de filmer pour la première fois le Service National Universel en 2021 en stage. Le travail étant satisfaisant, le ministère de l'éducation nationale, des armées et de l'intérieur nous ont fait confiance et le contrat s'est renouvelé cette année. Une expérience de tournage très intéressante sur les conditions de tournages : type reportage / journalisme, l'idée est de suivre les jeunes du SNU dans les divers activités qu'ils peuvent faire. L'autonomie est quasi totale et la matériel léger. L'important c'est de filmer tout ce qui est important de manière à retranscrire en vidéo l'essentiel des activités que vivent les jeunes. Tout cela en filmant librement chaque scène sur lesquelles j'interviens… J'ai adoré !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728431347" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : []
-               },
-               {
                    "titre": "Le vingt et unième sauvage",
                    "sousTitre": "48H / Kino",
                    "image": "./img/icones_videos/48h_kino.jpg",
@@ -140,6 +122,42 @@ let data = {
                    "materiel" : ["Camescope Canon C200", "Objectif Rokinon 35mm T1.5", "Rokinon 85mm T1.5", "Objectif Canon EF 70-200mm f/2.8 IS II USM", "Ecran SmallHD"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471892988" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`, "Remi LAMOUR",`<a ${class_target} href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin'>Charlotte COTTIN ${icone}</a>`]
+               },
+                {
+                   "titre": "Soirée crêpes",
+                   "sousTitre": "Clip Vidéo",
+                   "image": "./img/icones_videos/crepes.jpg",
+                   "description" : "Cette production est le résultat d'un défi technique : filmer caméra portée avec uniquement des mouvements de caméra faits à la main. Le but était dans un premier temps d’offrir une immersion au cœur de l’action de ce qui se passe à travers cette « soirée crêpes » que s’offrent quelques amis. Mais le projet s’est vu évoluer vers une volonté de capturer plus simplement une esthétique et une poésie de l’image. J'avais vraiment l'envie de mettre en avant la qualité visuelle, la beauté de l'image. Une ambiance qui passe du chaleureux et évolue vers une inquiétante étrangeté à travers ces personnages marqués par un sourire angoissant. Un projet que j'ai écrit, réalisé, filmé et monté. J'ai eu la chance de travailler avec <a class='lien_int' href='https://gabcamposmusic.wixsite.com/gabrielcampos' target='_blank'>Gabriel CAMPOS</a>, un compositeur qui a construit une superbe musique pour mon projet.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Sigma 18-35mm F1.8", "Éclairage LED Aputure LS C120D", "Aputure Light Dome II"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/385282303" frameborder="0" allow="fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
+               },
+                {
+                   "titre": "Apocalypse Snow",
+                   "sousTitre": "Bande annonce",
+                   "image": "./img/icones_videos/apocalypse_snow.jpg",
+                   "description" : "Apocalypse Snow est une bande annonce d'un ''western dans la neige''. Le froid canadien a probablement été la plus grosse difficulté pendant le tournage (-30° au quotidien), mais le plaisir de s’aventurer en équipe réduite sur un immense lac gelé, dans une forêt fraîchement recouverte de quelques mètres de neige, de faire un feu sur la neige de nuit et finalement de côtoyer la flore unique des paysages nordique de cet immense pays ont marqué au fer rouge des souvenirs de tournages fantastiques… <br/>Le montage qui vous est présenté ci-dessus est une première version trop longue de la bande annonce. L’objectif serait d’obtenir une format de moins de 2 min, plus rythmé. Le projet est à retravailler en terme de design sonore et de montage mais les images sont là. J’ai eu la chance de cadrer les 90% du projet à mains nues avec la merveilleuse Canon C200 !",
+                   "materiel" : ["Camescope Sony PXW-FS7", "Objectif Rokinon 35mm T1.5", "Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure C120D II", "Éclairage LED Amaran", "Trépied Manfrotto Combi-boom 420B", "Aputure Light Dome 2", "Ecran SmallHD", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471898287" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://kronosvevo.wixsite.com/website/videos'>Titouan POUDENS ${icone}</a>`, `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, `<a ${class_target} href='http://julianbruxelle.fr/about'>Julian BRUXELLE ${icone}</a>`]
+               },
+                {
+                   "titre": "Interview Manu Théry",
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/Interview_Manu_Thery.jpg",
+                   "description" : "Voici une des 8 interviews réalisées dans le cadre de la promotion de l'école <a class='lien_int' href='http://www.arfis.com/' target='_blank'>Arfis</a> pendant ma dernière année d'étude au sein de l'école. J'ai travaillé la lumière et la cadrage en tant que chef opérateur. Cet exercice m'a permis d'apprendre à efficacement réaliser de manière professionnelle une interview. Ici on retrouve mon mentor, Manu Théry qui parle de la filière image. ",
+                   "materiel" : ["Camescope Sony PMW 200", "Mandarines", "Arri Fresnel 300W", "Gelatines CTO/CTB/ND"],
+                   "lien_video" : `<iframe src="https://www.youtube.com/embed/9EmOA4tvIt8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : ["Baptiste Perez"]
+               },
+                {
+                   "titre": "Déréliction",
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/dereliction.jpg",
+                   "description" : "Déréliction est un Clip vidéo mettant en scène une fille chamboulée par son quotidien dans lequel elle s'isole malgré elle. Ce « sentiment d’abandon et de solitude morale » - tel que le défini le titre du projet - que vit la protagoniste met le projecteur sur ces zones d’ombres si importantes et que beaucoup de personnes intériorisent. Le projet tente de s’inclure dans le mouvement de la postmodernité et utilise des procédés de la métalepse narrative. <br/>Comme la plupart de mes projets, je garde en mémoire à jamais les expériences uniques de contextes de tournages comme ici les lames de couteaux du vent arctique glacial au bord du lac qui viennent fouetter nos visages et une neige abondante apportant un décor absolument extraordinaire. Des ambiances féériques et fabuleuses qui permettent de rajouter de la magie à ces projets très formateurs durant cette année canadienne.",
+                   "materiel" : ["Camescope Canon C200","Stabilisateur Glidecam X-22 (avec veste et bras)", "Ecran SmallHD", "Caméra Canon 6D Mark II", "Objectif Sigma 18-35mm F1.8", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Éclairage LED Amaran", "Aputure Light Dome 2", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H4n et Zoom H6", "Panasonic Lumix GH5","Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471897548" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://elisasibert.myportfolio.com/home'>Élisa SIBERT ${icone}</a>`, "Anaïs VERRIER", "Clara GUYOT"]
                },
                {
                    "titre": "Le ski de randonnée - Échaillon",
@@ -186,14 +204,14 @@ let data = {
         //           "lien_video" : `<iframe src="https://player.vimeo.com/video/471894515" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
         //           "equipe" : []
         //       },
-               {
-                   "titre": "Déréliction",
-                   "sousTitre": "Clip vidéo",
-                   "image": "./img/icones_videos/dereliction.jpg",
-                   "description" : "Déréliction est un Clip vidéo mettant en scène une fille chamboulée par son quotidien dans lequel elle s'isole malgré elle. Ce « sentiment d’abandon et de solitude morale » - tel que le défini le titre du projet - que vit la protagoniste met le projecteur sur ces zones d’ombres si importantes et que beaucoup de personnes intériorisent. Le projet tente de s’inclure dans le mouvement de la postmodernité et utilise des procédés de la métalepse narrative. <br/>Comme la plupart de mes projets, je garde en mémoire à jamais les expériences uniques de contextes de tournages comme ici les lames de couteaux du vent arctique glacial au bord du lac qui viennent fouetter nos visages et une neige abondante apportant un décor absolument extraordinaire. Des ambiances féériques et fabuleuses qui permettent de rajouter de la magie à ces projets très formateurs durant cette année canadienne.",
-                   "materiel" : ["Camescope Canon C200","Stabilisateur Glidecam X-22 (avec veste et bras)", "Ecran SmallHD", "Caméra Canon 6D Mark II", "Objectif Sigma 18-35mm F1.8", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Éclairage LED Amaran", "Aputure Light Dome 2", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H4n et Zoom H6", "Panasonic Lumix GH5","Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/471897548" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://elisasibert.myportfolio.com/home'>Élisa SIBERT ${icone}</a>`, "Anaïs VERRIER", "Clara GUYOT"]
+                {
+                   "titre": "Service National Universel",
+                   "sousTitre": "Éducation Nationale",
+                   "image": "./img/icones_videos/SNU.jpg",
+                   "description" : "J'ai eu la chance de filmer pour la première fois le Service National Universel en 2021 en stage. Le travail étant satisfaisant, le ministère de l'éducation nationale, des armées et de l'intérieur nous ont fait confiance et le contrat s'est renouvelé cette année. Une expérience de tournage très intéressante sur les conditions de tournages : type reportage / journalisme, l'idée est de suivre les jeunes du SNU dans les divers activités qu'ils peuvent faire. L'autonomie est quasi totale et la matériel léger. L'important c'est de filmer tout ce qui est important de manière à retranscrire en vidéo l'essentiel des activités que vivent les jeunes. Tout cela en filmant librement chaque scène sur lesquelles j'interviens… J'ai adoré !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728431347" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : []
                },
              //  {
                   // "titre": "Les randonnées en raquette - L'Échaillon",
