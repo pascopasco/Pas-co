@@ -17,6 +17,60 @@ main>section{
     justify-content: center;
     margin-bottom: 20px;
 }
+main>section>ul
+{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0px 20px 0px;
+    padding: 0;
+    list-style-type: none
+}
+/* main>section:first-of-type il:hover{
+    font-weight: bold;
+} */
+#sorting
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75vh;
+}
+ul button
+{
+    padding: 2px 6px 2px 6px;
+    transition: letter-spacing 0.25s,
+    border 0.5s,
+    border-radius 0.25s ease-out,
+    background-color 0.25s;
+    border-radius: 20px;
+}
+ul .nonActiveFilter
+{
+    border: 2px solid white;
+    background-color: white;
+    letter-spacing: auto;
+}
+ul .activeFilter
+{
+    background-color: var(--rouge);
+    border-radius: 6px;
+    border: none;
+}
+ul button.activeFilter:hover
+{
+    background-color: var(--rouge);
+    border: none;
+    letter-spacing: auto;
+    color: black;
+}
+ul button:hover
+{
+    letter-spacing: 0.025vw;
+    border: 2px solid var(--rouge);
+    border-radius: 6px;
+    color : var(--rouge);
+    background-color: black;
+}
 #gridContainer
 {
     box-sizing: initial;
@@ -27,17 +81,30 @@ main>section{
     grid-column-gap: 5vw;
     grid-row-gap: 5vw;
     grid-auto-rows: 21vw;
-
 }
 .gridItem
 {
+    transition: opacity .5s ease-out, width .5s ease-out;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border : 2px solid #C4C4C4;
+    animation: fade-in-down 0.4s ease backwards;
 }
+
+.visible
+{
+    opacity: 1;
+    width: 35vw;
+}
+.hidden
+{
+    opacity: 0;
+    width: 0;
+}
+
 .gridItem>section:first-of-type
 {
     height: 100%;
@@ -78,22 +145,41 @@ main>section{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5vh;
     padding: 0;
-    margin:1vh;
+    margin:2.2vw;
     text-align: center;
 }
 .description p
 {
     font-family: 'Oxygen', sans-serif;
-    font-size: 2vh;
+    font-size: 4.4vw;
     margin: 0;
-    padding: 1vh;
-    border-top: 1px solid var(--rouge);
+    padding: 2.2vw;
+    border-top: 2px solid var(--rouge);
 }
 
 
 footer
 {
     position: relative;
+}
+
+@keyframes fade-in-down {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+
+  
+@media (max-width: 1300px){
+    main>section>ul
+    {
+        width: 45vw;
+    }
+    ul button
+    {
+        font-size: 1.5vw;
+    }
 }
 
 @media (max-width: 980px){
@@ -105,6 +191,10 @@ footer
     {
         width: 113%;
     }*/
+    main
+    {
+        min-height: 100vh;
+    }
     header menu
     {
         height: 100%;
@@ -119,10 +209,71 @@ footer
     {
         margin: 0;
     }
+    main>section>ul
+    {
+        width: 38vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap : 10px;
+        justify-content: space-around;
+        margin: 10px 0px 20px 0px;
+        padding: 0;
+        list-style-type: none
+    }
+    ul .activeFilter
+    {
+        border-radius: 0.5vw;
+    }
+    ul button
+    {
+        font-size: 3vw;
+        border-radius: 2.5vw;
+    }
     #gridContainer
     {
         grid-template-columns: 80vw;
         grid-auto-rows: 23vw;
+        height: auto;
+        transition: height 1s;
+    }
+    .gridItem
+    {
+        box-sizing: border-box;
+        top : 0px; /* pour que la transition fonctionne il doit y avoir une valeur de base*/
+        border: 4px solid white;
+    }
+    .visible
+    {
+        transition:
+        opacity .3s,
+        visibility 0s 0s, 
+        top 0.9s,
+        max-height 1s;
+
+        max-height: 100%;
+        visibility: visible;
+        width: auto;
+    }
+    .visible .description
+    {
+        opacity: 1;
+    }
+    .hidden
+    {
+        transition:
+        opacity 1s,
+        visibility 0s 1s, 
+        top 0.9s,
+        max-height 1s;
+        width: auto;
+        max-height: 0%;
+        opacity: 0;
+        visibility: collapse;
+    }
+    .hidden .description
+    {
+        opacity: 0;
     }
     .gridItem>section:first-of-type
     {
@@ -130,7 +281,31 @@ footer
     }
     .gridItem:hover>section:first-of-type
     {
-        background-size: 100vw;
+        background-size: 80vw;
+        filter:none;
+    }
+    .gridItem:hover .description
+    {
+        
+    }
+    .description
+    {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.18);
+    }
+    .description h3
+    {
+        font-size: 5vw;
+    }
+    .hidden .description
+    {
+        transition: opacity 0.3s ease;
+        opacity: 0;
+    }
+    .visible .description
+    {
+        transition: opacity 0.5s ease 0.2s;
+        opacity: 1;
     }
 
     footer

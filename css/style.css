@@ -60,16 +60,17 @@ header menu>ul
     list-style: none;
     padding: 0;
 }
-header menu>ul>li>a {
+header menu>ul>li>a 
+{
     color: white;
     text-decoration: none;
     position: relative;
 }
-header menu>ul>li>a:hover {
-    color: white;
-    opacity: 1;
-}
-header menu>ul>li>a:before {
+/* header menu > ul > li:hover .activePage  {
+    color: blue;
+} */
+header menu>ul>li>a:not(.activePage):before
+{
     color: white;
     content: "";
     position: absolute;
@@ -84,21 +85,41 @@ header menu>ul>li>a:before {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
-header menu>ul>li>a:hover:before {
+header menu>ul>li>a:not(.activePage):hover:before 
+{
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
 menu div
 {
     display: none;
 }
-.active {
-    border-bottom: solid 2px var(--rouge);
+.activePage:before
+{
+    color: white;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--rouge);
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
-.active:hover {
+.activePage 
+{
+    
+}
+/* .activePage:hover 
+{
     border-bottom: solid 0px var(--rouge);
-}
+} */
 header>div {
     height: 16vh;
     /*border: solid 1px white;*/
@@ -138,6 +159,12 @@ footer
     font-size: 1.4vh;
     position : absolute;
     bottom: 1vh;
+    padding: 4.5vh 0 1.5vh 0;
+}
+
+footer p 
+{
+    margin: 0;
 }
 
 .hidden_desktop {
@@ -152,16 +179,16 @@ footer
     color: var(--rouge);
 }
 
-@media (max-width: 1300px){
-    header menu {
-        font-size: 1.25vw;
+@media only screen and (max-width: 640px){
+    #bars
+    {
+        right: 28vw !important;
     }
-    header menu ul {
-        min-width: 400px;
-    }
-}    
+}
+  
 
-@media (max-width: 980px){
+@media only screen and (max-width: 980px)
+{
 
     header
     {
@@ -173,23 +200,25 @@ footer
     }
     header>div {
         height: 8vh;
-        margin-top : 11.5vh;
-        margin-bottom: 1.5vh;
+        margin-top : 17vw;
+        margin-bottom: 3vw;
     }
     header>div>#descContent
     {
         font-size: 2.9vw;
         letter-spacing: 1vh;
     }
-    header img
+    header>img
     {
+        color: #FF5C5C;
         position: fixed;
         z-index: 5;
-        right: 60px;
-        top: 60px;
+        right: 5vw;
+        top: 5vw;
         cursor: pointer;
-        height: 8vw;
-        width: 8vw;
+        height: 5vw;
+        width: 5vw;
+        /* transition: top 0.2s linear; */
     }
     header img.displayMobile
     {
@@ -237,6 +266,7 @@ footer
     {
         padding: 0;
         margin: 0;
+        font-size: 3.1vw;
         position: absolute;
         bottom:1.5vh;
     }
@@ -253,5 +283,11 @@ footer
 }
 
 
-
-
+@media only screen and (max-width: 1300px){
+    header menu {
+        font-size: 1.25vw;
+    }
+    header menu ul {
+        min-width: 400px;
+    }
+}  
