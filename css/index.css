@@ -163,10 +163,10 @@ menu
     margin :0;
     transition: letter-spacing 1s;
 }
-#contenu section h1:hover
+/* #contenu section h1:hover
 {
     letter-spacing: 1.43vw;
-}
+} */
 
 #contenu section h2
 {
@@ -178,10 +178,10 @@ menu
     transition: letter-spacing 1s;
 }
 
-#contenu section h2:hover
+/* #contenu section h2:hover
 {
     letter-spacing: 1.1vw;
-}
+} */
 #contenu section p
 {
     font-family: Nobile,sans-serif;

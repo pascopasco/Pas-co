@@ -129,7 +129,7 @@ ul button:hover
 {
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.16);
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 1s;
 
@@ -145,15 +145,15 @@ ul button:hover
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5vh;
     padding: 0;
-    margin:2.2vw;
+    margin:1vh;
     text-align: center;
 }
 .description p
 {
     font-family: 'Oxygen', sans-serif;
-    font-size: 4.4vw;
+    font-size: 2vh;
     margin: 0;
-    padding: 2.2vw;
+    padding: 1vh;
     border-top: 2px solid var(--rouge);
 }
 
@@ -195,6 +195,10 @@ footer
     {
         min-height: 100vh;
     }
+    header
+    {
+    margin-bottom: 0px;
+    }
     header menu
     {
         height: 100%;
@@ -217,7 +221,7 @@ footer
         flex-wrap: wrap;
         gap : 10px;
         justify-content: space-around;
-        margin: 10px 0px 20px 0px;
+        margin: 5vw 0px 10vw 0px;
         padding: 0;
         list-style-type: none
     }
@@ -233,7 +237,7 @@ footer
     #gridContainer
     {
         grid-template-columns: 80vw;
-        grid-auto-rows: 23vw;
+        grid-auto-rows: 32vw;
         height: auto;
         transition: height 1s;
     }

@@ -210,7 +210,6 @@ footer p
     }
     header>img
     {
-        color: #FF5C5C;
         position: fixed;
         z-index: 5;
         right: 5vw;

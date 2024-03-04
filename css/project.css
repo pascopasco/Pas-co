@@ -148,11 +148,16 @@ footer
     }
     #arrow
     {
-        left: 20px;
+        position: fixed;
+        z-index: 5;
+        left: 5vw;
+        top: 5vw;
+        cursor: pointer;
     }
-    header>a>img 
+    #arrow>img
     {
-        left: 60px;
+        height: 5vw;
+        width: 5vw;
     }
     header>div>#descContent
     {
@@ -160,7 +165,7 @@ footer
     }
     main>section
     {
-        width: 85vw;
+        width: 80vw;
         font-size: 4.45vw;
     }
     #description
@@ -178,7 +183,7 @@ footer
     #infos
     {
         flex-direction: column;
-        width: 85vw;
+        width: 80vw;
     }
     #text
     {
