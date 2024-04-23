@@ -60,6 +60,7 @@ iframe
     font-family: 'Oxygen',sans-serif;
     font-size: 16.5px;
     letter-spacing: .1em;
+    padding-top: 1vh;
     padding-bottom: 8vh;
     font-weight: 200;
     z-index: 2;
@@ -82,14 +83,29 @@ iframe
     justify-content: flex-start;
     align-items: flex-start;
     width: 59vw;
+    padding-top: 3vh;
+}
+#infos>#team
+{
+    padding-left: 5vw;
+    
+}
+#infos>#team i 
+{
+    font-size: 70%;
 }
 #infos>div
 {
     display: flex;
     flex-direction: column;
     min-width: 20vw;
-    padding-right: 10px;
+    padding-right: 0px;
 }
+
+/* #infos>#material
+{
+    padding-right: 10vw;
+} */
 #infos h4 {
     font-family: Montserrat, sans-serif;
     font-weight: 800;
