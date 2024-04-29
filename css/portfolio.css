@@ -91,7 +91,7 @@ ul button:hover
     justify-content: center;
     align-items: center;
     border : 2px solid #C4C4C4;
-    animation: fade-in-down 0.4s ease backwards;
+    animation: fade-in-down 1s ease backwards;
 }
 
 .visible

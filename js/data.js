@@ -183,7 +183,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/728422814" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate","outdoor"]
                },
                {
                    "titre": "Une randonnée sur les crêtes",
