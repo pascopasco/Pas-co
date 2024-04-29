@@ -170,7 +170,7 @@ ul button:hover
     display: flex;
     justify-content: flex-end;
     box-sizing: content-box;
-    padding-right: 30px;
+    padding-right: 1.5vh;
 
     font-family: 'Oxygen', sans-serif;
     font-style: italic;
@@ -185,6 +185,8 @@ ul button:hover
     padding-left: .5vh;
     margin-bottom: 5px;
     color: rgb(220, 220, 220);
+
+    width: auto;
 }
 
 .gridFilters p::first-letter

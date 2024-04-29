@@ -22,18 +22,17 @@ function insertFilteredProjects(filter)
                 {
                     //insérer le projet
                     $("#gridContainer").append(`<div id="${i}" class="gridItem visible" onclick="changePage(${i})">
-                                                    <section style="background-image: url(${data.projects[i].image})">
-                                                    </section>
+                                                    <section style="background-image: url(${data.projects[i].image})"></section>
                                                     <section class="description">
-                                                            <h3>${data.projects[i].titre}</h3>
-                                                            <p>${data.projects[i].sousTitre}</p>
+                                                                <h3>${data.projects[i].titre}</h3>
+                                                                <p>${data.projects[i].sousTitre}</p>
                                                     </section>
-                                                    <div class= "gridFilters" id="gridFilters${i}">
-                                                    </div>
                                                 </div>`);
+                                                //<div class= "gridFilters" id="gridFilters${i}"></div>
                 }            
-                for (k=0; k<data.projects[i].filtres.length; k++) // pour tous les filtres du projet
+                for (k=0; k<data.projects[i].filtres.length; k++) // pour tous les filtres du projet n°i
                 {
+                    $("#gridFilters").empty()
                     if (k<data.projects[i].filtres.length-1) //si ce n'est pas le dernier filtre
                     {
                         $(`#gridFilters${i}`).append(`<p> ${data.projects[i].filtres[k]},</p>`) //insérer avec une virgule
@@ -52,21 +51,20 @@ function insertAllProjects()
     console.log("insertAllProjects");
     for (let i=0; i<data.projects.length; i++) // pour tous les projets 
         {
-            console.log("for 1 allprojects")
             //on insère le projet
             $("#gridContainer").append(`<div id="${i}" class="gridItem visible" onclick="changePage(${i})">
-                                        <section style="background-image: url(${data.projects[i].image})"></section>
-                                        <section class="description">
-                                                <h3>${data.projects[i].titre}</h3>
-                                                <p>${data.projects[i].sousTitre}</p>
-                                        </section>
-                                        <div class= "gridFilters" id="gridFilters${i}">
-                                                
-                                            </div>
+                                            <section style="background-image: url(${data.projects[i].image})"></section>
+                                            <section class="description">
+                                                    <h3>${data.projects[i].titre}</h3>
+                                                    <p>${data.projects[i].sousTitre}</p>
+                                            </section>
                                         </div>`);
+                                        //<div class= "gridFilters" id="gridFilters${i}"></div>
                       
             for (j=0; j<data.projects[i].filtres.length; j++) // pour tous les filtres du projet n°i
             {
+                $("#gridFilters").empty();
+                console.log("c'est vide")
                 if (j<data.projects[i].filtres.length-1) //si ce n'est pas le dernier filtre
                 {
                     $(`#gridFilters${i}`).append(`<p> ${data.projects[i].filtres[j]},</p>`) //insérer avec une virgule
@@ -81,22 +79,6 @@ function insertAllProjects()
 }
 
 
-
-/* function generatePortfolio () //génère le contenu de la page Portfolio
-{
-
-    for(i=0; i<data.projects.length; i++) //pour toute la longueur du tableau, insert les projets dans gridContainer
-    {
-        $("#gridContainer").append(`<div id="${i}" class="gridItem visible" onclick="changePage(${i})">
-                                       <section style="background-image: url(${data.projects[i].image})"></section>
-                                       <section class="description">
-                                            <h3>${data.projects[i].titre}</h3>
-                                            <p>${data.projects[i].sousTitre}</p>
-                                       </section>
-                                       <p class="filtre">filtre</p>
-                                    </div>`)
-    }
-} */
 
 
 function animatedSorting(nButton, filter) //master fonction qui gère toute la partie filtre + animation 
@@ -115,7 +97,7 @@ function animatedSorting(nButton, filter) //master fonction qui gère toute la p
         console.log("nButton = ", nButton);
 
         //change l'apparence des boutons filtres
-        changeActiveFilterButton(nButton); //call permet d'utiliser this 
+        changeActiveFilterButton(nButton);
         //partie Sorting
 
         if (gridItemsVisible.length > 0) //vérification que gridItems n'est pas vide
@@ -213,7 +195,6 @@ function changeActiveFilterButton(nButton) { //change uniquement les classes des
 function mobileMovement (gridContainer, gridItems, gridItemsVisible) //fonction qui permet le déplacement d'éléments en version mobile
 {
     let nbVisible = 0;
-    //ça serait bien de créer une fonction retract et expand; ou au moins alléger cette fonction là en plusieurs fonctions
     for (let i = 0; i < gridItems.length; i++)
     {
 
@@ -247,7 +228,7 @@ mediaQueryMobile.addListener(debugSorting); //si la variable mediaQueryMobile ch
 
 function debugSorting() //simule l'appel de la fonction de sorting avec le filtre "tout"
 {
-    animatedSorting(0);
+    animatedSorting();
 }
 
 

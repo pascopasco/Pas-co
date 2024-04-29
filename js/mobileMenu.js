@@ -65,7 +65,7 @@ window.addEventListener("touchmove", function(event) {
     console.log("event.touches[0].clientY = " + event.touches[0].clientY);
     console.log(deltaY);
 
-    newPosition= bars.offsetTop - deltaY ;
+    newPosition= bars.offsetTop + deltaY ;
     newPosition = Math.min(maximumPosition, Math.max(minimumPosition, newPosition)); //1) s'assure que la newPosition ne peut être plus petite que minPos, puis s'assure que NewPos n'est pas plus grande que maxPos
     bars.style.top = newPosition+ "px"; // on affecte la valeur top au menu
     

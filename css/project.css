@@ -88,7 +88,6 @@ iframe
 #infos>#team
 {
     padding-left: 5vw;
-    
 }
 #infos>#team i 
 {
@@ -200,6 +199,10 @@ footer
     {
         flex-direction: column;
         width: 80vw;
+    }
+    #infos>#team
+    {
+        padding-left: 0;
     }
     #text
     {
