@@ -14,7 +14,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 f1.8", "Objectif sigma art 50-100mm f1.8", "Ronin S", "DJI Air 2S", "Alpha 7III", "Amaran 200x"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/932424618" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.instagram.com/emilienlacaze/'>Émilien LACAZE ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate","outdoor"]
                },
                 {
                    "titre": "Teaser Été - l'Échaillon ",
@@ -24,7 +24,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 f1.8", "Objectif sigma art 50-100mm f1.8", "Ronin S", "Alpha 7III", "Amaran 200x", "Mandarines"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/818303041" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate","outdoor"]
                },
                 {
                    "titre": "Teaser - La petite Aiguebonne",
@@ -34,7 +34,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate"]
                },
                 {
                    "titre": "Quelques battements d'ailes",
@@ -44,7 +44,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/484622343" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["outdoor","art"]
                },
                 {
                    "titre": "Mroc Fest' Beer",
@@ -54,7 +54,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif Sigma Art 50-100mm F/1.8 DC HSM"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/879340170" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate","evenementiel"]
                },
                 {
                    "titre": "Contest Mroc - Escalade en bloc",
@@ -64,7 +64,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/728420770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["outdoor","evenementiel"]
                },
                 {
                    "titre": "Spectacle - La Légende d'Andarta",
@@ -74,7 +74,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Drone dji Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/881622687" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["evenementiel","art"]
                },
                 {
                    "titre": "Teaser Escalade - l'Échaillon ",
@@ -84,7 +84,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5","Sony Alpha 7III", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35mm f/1.8"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/818380630" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate","outdoor"]
                },
                {
                    "titre": `Soirée Déréliction`,
@@ -94,7 +94,7 @@ let data = {
                    "materiel" : ["Camescope Canon C200", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Aputure Light Dome 2"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471895090" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://elisasibert.myportfolio.com/home'>Elisa SIBERT ${icone}</a>`, "Anais VERRIER", `<a ${class_target} href='https://claraguyot.myportfolio.com/'>Clara GUYOT ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["art"]
                },
             //   {
             //       "titre": "L'Échaillon, maison d'hôtes",
@@ -113,7 +113,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471897334" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.youtube.com/channel/UCRv_lc9UU5Mh1w2rHmMPIvQ'>Martin BOUVET ${icone}</a>`, "Mathis CHANIOL"],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["art"]
                },
                 {
                    "titre": "Le vingt et unième sauvage",
@@ -123,7 +123,7 @@ let data = {
                    "materiel" : ["Sony Alpha 7 III", "Série optique Samyang"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/662362058" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`,`<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, "Tristan GROSSETTI", "Hugo VILLARD"],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["art"]
                },
                {
                    "titre": "Combustion",
@@ -133,7 +133,7 @@ let data = {
                    "materiel" : ["Camescope Canon C200", "Objectif Rokinon 35mm T1.5", "Rokinon 85mm T1.5", "Objectif Canon EF 70-200mm f/2.8 IS II USM", "Ecran SmallHD"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471892988" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`, "Remi LAMOUR",`<a ${class_target} href='https://www.behance.net/charlottecottin?tracking_source=search_users_recommended%7Ccharlotte%20cottin'>Charlotte COTTIN ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["art"]
                },
                 {
                    "titre": "Soirée crêpes",
@@ -143,7 +143,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Sigma 18-35mm F1.8", "Éclairage LED Aputure LS C120D", "Aputure Light Dome II"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/385282303" frameborder="0" allow="fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["art"]
                },
                 {
                    "titre": "Apocalypse Snow",
@@ -153,7 +153,7 @@ let data = {
                    "materiel" : ["Camescope Sony PXW-FS7", "Objectif Rokinon 35mm T1.5", "Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure C120D II", "Éclairage LED Amaran", "Trépied Manfrotto Combi-boom 420B", "Aputure Light Dome 2", "Ecran SmallHD", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471898287" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://kronosvevo.wixsite.com/website/videos'>Titouan POUDENS ${icone}</a>`, `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, `<a ${class_target} href='http://julianbruxelle.fr/about'>Julian BRUXELLE ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["art"]
                },
                 {
                    "titre": "Interview Manu Théry",
@@ -163,7 +163,7 @@ let data = {
                    "materiel" : ["Camescope Sony PMW 200", "Mandarines", "Arri Fresnel 300W", "Gelatines CTO/CTB/ND"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/9EmOA4tvIt8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : ["Baptiste Perez"],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate","evenementiel"]
                },
                 {
                    "titre": "Déréliction",
@@ -173,7 +173,7 @@ let data = {
                    "materiel" : ["Camescope Canon C200","Stabilisateur Glidecam X-22 (avec veste et bras)", "Ecran SmallHD", "Caméra Canon 6D Mark II", "Objectif Sigma 18-35mm F1.8", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Éclairage LED Amaran", "Aputure Light Dome 2", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H4n et Zoom H6", "Panasonic Lumix GH5","Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471897548" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://elisasibert.myportfolio.com/home'>Élisa SIBERT ${icone}</a>`, "Anaïs VERRIER", "Clara GUYOT"],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["art"]
                },
                {
                    "titre": "Le ski de randonnée - Échaillon",
@@ -193,7 +193,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/668914517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate","outdoor"]
                },
                {
                    "titre": "Le Voisin",
@@ -203,7 +203,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/424711197" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : ["Julien FABRE", `<a ${class_target} href='http://laurenbelecmusic.com/'>Lauren BÉLEC ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["art"]
                },
         //      {
         //           "titre": "La main sur le cœur – Deuzel",
@@ -233,7 +233,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/728431347" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","evenementiel","art"]
+                   "filtres" : ["corporate","evenementiel"]
                },
              //  {
                   // "titre": "Les randonnées en raquette - L'Échaillon",

@@ -177,7 +177,7 @@ ul button:hover
     font-size: 1.5vh;
     
     transition: opacity 1s;
-    opacity: 0;
+    opacity: 1;
 }
 
 .gridFilters p
@@ -185,7 +185,7 @@ ul button:hover
     padding-left: .5vh;
     margin-bottom: 5px;
     color: rgb(220, 220, 220);
-
+    align-self: flex-end;
     width: auto;
 }
 
