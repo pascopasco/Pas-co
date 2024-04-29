@@ -156,7 +156,14 @@ function animatedSorting(nButton, filter) //master fonction qui gère toute la p
         //console.log("gridItems height = "+ gridItemsVisible[0].clientHeight);
         console.log("variationElementsVisibles = "+variationElementsVisibles);
 
-        if (mediaQueryMobile.matches) //si la media query mobile est active
+        $("#gridContainer").empty(); //on vide le gridContainer
+        generatePortfolio(filter);
+
+        //ANIMATION
+        //MOBILE
+        //DÉSACTIVÉE
+
+        /* if (mediaQueryMobile.matches) //si la media query mobile est active
         {
             console.log("mode mobile");
             mobileMovement(gridContainer, gridItems, gridItemsVisible);
@@ -167,7 +174,7 @@ function animatedSorting(nButton, filter) //master fonction qui gère toute la p
             $("#gridContainer").empty(); //on vide le gridContainer
             generatePortfolio(filter);
         }
-
+ */
     }
 
 
