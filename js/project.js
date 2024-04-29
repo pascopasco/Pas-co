@@ -1,5 +1,7 @@
-function generatePage() {
-    let selectedProject = localStorage.getItem("selectedProject");
+function generatePage() 
+{
+    console.log("debug");
+    console.log("selectedProject =" +selectedProject);
     $("#test").append(`<p> ${data.projects[selectedProject].description}</p>`);
     $("#pageName").append(data.projects[selectedProject].sousTitre);
     $("#descContent").append(`<p>${data.projects[selectedProject].titre}</p>`);
@@ -23,35 +25,15 @@ function generatePage() {
     }
 }
 
-generatePage();
-let body = $("body");
+let selectedProject = sessionStorage.getItem("selectedProject"); //récupère le projet sélectionné dans le portfolio
 
-$(document).ready(function() 
+if (selectedProject) //si un projet a été sélectionné
 {
-    var body = document.getElementById("body");
-    var TailleBody = document.getElementById("body").offsetHeight; // récupère la hauteur du body
-    var footer = document.getElementById("footer");
-    var HauteurFooter = document.getElementById("footer").offsetTop; //récupère l'offsetTop du footer
+    generatePage(); // on génère la page
+}
+else {
+    window.location.href = "portfolio.html"; //sinon retour au portfolio
+}
 
-    // console.log($("body")); //affiche noeud body
-    // console.log($("footer")); //affiche noeud footer
-    
-
-    console.log("TailleBody = "+TailleBody);
-    console.log("HauteurFooter = "+HauteurFooter);
-    if (body.offsetWidth<981)
-    {
-        console.log("version mobile détectée")
-        console.log("TailleBody-HauteurFooter = "+(TailleBody-HauteurFooter))
-        if(TailleBody-HauteurFooter>60)
-            {
-                footer.style.position="absolute";
-                footer.style.bottom="1.5vh";
-                footer.style.padding="0";
-                footer.style.margin="0";
-                console.log("changement style footer");
-            }
-    }
-        
-
-})
+var pageName= document.getElementById("pageName");
+var pageNameText= document.getElementById("pageName").innerText.length; //récupère la longueur du page name > 12

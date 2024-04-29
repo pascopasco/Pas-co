@@ -133,6 +133,7 @@ section section:first-child
     }
     #whiteBox1
     {
+        border: solid 2px white;
         width: 87vw;
         height: 46vh;
         bottom: 5vh;
@@ -140,6 +141,7 @@ section section:first-child
     }
     #whiteBox2
     {
+        border: solid 2px white;
         width: 87vw;
         height: 46vh;
         top:5vh;

@@ -123,10 +123,6 @@ ul button:hover
 {
     opacity: 1;
 }
-.gridItem:hover .gridFilters
-{
-    opacity: 1;
-}
 
 
 .description
@@ -134,7 +130,7 @@ ul button:hover
     height: 100%;
     width: 100%;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
-    opacity: 0;
+    opacity: 1;
     transition: opacity 1s;
 
     display: flex;
@@ -162,36 +158,10 @@ ul button:hover
     border-top: 2px solid var(--rouge);
 }
 
-.gridFilters
+.filtre
 {
     position: absolute;
     align-self: flex-end;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    box-sizing: content-box;
-    padding-right: 1.5vh;
-
-    font-family: 'Oxygen', sans-serif;
-    font-style: italic;
-    font-size: 1.5vh;
-    
-    transition: opacity 1s;
-    opacity: 0;
-}
-
-.gridFilters p
-{
-    padding-left: .5vh;
-    margin-bottom: 5px;
-    color: rgb(220, 220, 220);
-
-    width: auto;
-}
-
-.gridFilters p::first-letter
-{
-    text-transform:uppercase;
 }
 /* .description p:last-child
 {
@@ -362,10 +332,7 @@ footer
         transition: opacity 0.5s ease 0.2s;
         opacity: 1;
     }
-    .gridFilters
-    {
-        opacity: 1;
-    }
+
     footer
     {
         margin-top: 3vh;

@@ -73,7 +73,7 @@ main>section>section
     justify-content: space-around;
     align-items: center;
     width: 20vw;
-    padding-top: 8.5vw;
+    padding-top: 5.2vw;
 }
 
 /*.columnText p:first-of-type
@@ -94,7 +94,7 @@ main>section>section
 }
 #CV
 {
-    margin-top: 40px;
+    margin-top: 16px;
 }
 
 /*p:hover a
@@ -148,7 +148,7 @@ footer
     }
     .videoShowreel
     {
-        width: 100vw;
+        width: 85vw;
         min-height: 54vw;
     }
     .videoShowreel iframe
@@ -164,7 +164,7 @@ footer
     }
     .columnText
     {
-        width: 84%;
+        width: 85%;
         margin-top: 2vh;
         padding-top: 0;
     }
@@ -182,8 +182,7 @@ footer
     {
         padding: 0;
         margin: 0;
-        position: absolute;
-        bottom:1.5vh;
+        bottom:3.3vw;
     }
     footer p
     {
