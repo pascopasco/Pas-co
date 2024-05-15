@@ -34,12 +34,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5","Objectif sigma art 50-100mm f1.8", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/941272471" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "image": "./img/icones_videos/Aiguebonne2.jpg",
-                   "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["corporate","art"]
+                   "filtres" : ["outdoor","art"]
                },
                 {
                    "titre": "Quelques battements d'ailes",
@@ -79,7 +74,7 @@ let data = {
                    "materiel" : ["DJI Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/930974796" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor"]
+                   "filtres" : ["corporate","outdoor","évènementiel"]
                },
                 {
                    "titre": "Drone - Ski de randonnée",
@@ -89,12 +84,7 @@ let data = {
                    "materiel" : ["DJI Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/936154676" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "image": "./img/icones_videos/Mroc_Fest_Beer2.jpg",
-                   "description" : "Voici l'Aftermovie du Mroc Fest Beer 2023, un évènement que la structure a voulu garder en mémoire. </br> J'ai appris à tourner et monter pour un format très court (autour de 30 sec).</br> Je suis prêt pour les prochaines demandes de ce type ! </br> </br> Tourné à la main avec le gros Sigma Art 50-100mm F1.8 constant et sa metabones, un set bien lourd au bout de 3h en main !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif Sigma Art 50-100mm F/1.8 DC HSM"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/879340170" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["corporate","outdoor"]
+                   "filtres" : ["corporate","outdoor","évènementiel"]
                },
                 {
                    "titre": "Contest Mroc - Escalade en bloc",
