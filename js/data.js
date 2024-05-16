@@ -74,7 +74,7 @@ let data = {
                    "materiel" : ["DJI Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/930974796" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","évènementiel"]
+                   "filtres" : ["outdoor","évènementiel"]
                },
                 {
                    "titre": "Drone - Ski de randonnée",
@@ -84,7 +84,7 @@ let data = {
                    "materiel" : ["DJI Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/936154676" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","évènementiel"]
+                   "filtres" : ["outdoor","évènementiel"]
                },
                 {
                    "titre": "Contest Mroc - Escalade en bloc",
@@ -114,7 +114,7 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","evenementiel"]
+                   "filtres" : ["corporate"]
                },
                 {
                    "titre": "Spectacle - La Légende d'Andarta",
@@ -222,7 +222,7 @@ let data = {
                    "materiel" : ["Camescope Sony PMW 200", "Mandarines", "Arri Fresnel 300W", "Gelatines CTO/CTB/ND"],
                    "lien_video" : `<iframe src="https://www.youtube.com/embed/9EmOA4tvIt8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : ["Baptiste Perez"],
-                   "filtres" : ["corporate","evenementiel"]
+                   "filtres" : ["corporate"]
                },
                 {
                    "titre": "Déréliction",
