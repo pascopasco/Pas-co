@@ -28,24 +28,11 @@ function insertFilteredProjects(filter)
                                                                 <p>${data.projects[i].sousTitre}</p>
                                                     </section>
                                                 </div>`);
-                                                //<div class= "gridFilters" id="gridFilters${i}"></div>
                 }            
-                for (k=0; k<data.projects[i].filtres.length; k++) // pour tous les filtres du projet n°i
-                {
-                    $("#gridFilters").empty()
-                    if (k<data.projects[i].filtres.length-1) //si ce n'est pas le dernier filtre
-                    {
-                        $(`#gridFilters${i}`).append(`<p> ${data.projects[i].filtres[k]},</p>`) //insérer avec une virgule
-                    }
-                    else
-                    {
-                        $(`#gridFilters${i}`).append(`<p> ${data.projects[i].filtres[k]}</p>`) //insérer sans virgule
-                    }
-                    
-                }
             }
         }
 }
+
 function insertAllProjects()
 {
     console.log("insertAllProjects");
@@ -109,24 +96,29 @@ function animatedSorting(nButton, filter) //master fonction qui gère toute la p
             console.log("Aucun élément trouvé avec gridItem et visible.");
         }
 
-        //console.log(filter);
-        console.log("gridContainer height avant modif ="+gridContainer.clientHeight);
+        console.log("gridContainer height avant modif ="+document.getElementById("gridContainer").clientHeight);
 
+        // 
         if (filter) //le filtre "tout" renvoi une valeur nulle, c'est ce test qu'on fait ici
         {
-            for (let i = 0; i < data.projects.length; i++)
+            //modification du pageName selon le filtre
+            
+            changePageName(filter);
+
+            // filtrage des projets
+            for (let i = 0; i < data.projects.length; i++) // pour la longueur du nombre de projets
             {
-                for (let j =0; j < data.projects[i].filtres.length; j++)
+                for (let j =0; j < data.projects[i].filtres.length; j++) // pour tous les filtre du projet i
                 {
-                    if (data.projects[i].filtres[j] == filter)
+                    if (data.projects[i].filtres[j] == filter) // si le filtre correspont
                     {
                         //console.log("projet n°" + i + " est visible");
-                        $("#" + i).show(0);
+                        /* $("#" + i).show(0); */
                         $("#" + i).addClass("visible");
                         $("#" + i).removeClass("hidden");
                         variationElementsVisibles ++;
                     }
-                    else
+                    else // si le filtre ne correspond pas
                     {
                         //console.log("projet n°" + i + " est caché");
                         $("#" + i).addClass("hidden");
@@ -139,6 +131,10 @@ function animatedSorting(nButton, filter) //master fonction qui gère toute la p
         }
         else //donc si la variable filter est null, soit le filtre tout
         {
+            //modification du pageName
+            changePageName();
+
+            // filtrage des projets
             console.log("tous les projets sont visibles");
             gridContainer.style.height=""; //reset la valeur ajouté dans verticalMovement
             for (let i = 0; i < data.projects.length; i++)
@@ -152,13 +148,12 @@ function animatedSorting(nButton, filter) //master fonction qui gère toute la p
 
         //partie animation de la taille de gridItemsVisible
         console.log("partie animation");
-        console.log("gridContainer height avant modif ="+gridContainer.clientHeight);
         //console.log("gridItems height = "+ gridItemsVisible[0].clientHeight);
         console.log("variationElementsVisibles = "+variationElementsVisibles);
 
         $("#gridContainer").empty(); //on vide le gridContainer
         generatePortfolio(filter);
-
+        console.log("gridContainer height après modif ="+document.getElementById("gridContainer").clientHeight); //affiche la height du grid container
         //ANIMATION
         //MOBILE
         //DÉSACTIVÉE
@@ -199,6 +194,42 @@ function changeActiveFilterButton(nButton) { //change uniquement les classes des
         });
 }
 
+function changePageName(filter)
+{
+    $("#pageName").empty();
+    if (filter) // si filtre est null (rappel le filtre "tout" Renvoi une valeur null)
+    {
+        $("#pageName").append(filter.toUpperCase()); //remplir avec le nom du filtre en uppercase
+        if (filter=="evenementiel") // si c'est évenementiel
+            {
+                if (window.innerWidth>980) // si on est plus grand que la version mobile
+                    {
+                        document.getElementById("pageName").style.fontSize = "7.25vw";
+                    }
+                else
+                    {
+                        document.getElementById("pageName").style.fontSize = "8.3vw";
+                    }
+                        
+            }
+        else // si ce n'est pas évenementiel
+            {
+                document.getElementById("pageName").style.fontSize = ""
+            }
+    }
+    else //si c'est le filtre "tout"
+            {
+                $("#pageName").append("PORTFOLIO");
+                document.getElementById("pageName").style.fontSize = ""
+            }
+    
+    
+        
+    
+    
+    
+}
+
 function mobileMovement (gridContainer, gridItems, gridItemsVisible) //fonction qui permet le déplacement d'éléments en version mobile
 {
     let nbVisible = 0;
@@ -236,6 +267,7 @@ mediaQueryMobile.addListener(debugSorting); //si la variable mediaQueryMobile ch
 function debugSorting() //simule l'appel de la fonction de sorting avec le filtre "tout"
 {
     animatedSorting();
+    changeActiveFilterButton(0);
 }
 
 

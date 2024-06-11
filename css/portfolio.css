@@ -27,8 +27,11 @@ main>section>ul
     padding: 0;
     list-style-type: none
 }
-/* main>section:first-of-type il:hover{
-    font-weight: bold;
+/* header #pageName
+{
+    font-size: 9vw;
+    color: green;
+    font-style: italic;
 } */
 #sorting
 {
@@ -221,17 +224,19 @@ footer
     {
         font-size: 1.5vw;
     } */
+
 }
 
-@media (max-width: 1150px){
+@media (max-width: 1300px){
     main>section>ul
     {
         width: 55vw;
     }
-    /* ul button
+    header #pageName
     {
-        font-size: 1.5vw;
-    } */
+        font-size: 11vh;
+    }
+    
 }
 
 @media (max-width: 980px){
