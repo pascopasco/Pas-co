@@ -87,6 +87,16 @@ let data = {
                    "filtres" : ["outdoor","évènementiel"]
                },
                 {
+                   "titre": "Danse - L'avers et le revers", 
+                   "sousTitre": "Teaser",
+                   "image": "./img/icones_videos/aversetlerevers3.jpg",
+                   "description" : "Quel plaisir de retrouver la danse comme pratique sportive et artistique à filmer. </br>C’était à l’occasion de la sortie de résidence du collectif NAAGRE, fusion de 2 danseurs et de 3 musiciens en live sur scène. </br>Tant les mouvements secondaires – mouvements indépendants de la caméra (danseurs), que les mouvements primaires - ceux de la caméra directement, sont passionnant à travailler. </br>Et mêler les deux permet de créer des images uniques. </br>Quel plaisir de côtoyer des artistes qui ne parlent qu’avec leurs corps. </br>Qui ne font qu’un avec les notes des saxophones et des mélodies électroniques du synthétiseur. </br>Quel art de s’exprimer à travers des gestes qui traduisent une émotion, une poésie et qui est presque en chacun de nous. </br></br> Tout le monde bouge.</br>Tout le monde danse.</br></br>Merci au collectif Naagre de m’avoir confié le teaser comme support de l’avenir de ce spectacle.</br>J’adore la danse et la filmer !</br></br> Musiciens : <a ${class_target} href='https://www.linkedin.com/in/jean-michel-pirollet-5509461a/?originalSubdomain=fr'>Jean-Michel Pirollet</a>, <a ${class_target} href='https://www.patricefoudon.com/'>Patrice FOUDON</a>, et Patrick Chastel.</br> Danseurs : <a ${class_target} href='https://mandinguesassocies.wordpress.com/karim-konate/'>Karim Konaté</a> et <a ${class_target} href='https://florinedebord.wixsite.com/website'>Florine Debord</a>.</br> Technicien lumière : Corentin Bernadi.</br> Chorégraphe : <a ${class_target} href='https://www.linkedin.com/in/st%C3%A9phanie-brun-viton-562a09a8/'>Stéphanie BRUN-VITON</a>.</br>Communication : <a ${class_target} href='https://www.azelar.coop/entrepreneur/edy-anita-cisse/'>Edy-Anita Cisse</a>.",
+                   "materiel" : ["Panasonic Lumix GH5","Objectif Sigma Art 18-35mm F/1.8 DC HSM", "Objectif Sigma Art 50-100mm F/1.8 DC HSM", "Ronin S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1010119472" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["art","évènementiel"] 
+               },
+                {
                    "titre": "Contest Mroc - Escalade en bloc",
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/Contest_Mroc4.jpg",
