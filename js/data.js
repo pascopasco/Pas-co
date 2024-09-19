@@ -282,6 +282,16 @@ let data = {
                    "equipe" : [],
                    "filtres" : ["corporate","outdoor"]
                },
+                {
+                   "titre": "Interview Paco Bonnet",
+                   "sousTitre": "Vidéo corporate",
+                   "image": "./img/icones_videos/Itw_mission_locale.jpg",
+                   "description" : "J'ai eu l'honneur d'être reçu comme intervenant à la mission locale de Lyon pour parler de mon parcours de vidéaste accompagné à mes début par la mission locale.<br/><br/>Être vidéaste et cadreur ça a été possible parce que j'en avais vraiment envie, et j'en ai toujours vraiment envie.<br/><br/>Merci à la mission locale pour son accompagnement précieux.",
+                   "materiel" : ["Pas le mien"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1011011277" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate"]
+               },
        //        {
          //          "titre": "Le Voisin",
        //            "sousTitre": "Court-métrage",
