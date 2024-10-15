@@ -11,27 +11,27 @@ let data = {
                    "sousTitre": "Publicité",
                    "image": "./img/icones_videos/Teaser_hiver.jpg",
                    "description" : "Plongé dans l'univers de l'hiver Névachais, bienvenue à <a class='lien_int' href='https://www.hotel-echaillon.com/fr/' target='_blank'>l'Échaillon</a> pour venir découvrir les ballades en ski de fond dans la vallée, les marches en raquettes pour accéder à des espaces purs et silencieux qu'offre la nature ainsi que le ski de randonnées pour aller chercher la hauteur et une belle descente au milieu du massif des Alpes du Sud, grandiose !</br></br>Vous pourrez vous offrir des doux moments de détentes en terrasse et une petite fondue pour un peu de réconfort après l'effort...Tourné en Janvier 2023 au GH5 et à l'alpha 7III, stabilisé au Ronin S et survolé au drone DJI Air 2S. Amaran 200x pour éclairer.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 f1.8", "Objectif sigma art 50-100mm f1.8", "Ronin S", "DJI Air 2S", "Alpha 7III", "Amaran 200x"],
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 f/1.8", "Objectif sigma art 50-100mm f/1.8", "Ronin S", "DJI Air 2S", "Alpha 7III", "Amaran 200x"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/932424618" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.instagram.com/emilienlacaze/'>Émilien LACAZE ${icone}</a>`],
                    "filtres" : ["corporate","outdoor"]
                },
                 {
-                   "titre": "Teaser Été - l'Échaillon ",
+                   "titre": "Teaser ASTEC - Ascenseurs Techniques",
                    "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/Teaser_ete1.jpg",
-                   "description" : "Durant un bel été dans la vallée de Névache, on a tourné avec Lou Jacquet ce teaser estival pour mettre en valeur un séjour dans un chalet à Névache en été et les activités possibles à faire autour du chalet de <a class='lien_int' href='https://www.hotel-echaillon.com/fr/' target='_blank'>l'Échaillon</a>. </br></br> Une belle expérience enrichissante techniquement et humainement. Tournée à l'alpha 7III et au GH5, sur pied Manfrotto ou stabilité avec le Ronin S. Travail de la lumière avec des Amaran 200x et quelques mandarines. </br></br>Au plaisir d'avoir vos retours qui que vous soyez !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 f1.8", "Objectif sigma art 50-100mm f1.8", "Ronin S", "Alpha 7III", "Amaran 200x", "Mandarines"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/818303041" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor"]
+                   "image": "./img/icones_videos/ASTEC.jpg",
+                   "description" : "Ce teaser s'inclut dans un projet où j'ai tourné un reportage qui m'en a appris un peu sur ce que c'était que cet objet très utilisé machinalement.</br></br> Les ascenseurs, c’est quelque chose !</br></br> J’ai hâte de la suite des projets avec cette entreprise qui se démarque en réparant et en tentant de conserver de vieux ascenseurs. 🔧 </br>Un exemple à suivre et qui rend honneur à ces objets colossaux en leur offrant des secondes vies. </br>Vous verrez un ascenseur datant de la Seconde Guerre mondiale et qui marche parfaitement bien grâce à leur travail !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 f/1.8", "Objectif sigma art 50-100mm f/1.8", "Ronin S", "Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1015142055" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate"]
                },
                 {
                    "titre": "Highline - Se redresser",
-                   "sousTitre": "Publicité",
+                   "sousTitre": "Évènementiel",
                    "image": "./img/icones_videos/Hihline_montagne_en_scene1.jpg",
                    "description" : "Quand mon flux aléatoire de musique m'a diffusé cette ensorcelante composition de Schubert dans mes oreilles, j'ai directement pensé à monter cette vidéo. </br></br> C'est dans le cadre du festival Montagne en Scène que j'ai pu monter sur les toits de l'amphithéâtre 3000 pour aller filmer l'association <a class='lien_int' href='https://ekilibrelyon.org/' target='_blank'>Ekilibre</a>. </br></br> Je n'ai pas utilisé mon drone pour cette prestation pour aller chercher des plans serrés sur les highliners.euses concentrés à se hisser debout sur leur ligne. </br></br> Bon visionnage !",
-                   "materiel" : ["Panasonic Lumix GH5","Objectif sigma art 50-100mm f1.8", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "materiel" : ["Panasonic Lumix GH5","Objectif sigma art 50-100mm f/1.8", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/941272471" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["outdoor","art"]
@@ -65,6 +65,26 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/942290940" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["corporate","evenementiel","outdoor"]
+               },
+                {
+                   "titre": "Teaser Été - l'Échaillon ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Teaser_ete1.jpg",
+                   "description" : "Durant un bel été dans la vallée de Névache, on a tourné avec Lou Jacquet ce teaser estival pour mettre en valeur un séjour dans un chalet à Névache en été et les activités possibles à faire autour du chalet de <a class='lien_int' href='https://www.hotel-echaillon.com/fr/' target='_blank'>l'Échaillon</a>. </br></br> Une belle expérience enrichissante techniquement et humainement. Tournée à l'alpha 7III et au GH5, sur pied Manfrotto ou stabilité avec le Ronin S. Travail de la lumière avec des Amaran 200x et quelques mandarines. </br></br>Au plaisir d'avoir vos retours qui que vous soyez !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 f/1.8", "Objectif sigma art 50-100mm f/1.8", "Ronin S", "Alpha 7III", "Amaran 200x", "Mandarines"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/818303041" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
+                   "filtres" : ["corporate","outdoor"]
+               },
+                {
+                   "titre": "Highline Gratte-ciel - Ekilibre ",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Highline_Gratteciel.jpg",
+                   "description" : "À 60 mètres de hauteur et sur 40 mètres de long en pleine ville, il ne faut plus douter ! </br></br> Je ne sais pas si en bas les voitures klaxonnaient pour applaudir, ou bien pour demander aux voitures arrêtées au milieu de la route d’avancer. 📣 </br> Et les passants qui réalisaient le spectacle à chaque coin de rue de ce grand carrefour : « T’as vu en haut là ! </br> - Tu crois qu’ils sont assurés ? » </br></br> J’ai pris beaucoup de plaisir à filmer ces quelques images et à monter ce petit aftermovie. </br>Ayant prévu de couvrir uniquement au drone l'évènement, j'ai quand même sorti mon GH5 et son petit capteur, de nuit, d'où les images bruitées et parfois floues (ouverture à f/1.8 !). 📹 </br></br>Un immense bravo à l’équipe pour cette organisation hors norme.</br>Tout ce travail et cette énergie simplement par passion… </br>Merci 🚀Yvan Pinard pour sa douceur et son investissement auprès de moi.</br>Merci à l’association Ekilibre Lyon et tous leurs membres avenants à ce projet vidéo.</br>Merci à la SVU - Société villeurbannaise d'urbanisme, à la Ville de Villeurbanne et à Julie Rufenach de m’avoir permis de voler au-dessus de leurs bâtiments.</br></br>En tant que télépilote de drone, les portes s’ouvrent plus facilement pour ce genre de projet !",
+                   "materiel" : ["Drone DJI Air 2S", "Panasonic Lumix GH5", "Objectif sigma art 18-35 f/1.8", "Objectif sigma art 50-100mm f/1.8"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1016959501" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate","outdoor","évènementiel","art"]
                },
                 {
                    "titre": "Drone - Visite dans les Alpes",
@@ -151,7 +171,7 @@ let data = {
                    "sousTitre": "Clip vidéo",
                    "image": "./img/icones_videos/dereliction_soiree.jpg",
                    "description" : "Je ne voulais pas laisser mourir des images que j'appréciais d'un tournage servant le clip de <a class='lien_int' title='Déréliction' href='https://vimeo.com/471897548' target='_blank'>Déréliction</a> tourné en décembre 2019. J'ai donc repris les rushes que j’avais tourné et en ait fait un montage basé sur la même protagoniste de Déréliction. J’ai travaillé le montage afin de changer l’ambiance du précédent projet. On peut le voir comme une suite, avec ce personnage principal qui évolue de manière inquiétante, comme touché par une magie noire. Le personnage devient une sorte de malfaisante shamane pendant cette soirée étrange dans laquelle se sont embarqué les invités insouciants…",
-                   "materiel" : ["Camescope Canon C200", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "Éclairage LED Aputure LS C120D II", "Aputure Light Dome 2"],
+                   "materiel" : ["Camescope Canon C200", "Objectif Canon EF 100mm f/2.8L Macro IS USM", "LED Aputure LS C120D II", "Aputure Light Dome 2"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/471895090" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://elisasibert.myportfolio.com/home'>Elisa SIBERT ${icone}</a>`, "Anais VERRIER", `<a ${class_target} href='https://claraguyot.myportfolio.com/'>Clara GUYOT ${icone}</a>`],
                    "filtres" : ["art"]
