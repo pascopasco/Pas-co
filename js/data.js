@@ -77,14 +77,14 @@ let data = {
                    "filtres" : ["corporate","outdoor"]
                },
                 {
-                   "titre": "Quelques battements d'ailes",
-                   "sousTitre": "Projet Esthétique",
-                   "image": "./img/icones_videos/Quelques_battements_daile.jpg",
-                   "description" : "Entres les herbes, le long d'un cerisier tout blanc, sillonnant au travers d'un envoûtante glycine, le vent caresse les fleurs fraîchement sorties de leurs cocons. Les insectes viennent alors participer au maintient en vie des plantes.</br></br>Mon objectif premier était d'arriver à filmer un papillon de dos en plein vol. Un défi qui s'est révélé à ce jour trop compliqué. Ça m'a permis d'apprendre le mot erratique - la manière dont mon père défini le vol du papillon - et de capturer ces douces images. Filmé à la main, en exploitant la performance du ralenti de Panasonic, cette vidéo est un moment apaisant au milieu de la vie aérienne des petites créature qui volent autour des fleurs.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/484622343" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "titre": "Teaser - La petite Aiguebonne",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Aiguebonne2.jpg",
+                   "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes. </br></br> La vidéo est sur le site de <a class='lien_int' href='https://www.petite-aiguebonne.fr' target='_blank'>La Petite Aiguebonne</a>, allez voir !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["outdoor","art"]
+                   "filtres" : ["corporate"]
                },
                 {
                    "titre": "Drone - Visite dans les Alpes",
@@ -134,8 +134,38 @@ let data = {
                    "materiel" : ["Panasonic Lumix GH5","Objectif Sigma Art 18-35 mm F/1.8 DC HSM", "Objectif Sigma Art 50-100 mm F/1.8 DC HSM", "Ronin S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/1010119472" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["art","évènementiel"] 
+                   "filtres" : ["art","évènementiel"]
                },
+                {
+                   "titre": "Reportage - ASTEC (Ascenseurs Techniques)", 
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/ASTECreportage1.jpg",
+                   "description" : "J’ai réalisé mon premier reportage.</br></br> Un reportage sur l'entreprise <a class='lien_int' href='https://www.astec-ascenseurs.fr/' target='_blank'>ASTEC</a>. </br></br>Ça fait du bien de retrouver un aspect documentaire. </br>D’interviewer des gens intéressants et d’apprendre des choses vers lesquelles je ne serais probablement jamais allé ! 📹 </br>Merci mon travail. </br></br>Et merci surtout à <a class='lien_int' href='https://www.linkedin.com/in/didier-vest-b61b8b64/?originalSubdomain=fr' target='_blank'>Didier VEST</a>, <a class='lien_int' href='https://www.linkedin.com/in/nicolas-persyn-1963b461/' target='_blank'>Nicolas Persyn</a>, <a class='lien_int' href='https://www.linkedin.com/in/abdou-diallo-05561410b/' target='_blank'>Abdou Diallo</a>, <a class='lien_int' href='https://www.linkedin.com/in/axel-potigny-56755819a/' target='_blank'>Axel Potigny</a>, Frédéric Chaconet et <a class='lien_int' href='https://www.linkedin.com/in/martial-rigoudy-900664114/' target='_blank'>Martial RIGOUDY</a> de s’être prêté au jeu de l'interview.</br></br>Pas facile d’oublier la caméra quand elle est braquée face à soi.",
+                   "materiel" : ["Panasonic Lumix GH5","Objectif Sigma Art 18-35 mm F/1.8 DC HSM", "Objectif Sigma Art 50-100 mm F/1.8 DC HSM", "Ronin S","DJI Air 2S", "Micro cravate Sennheiser G4"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1060054213" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate"]      
+               },
+                {
+                   "titre": "Quelques battements d'ailes",
+                   "sousTitre": "Projet Esthétique",
+                   "image": "./img/icones_videos/Quelques_battements_daile.jpg",
+                   "description" : "Entres les herbes, le long d'un cerisier tout blanc, sillonnant au travers d'un envoûtante glycine, le vent caresse les fleurs fraîchement sorties de leurs cocons. Les insectes viennent alors participer au maintient en vie des plantes.</br></br>Mon objectif premier était d'arriver à filmer un papillon de dos en plein vol. Un défi qui s'est révélé à ce jour trop compliqué. Ça m'a permis d'apprendre le mot erratique - la manière dont mon père défini le vol du papillon - et de capturer ces douces images. Filmé à la main, en exploitant la performance du ralenti de Panasonic, cette vidéo est un moment apaisant au milieu de la vie aérienne des petites créature qui volent autour des fleurs.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/484622343" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","art"]
+               },
+                {
+                   "titre": "Reportage - Horizom, La culture du Bambou", 
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/Horizomsite3.jpg",
+                   "description" : "J'ai eu la chance de réaliser un reportage pour <a class='lien_int' href='https://www.horizom.com/' target='_blank'>Horizom, Le bambou au service de la transition</a> 🌱</br></br>Travailler en me sentant utile et pour des valeurs éthiques qui me sont chères, ça fait du bien !</br>En plus des conditions de travail agréables, le reportage m'a beaucoup appris. 👨‍🌾</br></br>Un immense merci au travail de <a class='lien_int' href='https://www.linkedin.com/in/caroline-hamel-baulain-267996a5/' target='_blank'>Caroline Hamel Baulain</a>.</br></br>À <a class='lien_int' href='https://docpixels.com/' target='_blank'>Julien André</a> pour son aide à l'image et à toute l'équipe sur la plantation qui m'a très bien reçue.</br></br>Entre les centaines d'hectares qui poussent vite et sur plusieurs régions en France, la grande pépinière, et les tous les projets à venir, il y en a des choses à montrer.</br></br>Des nouvelles images qui profiteront du soleil cette fois ! ☀️",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Micro cravate Sennheiser G4","DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1060061531" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate"]
+                },
                 {
                    "titre": "Contest Mroc - Escalade en bloc",
                    "sousTitre": "Aftermovie",
@@ -155,16 +185,6 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/879340170" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["corporate","evenementiel"]
-               },
-                {
-                   "titre": "Teaser - La petite Aiguebonne",
-                   "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/Aiguebonne2.jpg",
-                   "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes. </br></br> La vidéo est sur le site de <a class='lien_int' href='https://www.petite-aiguebonne.fr' target='_blank'>La Petite Aiguebonne</a>, allez voir !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["corporate"]
                },
                 {
                    "titre": "Spectacle - La Légende d'Andarta",
