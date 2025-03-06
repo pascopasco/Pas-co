@@ -27,14 +27,14 @@ let data = {
                    "filtres" : ["corporate","outdoor"]
                },
                 {
-                   "titre": "Teaser ASTEC - Ascenseurs Techniques",
-                   "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/ASTEC.jpg",
-                   "description" : "Ce teaser s'inclut dans un projet pour l'entreprise <a class='lien_int' href='https://www.astec-ascenseurs.fr/' target='_blank'>ASTEC</a> où j'ai tourné un reportage qui m'en a appris beaucoup sur l'ascenseur.</br></br> Et les ascenseurs, c’est quelque chose !</br></br> J’ai hâte de la suite des projets avec cette entreprise qui se démarque en réparant et en tentant de conserver de vieux ascenseurs. 🔧 </br></br>Un exemple à suivre et qui rend honneur à ces objets colossaux en leur offrant des secondes vies. </br></br>Dans le traser, vous verrez un ascenseur datant de la Seconde Guerre mondiale et qui marche parfaitement bien grâce à leur travail !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8", "Objectif sigma art 50-100 mm f/1.8", "Ronin S", "Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1015142055" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "titre": "Aquathlon Villeurbanne - Yotta Sports",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Yotta_Aquatlhon_site.jpg",
+                   "description" : "Cet Aqualthon est un nouveau concept qui découpe en 5 boucles 250 mètres de nage suivi de 4 km de course. </br></br> Les cut-off (temps max avant disqualification) sont réduits à chaque boucle ce qui rend la course de plus en plus intense. </br> Il a fallu donc courir très vite pour suivre les premiers sur la dernière boucle qui progresse à une vitesse moyenne de 25km/h !</br></br> Une super expérience d'aller lier nage et course dans un même tournage. </br></br> Un concept qui validé par cette course test qui va se dérouler en 2 fois plus grand sur la <a class='lien_int' href='https://yottaxp.com/' target='_blank'>Yotta Vichy</a>. ",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6","Ronin S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/942282259" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate"]
+                   "filtres" : ["corporate","evenementiel","outdoor"]
                },
                 {
                    "titre": "Highline Gratte-ciel - Ekilibre ",
@@ -47,14 +47,14 @@ let data = {
                    "filtres" : ["corporate","outdoor","évènementiel","art"]
                },
                 {
-                   "titre": "Aquathlon Villeurbanne - Yotta Sports",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Yotta_Aquatlhon_site.jpg",
-                   "description" : "Cet Aqualthon est un nouveau concept qui découpe en 5 boucles 250 mètres de nage suivi de 4 km de course. </br></br> Les cut-off (temps max avant disqualification) sont réduits à chaque boucle ce qui rend la course de plus en plus intense. </br> Il a fallu donc courir très vite pour suivre les premiers sur la dernière boucle qui progresse à une vitesse moyenne de 25km/h !</br></br> Une super expérience d'aller lier nage et course dans un même tournage. </br></br> Un concept qui validé par cette course test qui va se dérouler en 2 fois plus grand sur la <a class='lien_int' href='https://yottaxp.com/' target='_blank'>Yotta Vichy</a>. ",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6","Ronin S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/942282259" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "titre": "Teaser - La petite Aiguebonne",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Aiguebonne2.jpg",
+                   "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes. </br></br> La vidéo est sur le site de <a class='lien_int' href='https://www.petite-aiguebonne.fr' target='_blank'>La Petite Aiguebonne</a>, allez voir !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","evenementiel","outdoor"]
+                   "filtres" : ["corporate"]
                },
                 {
                    "titre": "Les Foulées de Villeurbanne - Office du Sport de la ville",
@@ -77,14 +77,14 @@ let data = {
                    "filtres" : ["corporate","outdoor"]
                },
                 {
-                   "titre": "Teaser - La petite Aiguebonne",
-                   "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/Aiguebonne2.jpg",
-                   "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes. </br></br> La vidéo est sur le site de <a class='lien_int' href='https://www.petite-aiguebonne.fr' target='_blank'>La Petite Aiguebonne</a>, allez voir !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "titre": "Alpe du Grand Serre - Ski de randonnée",   
+                   "sousTitre": "Teaser",
+                   "image": "./img/icones_videos/AlpeGrandSerresite.jpg",
+                   "description" : "Avant que l’<a class='lien_int' href='https://www.matheysine-tourisme.com/fr/alpedugrandserre/' target='_blank'>Alpe du Grand Serre</a> ne ferme, <a class='lien_int' href='https://www.linkedin.com/in/clara-guyot/' target='_blank'>Clara Guyot</a> est allée nous montrer sa station d’enfance. </br>Une jolie petite station qui, je l’espère, continuera de vivre autrement. </br></br>Nous sommes montés sur la crête qui longe l’arrivée du télésiège Portes Sud. </br>Après avoir transpercé le brouillard, c’est une mer de nuage nous a accueillie. </br></br>Et ça fait vibrer comme à chaque fois. </br></br>Merci la montagne.",
+                   "materiel" : ["Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1063220672" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate"]
+                   "filtres" : ["outdoor","art","corporate"]
                },
                 {
                    "titre": "Drone - Visite dans les Alpes",
@@ -127,6 +127,16 @@ let data = {
                    "filtres" : ["evenementiel","corporate"]
                },
                 {
+                   "titre": "Spectacle - La Légende d'Andarta",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Andartaoui.jpg",
+                   "description" : "Le domaine <a class='lien_int' href='https://www.valsoyo.com/' target='_blank'>Valsoyo</a> m'a demandé de leur faire un Aftermovie pour résumer et mettre en valeur un spectacle qui rassemble maintenant plus d'une centaines de comédiens et techniciens. Du théâtre, de la danse, de la pyrotechnie, des animaux et effets spéciaux de machinerie admirables.</br> Toujours un plaisir de travailler dans le milieu de la culture, avec un structure dans la vallée de la Drôme, mon lieu d'enfance.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/881622687" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["evenementiel","art"]
+               },
+                {
                    "titre": "Danse - L'avers et le revers", 
                    "sousTitre": "Teaser",
                    "image": "./img/icones_videos/aversetlerevers3.jpg",
@@ -135,16 +145,6 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/1010119472" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["art","évènementiel"]
-               },
-                {
-                   "titre": "Reportage - ASTEC (Ascenseurs Techniques)", 
-                   "sousTitre": "Corporate",
-                   "image": "./img/icones_videos/ASTECreportage1.jpg",
-                   "description" : "J’ai réalisé mon premier reportage.</br></br> Un reportage sur l'entreprise <a class='lien_int' href='https://www.astec-ascenseurs.fr/' target='_blank'>ASTEC</a>. </br></br>Ça fait du bien de retrouver un aspect documentaire. </br>D’interviewer des gens intéressants et d’apprendre des choses vers lesquelles je ne serais probablement jamais allé ! 📹 </br>Merci mon travail. </br></br>Et merci surtout à <a class='lien_int' href='https://www.linkedin.com/in/didier-vest-b61b8b64/?originalSubdomain=fr' target='_blank'>Didier VEST</a>, <a class='lien_int' href='https://www.linkedin.com/in/nicolas-persyn-1963b461/' target='_blank'>Nicolas Persyn</a>, <a class='lien_int' href='https://www.linkedin.com/in/abdou-diallo-05561410b/' target='_blank'>Abdou Diallo</a>, <a class='lien_int' href='https://www.linkedin.com/in/axel-potigny-56755819a/' target='_blank'>Axel Potigny</a>, Frédéric Chaconet et <a class='lien_int' href='https://www.linkedin.com/in/martial-rigoudy-900664114/' target='_blank'>Martial RIGOUDY</a> de s’être prêté au jeu de l'interview.</br></br>Pas facile d’oublier la caméra quand elle est braquée face à soi.",
-                   "materiel" : ["Panasonic Lumix GH5","Objectif Sigma Art 18-35 mm F/1.8 DC HSM", "Objectif Sigma Art 50-100 mm F/1.8 DC HSM", "Ronin S","DJI Air 2S", "Micro cravate Sennheiser G4"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1060054213" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["corporate"]      
                },
                 {
                    "titre": "Quelques battements d'ailes",
@@ -167,6 +167,26 @@ let data = {
                    "filtres" : ["corporate"]
                 },
                 {
+                   "titre": "Teaser ASTEC - Ascenseurs Techniques",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/ASTEC.jpg",
+                   "description" : "Ce teaser s'inclut dans un projet pour l'entreprise <a class='lien_int' href='https://www.astec-ascenseurs.fr/' target='_blank'>ASTEC</a> où j'ai tourné un reportage qui m'en a appris beaucoup sur l'ascenseur.</br></br> Et les ascenseurs, c’est quelque chose !</br></br> J’ai hâte de la suite des projets avec cette entreprise qui se démarque en réparant et en tentant de conserver de vieux ascenseurs. 🔧 </br></br>Un exemple à suivre et qui rend honneur à ces objets colossaux en leur offrant des secondes vies. </br></br>Dans le traser, vous verrez un ascenseur datant de la Seconde Guerre mondiale et qui marche parfaitement bien grâce à leur travail !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8", "Objectif sigma art 50-100 mm f/1.8", "Ronin S", "Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1015142055" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate"]
+               },
+                {
+                   "titre": "Reportage - ASTEC (Ascenseurs Techniques)", 
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/ASTECreportage1.jpg",
+                   "description" : "J’ai réalisé mon premier reportage.</br></br> Un reportage sur l'entreprise <a class='lien_int' href='https://www.astec-ascenseurs.fr/' target='_blank'>ASTEC</a>. </br></br>Ça fait du bien de retrouver un aspect documentaire. </br>D’interviewer des gens intéressants et d’apprendre des choses vers lesquelles je ne serais probablement jamais allé ! 📹 </br>Merci mon travail. </br></br>Et merci surtout à <a class='lien_int' href='https://www.linkedin.com/in/didier-vest-b61b8b64/?originalSubdomain=fr' target='_blank'>Didier VEST</a>, <a class='lien_int' href='https://www.linkedin.com/in/nicolas-persyn-1963b461/' target='_blank'>Nicolas Persyn</a>, <a class='lien_int' href='https://www.linkedin.com/in/abdou-diallo-05561410b/' target='_blank'>Abdou Diallo</a>, <a class='lien_int' href='https://www.linkedin.com/in/axel-potigny-56755819a/' target='_blank'>Axel Potigny</a>, Frédéric Chaconet et <a class='lien_int' href='https://www.linkedin.com/in/martial-rigoudy-900664114/' target='_blank'>Martial RIGOUDY</a> de s’être prêté au jeu de l'interview.</br></br>Pas facile d’oublier la caméra quand elle est braquée face à soi.",
+                   "materiel" : ["Panasonic Lumix GH5","Objectif Sigma Art 18-35 mm F/1.8 DC HSM", "Objectif Sigma Art 50-100 mm F/1.8 DC HSM", "Ronin S","DJI Air 2S", "Micro cravate Sennheiser G4"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1060054213" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate"]      
+               },
+                {
                    "titre": "Contest Mroc - Escalade en bloc",
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/Contest_Mroc4.jpg",
@@ -177,26 +197,6 @@ let data = {
                    "filtres" : ["outdoor","evenementiel"]
                },
                 {
-                   "titre": "Mroc Fest' Beer",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Mroc_Fest_Beer2.jpg",
-                   "description" : "Voici l'Aftermovie du <a class='lien_int' href='https://www.mroc.fr/' target='_blank'>Mroc</a> Fest Beer 2023, un évènement que la structure a voulu garder en mémoire. </br> J'ai appris à tourner et monter pour un format très court (autour de 30 sec).</br> Je suis prêt pour les prochaines demandes de ce type ! </br> </br> Tourné à la main avec le gros Sigma Art 50-100mm F1.8 constant et sa metabones, un set bien lourd au bout de 3h en main !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif Sigma Art 50-100 mm F/1.8 DC HSM"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/879340170" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["corporate","evenementiel"]
-               },
-                {
-                   "titre": "Spectacle - La Légende d'Andarta",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Andartaoui.jpg",
-                   "description" : "Le domaine <a class='lien_int' href='https://www.valsoyo.com/' target='_blank'>Valsoyo</a> m'a demandé de leur faire un Aftermovie pour résumer et mettre en valeur un spectacle qui rassemble maintenant plus d'une centaines de comédiens et techniciens. Du théâtre, de la danse, de la pyrotechnie, des animaux et effets spéciaux de machinerie admirables.</br> Toujours un plaisir de travailler dans le milieu de la culture, avec un structure dans la vallée de la Drôme, mon lieu d'enfance.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/881622687" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["evenementiel","art"]
-               },
-                {
                    "titre": "Teaser Escalade - l'Échaillon ",
                    "sousTitre": "Publicité",
                    "image": "./img/icones_videos/Echaillon_escalade.jpg",
@@ -205,6 +205,16 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/818380630" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
                    "filtres" : ["corporate","outdoor"]
+               },
+                {
+                   "titre": "Mroc Fest' Beer",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Mroc_Fest_Beer2.jpg",
+                   "description" : "Voici l'Aftermovie du <a class='lien_int' href='https://www.mroc.fr/' target='_blank'>Mroc</a> Fest Beer 2023, un évènement que la structure a voulu garder en mémoire. </br> J'ai appris à tourner et monter pour un format très court (autour de 30 sec).</br> Je suis prêt pour les prochaines demandes de ce type ! </br> </br> Tourné à la main avec le gros Sigma Art 50-100mm F1.8 constant et sa metabones, un set bien lourd au bout de 3h en main !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif Sigma Art 50-100 mm F/1.8 DC HSM"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/879340170" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate","evenementiel"]
                },
                {
                    "titre": "Soirée Déréliction",
