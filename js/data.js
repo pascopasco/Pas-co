@@ -187,14 +187,14 @@ let data = {
                    "filtres" : ["corporate"]      
                },
                 {
-                   "titre": "Contest Mroc - Escalade en bloc",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Contest_Mroc4.jpg",
-                   "description" : "J'ai pu participer à un Contest d'escalade (tournoi) sur du Bloc avec le vice champion du monde Mejdi Schalck et bien d'autres génies de la grimpe. Un tournage sportif où j'ai été très limité dans l'utilisation de mon matériel et de mon placement dans la salle remplie à bloc de public. Mais qui m'a permis tout de même de réaliser cette vidéo résumant l'évènement se déroulant à <a class='lien_int' href='https://www.mroc.fr/' target='_blank'>Mroc</a>. Une chouette expérience où l'ambiance et l'ambiance de travail m'ont beaucoup plu !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728420770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["outdoor","evenementiel"]
+                   "titre": "Teaser Randonnée au lac - l'Échaillon ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/RandonneeLAC.jpg",
+                   "description" : "C'est un format plus destiné aux réseaux sociaux, quoique.</br></br>On tease en quelques images une belle randonnée à faire dans la vallée de Névache.</br></br>C'est aussi les formats qu'il est possible de réaliser avec facilité en tournant à la journée.",
+                   "materiel" : ["Panasonic Lumix GH5","Sony Alpha 7III", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8","Réflecteur"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/818362066" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
+                   "filtres" : ["corporate","outdoor"]
                },
                 {
                    "titre": "Teaser Escalade - l'Échaillon ",
@@ -205,6 +205,16 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/818380630" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
                    "filtres" : ["corporate","outdoor"]
+               },
+                {
+                   "titre": "Contest Mroc - Escalade en bloc",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Contest_Mroc4.jpg",
+                   "description" : "J'ai pu participer à un Contest d'escalade (tournoi) sur du Bloc avec le vice champion du monde Mejdi Schalck et bien d'autres génies de la grimpe. Un tournage sportif où j'ai été très limité dans l'utilisation de mon matériel et de mon placement dans la salle remplie à bloc de public. Mais qui m'a permis tout de même de réaliser cette vidéo résumant l'évènement se déroulant à <a class='lien_int' href='https://www.mroc.fr/' target='_blank'>Mroc</a>. Une chouette expérience où l'ambiance et l'ambiance de travail m'ont beaucoup plu !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/728420770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","evenementiel"]
                },
                 {
                    "titre": "Mroc Fest' Beer",
