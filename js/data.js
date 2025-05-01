@@ -7,7 +7,7 @@ let icone = `<i  class="icone_external_link fas fa-external-link-alt"> </i>`;
 let data = {
    "projects":[
                 {
-                   "titre": "Highline - Se redresser",
+                   "titre": "Highline, se redresser - Ekilibre",
                    "sousTitre": "Évènementiel",
                    "image": "./img/icones_videos/Hihline_montagne_en_scene1.jpg",
                    "description" : "Quand mon flux aléatoire de musique m'a diffusé cette ensorcelante composition de Schubert dans mes oreilles, j'ai directement pensé à monter cette vidéo. </br></br> C'est dans le cadre du festival Montagne en Scène que j'ai pu monter sur les toits de l'amphithéâtre 3000 pour aller filmer l'association <a class='lien_int' href='https://ekilibrelyon.org/' target='_blank'>Ekilibre</a>. </br></br> Je n'ai pas utilisé mon drone pour cette prestation pour aller chercher des plans serrés sur les highliners.euses concentrés à se hisser debout sur leur ligne. </br></br> Bon visionnage !",
@@ -31,23 +31,23 @@ let data = {
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/Yotta_Aquatlhon_site.jpg",
                    "description" : "Cet Aqualthon est un nouveau concept qui découpe en 5 boucles 250 mètres de nage suivi de 4 km de course. </br></br> Les cut-off (temps max avant disqualification) sont réduits à chaque boucle ce qui rend la course de plus en plus intense. </br> Il a fallu donc courir très vite pour suivre les premiers sur la dernière boucle qui progresse à une vitesse moyenne de 25km/h !</br></br> Une super expérience d'aller lier nage et course dans un même tournage. </br></br> Un concept qui validé par cette course test qui va se dérouler en 2 fois plus grand sur la <a class='lien_int' href='https://yottaxp.com/' target='_blank'>Yotta Vichy</a>. ",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6","Ronin S"],
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/942282259" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["corporate","evenementiel","outdoor"]
                },
                 {
-                   "titre": "Highline Gratte-ciel - Ekilibre ",
+                   "titre": "Ski de randonnée - Parc National de la Vanoise",
                    "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Highline_Gratteciel.jpg",
-                   "description" : "À 60 mètres de hauteur et sur 40 mètres de long en pleine ville, il ne faut plus douter ! </br></br> Je ne sais pas si en bas les voitures klaxonnaient pour applaudir, ou bien pour demander aux voitures arrêtées au milieu de la route d’avancer. 📣 </br> Et les passants qui réalisaient le spectacle à chaque coin de rue de ce grand carrefour : « T’as vu en haut là ! </br> - Tu crois qu’ils sont assurés ? » </br></br> J’ai pris beaucoup de plaisir à filmer ces quelques images et à monter ce petit aftermovie. </br>Ayant prévu de couvrir uniquement au drone l'évènement, j'ai quand même sorti mon GH5 et son petit capteur, de nuit, d'où les images bruitées et parfois floues (ouverture à f/1.8 !). 📹 </br></br>Un immense bravo à l’équipe pour cette organisation hors norme.</br>Tout ce travail et toute cette énergie simplement par passion… </br></br>Merci <a class='lien_int' href='https://www.linkedin.com/in/yvan-pinard/' target='_blank'>Yvan Pinard</a> pour sa douceur et son investissement auprès de moi.</br>Merci à l’association <a class='lien_int' href='https://ekilibrelyon.org/' target='_blank'>Ekilibre Lyon</a> et tous leurs membres avenants à ce projet vidéo.</br>Merci à la <a class='lien_int' href='https://www.svu.fr/' target='_blank'>Société villeurbannaise d'urbanisme</a>, à la <a class='lien_int' href='https://www.villeurbanne.fr/' target='_blank'>Ville de Villeurbanne</a> et à Julie Rufenach de m’avoir permis de voler au-dessus de leurs bâtiments.</br></br>En tant que télépilote de drone, les portes s’ouvrent plus facilement pour ce genre de projet !",
-                   "materiel" : ["Drone DJI Air 2S", "Panasonic Lumix GH5", "Objectif sigma art 18-35 mm f/1.8", "Objectif sigma art 50-100 mm f/1.8"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1016959501" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "image": "./img/icones_videos/SkiderandoPNV.jpg",
+                   "description" : "Cet aftermovie n’était pas prévu.</br></br>Dans le Parc national de la Vanoise, 4 jours de ski de randonnée avec nuits en refuge. 🏔️</br></br>Une première.</br></br>Le drone étant interdit dans les parcs naturels, c’est au dernier moment que je décide de prendre mon fidèle compagnon d’armes : mon Panasonic GH5 et son 12-60mm aux tâches plus que visibles à f/22.</br>À mon retour, je me rends compte que j’ai une tripotée de rushes.</br></br>Grâce à ce projet perso, j’ai pu :</br>✅ M’initier au design sonore</br>✅ Comprendre que l’étalonnage et la colorimétrie dans la neige, c’est dur, surtout quand t’as tourné en Rec709 et en Full HD…</br></br>La prochaine fois, je prends l’A7SIII et je tourne en Log.</br></br>On notera aussi que le 4ème jour sans batterie m’a coûté.</br>Désormais, je ferai dormir mes batteries dans mon duvet en refuge d’hivers.</br></br>C’est passionnant le travail de l’image.</br>J’en apprends tous les jours et j’ai l’impression que c’est infini.</br></br>Hâte de mes prochains projet nature ! 🍃",
+                   "materiel" : ["Panasonic Lumix GH5","Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1079307920" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","outdoor","évènementiel","art"]
+                   "filtres" : ["outdoor","art","evenementiel","art"]
                },
                 {
-                   "titre": "Teaser - La petite Aiguebonne",
+                   "titre": "Teaser - La Petite Aiguebonne",
                    "sousTitre": "Publicité",
                    "image": "./img/icones_videos/Aiguebonne2.jpg",
                    "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes. </br></br> La vidéo est sur le site de <a class='lien_int' href='https://www.petite-aiguebonne.fr' target='_blank'>La Petite Aiguebonne</a>, allez voir !",
@@ -57,7 +57,7 @@ let data = {
                    "filtres" : ["corporate"]
                },
                 {
-                   "titre": "Les Foulées de Villeurbanne - Office du Sport de la ville",
+                   "titre": "Les Foulées de Villeurbanne - Office du Sport de Villeurbanne",
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/Foulees_villeurbanne.jpg",
                    "description" : "J’ai eu l’honneur de filmer et réaliser l’aftermovie d’un des plus gros évènements de courses de France organisé par <a class='lien_int' href='https://www.osvilleurbanne.com/' target='_blank'>l’Office du Sport Villeurbanne</a>. </br></br> La 33ème édition des Foulées propose des chronos où les coureurs se défient sur plusieurs formats :</br>- un 21,1 km </br> - un 10km </br> - un 5km </br></br>Mais aussi d’autres courses plus détentes pour les enfants, pour les personnes âgées, les personnes handicapées… 👩🏼‍🦼",
@@ -69,7 +69,7 @@ let data = {
                 {
                    "titre": "Teaser Été - l'Échaillon ",
                    "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/Teaser_ete1.jpg",
+                   "image": "./img/icones_videos/RandonneeLAC.jpg",
                    "description" : "Durant un bel été dans la vallée de Névache, on a tourné avec Lou Jacquet ce teaser estival pour mettre en valeur un séjour dans un chalet à Névache en été et les activités possibles à faire autour du chalet de <a class='lien_int' href='https://www.hotel-echaillon.com/fr/' target='_blank'>l'Échaillon</a>. </br></br> Une belle expérience enrichissante techniquement et humainement. Tournée à l'alpha 7III et au GH5, sur pied Manfrotto ou stabilité avec le Ronin S. Travail de la lumière avec des Amaran 200x et quelques mandarines. </br></br>Au plaisir d'avoir vos retours qui que vous soyez !",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8", "Objectif sigma art 50-100 mm f/1.8", "Ronin S", "Alpha 7 III", "Amaran 200X", "Mandarines"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/818303041" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
@@ -77,7 +77,7 @@ let data = {
                    "filtres" : ["corporate","outdoor"]
                },
                 {
-                   "titre": "Alpe du Grand Serre - Ski de randonnée",   
+                   "titre": "Drone - Ski de randonnée à l'Alpe du Grand Serre",   
                    "sousTitre": "Teaser",
                    "image": "./img/icones_videos/AlpeGrandSerresite.jpg",
                    "description" : "Avant que l’<a class='lien_int' href='https://www.matheysine-tourisme.com/fr/alpedugrandserre/' target='_blank'>Alpe du Grand Serre</a> ne ferme, <a class='lien_int' href='https://www.linkedin.com/in/clara-guyot/' target='_blank'>Clara Guyot</a> est allée nous montrer sa station d’enfance. </br>Une jolie petite station qui, je l’espère, continuera de vivre autrement. </br></br>Nous sommes montés sur la crête qui longe l’arrivée du télésiège Portes Sud. </br>Après avoir transpercé le brouillard, c’est une mer de nuage nous a accueillie. </br></br>Et ça fait vibrer comme à chaque fois. </br></br>Merci la montagne.",
@@ -87,7 +87,7 @@ let data = {
                    "filtres" : ["outdoor","art","corporate"]
                },
                 {
-                   "titre": "Drone - Visite dans les Alpes",
+                   "titre": "Drone - Visite dans le Beaufortain",
                    "sousTitre": "Clip vidéo",
                    "image": "./img/icones_videos/Drone_visite_alpes.jpg",
                    "description" : "Une belle sortie en drone dans mes montagnes adorées, les Alpes. </br> Quelques images dans le froid sec de ces douces vallées blanches.",
@@ -97,7 +97,7 @@ let data = {
                    "filtres" : ["outdoor","évènementiel"]
                },
                 {
-                   "titre": "Drone - Ski de randonnée",
+                   "titre": "Drone - Ski de randonnée à Gap",
                    "sousTitre": "Clip vidéo",
                    "image": "./img/icones_videos/Drone_skirandogap.jpg",
                    "description" : "Une magnifique sortie dans les Hautes-Alpes, proche de la station Les Orres. </br> Je progresse dans le pilotage du drone en montagne. </br> Et je profite de ce travail pour étudier les différentes manières de filmer des sujets en mouvements. </br></br> Un travail intéressant qui complète très bien mes prestations de vidéaste outdoor.",
@@ -107,15 +107,15 @@ let data = {
                    "filtres" : ["outdoor","évènementiel"]
                },
                 {
-                   "titre": "DAÏ DAÏ (Teaser officiel)",
-                   "sousTitre": "Teaser",
-                   "image": "./img/icones_videos/Violinpoursite.jpg",
-                   "description" : "Très chouette tournage où j'ai été cadreur pour la promotion du groupe ardéchois Daï Daï.</br> Une réalisation de <a class='lien_int' href='https://www.instagram.com/oppositeofreality__/' target='_blank'>Sergio Castro</a>.</br>Un moment musical doux et puissant animé par le violoniste <a class='lien_int' href='https://www.linkedin.com/in/julien-fougeirol-14a073254/' target='_blank'>Julien Fougeirol</a> et le guitariste-chanteur <a class='lien_int' href='https://nansaudouard.wixsite.com/nansaudouard' target='_blank'>Nans Audouard</a> qui ont fini par faire oublier aux invités-acteurs de la soirée que c’était une mise en scène.</br></br>Merci à Sergio d’avoir pensé à moi pour cadrer avec lui cette belle soirée.</br>Merci au bar L’âne sans queue pour leur accueil et leur bienveillance pendant notre tournage.</br></br>Une belle occasion pour moi pour tester mon nouveau A7SIII.",
-                   "materiel" : ["Sony Alpha 7S III", "Objectif Sony G Master FE 24-70 mm f/2,8","Panasonic Lumix GH5", "Objectif sigma art 18-35 mm f/1.8"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1060036592" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.instagram.com/oppositeofreality__/'>Sergio CASTRO ${icone}</a>`],
-                   "filtres" : ["evenementiel","art"]  
-                },
+                   "titre": "Teaser Randonnée au lac - l'Échaillon ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Teaser_ete1.jpg",
+                   "description" : "C'est un format plus destiné aux réseaux sociaux, quoique.</br></br>On tease en quelques images une belle randonnée à faire dans la vallée de Névache.</br></br>C'est aussi les formats qu'il est possible de réaliser avec facilité en tournant à la journée.",
+                   "materiel" : ["Panasonic Lumix GH5","Sony Alpha 7III", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8","Réflecteur"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/818362066" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
+                   "filtres" : ["corporate","outdoor"]
+               },
                 {
                    "titre": "Le Printemps de Pérouges (Festival)",
                    "sousTitre": "Aftermovie",
@@ -127,14 +127,14 @@ let data = {
                    "filtres" : ["evenementiel","corporate"]
                },
                 {
-                   "titre": "Spectacle - La Légende d'Andarta",
+                   "titre": "Highline Gratte-ciel - Ekilibre ",
                    "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Andartaoui.jpg",
-                   "description" : "Le domaine <a class='lien_int' href='https://www.valsoyo.com/' target='_blank'>Valsoyo</a> m'a demandé de leur faire un Aftermovie pour résumer et mettre en valeur un spectacle qui rassemble maintenant plus d'une centaines de comédiens et techniciens. Du théâtre, de la danse, de la pyrotechnie, des animaux et effets spéciaux de machinerie admirables.</br> Toujours un plaisir de travailler dans le milieu de la culture, avec un structure dans la vallée de la Drôme, mon lieu d'enfance.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/881622687" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "image": "./img/icones_videos/Highline_Gratteciel.jpg",
+                   "description" : "À 60 mètres de hauteur et sur 40 mètres de long en pleine ville, il ne faut plus douter ! </br></br> Je ne sais pas si en bas les voitures klaxonnaient pour applaudir, ou bien pour demander aux voitures arrêtées au milieu de la route d’avancer. 📣 </br> Et les passants qui réalisaient le spectacle à chaque coin de rue de ce grand carrefour : « T’as vu en haut là ! </br> - Tu crois qu’ils sont assurés ? » </br></br> J’ai pris beaucoup de plaisir à filmer ces quelques images et à monter ce petit aftermovie. </br>Ayant prévu de couvrir uniquement au drone l'évènement, j'ai quand même sorti mon GH5 et son petit capteur, de nuit, d'où les images bruitées et parfois floues (ouverture à f/1.8 !). 📹 </br></br>Un immense bravo à l’équipe pour cette organisation hors norme.</br>Tout ce travail et toute cette énergie simplement par passion… </br></br>Merci <a class='lien_int' href='https://www.linkedin.com/in/yvan-pinard/' target='_blank'>Yvan Pinard</a> pour sa douceur et son investissement auprès de moi.</br>Merci à l’association <a class='lien_int' href='https://ekilibrelyon.org/' target='_blank'>Ekilibre Lyon</a> et tous leurs membres avenants à ce projet vidéo.</br>Merci à la <a class='lien_int' href='https://www.svu.fr/' target='_blank'>Société villeurbannaise d'urbanisme</a>, à la <a class='lien_int' href='https://www.villeurbanne.fr/' target='_blank'>Ville de Villeurbanne</a> et à Julie Rufenach de m’avoir permis de voler au-dessus de leurs bâtiments.</br></br>En tant que télépilote de drone, les portes s’ouvrent plus facilement pour ce genre de projet !",
+                   "materiel" : ["Drone DJI Air 2S", "Panasonic Lumix GH5", "Objectif sigma art 18-35 mm f/1.8", "Objectif sigma art 50-100 mm f/1.8"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1016959501" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["evenementiel","art"]
+                   "filtres" : ["corporate","outdoor","évènementiel","art"]
                },
                 {
                    "titre": "Danse - L'avers et le revers", 
@@ -187,16 +187,6 @@ let data = {
                    "filtres" : ["corporate"]      
                },
                 {
-                   "titre": "Teaser Randonnée au lac - l'Échaillon ",
-                   "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/RandonneeLAC.jpg",
-                   "description" : "C'est un format plus destiné aux réseaux sociaux, quoique.</br></br>On tease en quelques images une belle randonnée à faire dans la vallée de Névache.</br></br>C'est aussi les formats qu'il est possible de réaliser avec facilité en tournant à la journée.",
-                   "materiel" : ["Panasonic Lumix GH5","Sony Alpha 7III", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8","Réflecteur"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/818362066" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor"]
-               },
-                {
                    "titre": "Teaser Escalade - l'Échaillon ",
                    "sousTitre": "Publicité",
                    "image": "./img/icones_videos/Echaillon_escalade.jpg",
@@ -206,6 +196,16 @@ let data = {
                    "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
                    "filtres" : ["corporate","outdoor"]
                },
+                {
+                   "titre": "DAÏ DAÏ (Teaser officiel)",
+                   "sousTitre": "Teaser",
+                   "image": "./img/icones_videos/Violinpoursite.jpg",
+                   "description" : "Très chouette tournage où j'ai été cadreur pour la promotion du groupe ardéchois Daï Daï.</br> Une réalisation de <a class='lien_int' href='https://www.instagram.com/oppositeofreality__/' target='_blank'>Sergio Castro</a>.</br>Un moment musical doux et puissant animé par le violoniste <a class='lien_int' href='https://www.linkedin.com/in/julien-fougeirol-14a073254/' target='_blank'>Julien Fougeirol</a> et le guitariste-chanteur <a class='lien_int' href='https://nansaudouard.wixsite.com/nansaudouard' target='_blank'>Nans Audouard</a> qui ont fini par faire oublier aux invités-acteurs de la soirée que c’était une mise en scène.</br></br>Merci à Sergio d’avoir pensé à moi pour cadrer avec lui cette belle soirée.</br>Merci au bar L’âne sans queue pour leur accueil et leur bienveillance pendant notre tournage.</br></br>Une belle occasion pour moi pour tester mon nouveau A7SIII.",
+                   "materiel" : ["Sony Alpha 7S III", "Objectif Sony G Master FE 24-70 mm f/2,8","Panasonic Lumix GH5", "Objectif sigma art 18-35 mm f/1.8"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1060036592" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.instagram.com/oppositeofreality__/'>Sergio CASTRO ${icone}</a>`],
+                   "filtres" : ["evenementiel","art"]  
+                },
                 {
                    "titre": "Contest Mroc - Escalade en bloc",
                    "sousTitre": "Aftermovie",
@@ -285,15 +285,6 @@ let data = {
                    "equipe" : [],
                    "filtres" : ["art"]
                },
-    //            {
-    //               "titre": "Apocalypse Snow",
-     //              "sousTitre": "Bande annonce",
-       //            "image": "./img/icones_videos/apocalypse_snow.jpg",
-         //          "description" : "Apocalypse Snow est une bande annonce d'un ''western dans la neige''. Le froid canadien a probablement été la plus grosse difficulté pendant le tournage (-30° au quotidien), mais le plaisir de s’aventurer en équipe réduite sur un immense lac gelé, dans une forêt fraîchement recouverte de quelques mètres de neige, de faire un feu sur la neige de nuit et finalement de côtoyer la flore unique des paysages nordique de cet immense pays ont marqué au fer rouge des souvenirs de tournages fantastiques… <br/>Le montage qui vous est présenté ci-dessus est une première version trop longue de la bande annonce. L’objectif serait d’obtenir une format de moins de 2 min, plus rythmé. Le projet est à retravailler en terme de design sonore et de montage mais les images sont là. J’ai eu la chance de cadrer les 90% du projet à mains nues avec la merveilleuse Canon C200 !",
-      //             "materiel" : ["Camescope Sony PXW-FS7", "Objectif Rokinon 35mm T1.5", "Objectif Rokinon 85mm T1.5", "Éclairage LED Aputure C120D II", "Éclairage LED Amaran", "Trépied Manfrotto Combi-boom 420B", "Aputure Light Dome 2", "Ecran SmallHD", "Microphone omnidirectionnel Sennheiser ME62-K6", "Enregistreur audio Zoom H6"],
-     //              "lien_video" : `<iframe src="https://player.vimeo.com/video/471898287" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-     //              "equipe" : [`<a ${class_target} href='https://kronosvevo.wixsite.com/website/videos'>Titouan POUDENS ${icone}</a>`, `<a ${class_target} href='https://www.nathanael-rovere.fr/index.html'>Nathanaël ROVERE ${icone}</a>`, `<a ${class_target} href='http://julianbruxelle.fr/about'>Julian BRUXELLE ${icone}</a>`]
-     //          },
                 {
                    "titre": "Apocalypse Snow",
                    "sousTitre": "Bande annonce",
@@ -361,6 +352,16 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/668914517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["corporate","outdoor"]
+               },
+                {
+                   "titre": "Spectacle - La Légende d'Andarta",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Andartaoui.jpg",
+                   "description" : "Le domaine <a class='lien_int' href='https://www.valsoyo.com/' target='_blank'>Valsoyo</a> m'a demandé de leur faire un Aftermovie pour résumer et mettre en valeur un spectacle qui rassemble maintenant plus d'une centaines de comédiens et techniciens. Du théâtre, de la danse, de la pyrotechnie, des animaux et effets spéciaux de machinerie admirables.</br> Toujours un plaisir de travailler dans le milieu de la culture, avec un structure dans la vallée de la Drôme, mon lieu d'enfance.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/881622687" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["evenementiel","art"]
                },
                 {
                    "titre": "Interview Paco Bonnet",
