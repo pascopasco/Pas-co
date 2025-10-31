@@ -37,7 +37,7 @@ let data = {
                    "filtres" : ["corporate","evenementiel","outdoor"]
                },
                 {
-                   "titre": "Ski de randonnée - Parc National de la Vanoise",
+                   "titre": "Ski de randonnée </br>Parc National de la Vanoise",
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/SkiderandoPNV.jpg",
                    "description" : "Cet aftermovie n’était pas prévu.</br></br>Dans le Parc national de la Vanoise, 4 jours de ski de randonnée avec nuits en refuge. 🏔️</br></br>Une première.</br></br>Le drone étant interdit dans les parcs naturels, c’est au dernier moment que je décide de prendre mon fidèle compagnon d’armes : mon Panasonic GH5 et son 12-60mm aux tâches plus que visibles à f/22.</br>À mon retour, je me rends compte que j’ai une tripotée de rushes.</br></br>Grâce à ce projet perso, j’ai pu :</br>✅ M’initier au design sonore</br>✅ Comprendre que l’étalonnage et la colorimétrie dans la neige, c’est dur, surtout quand t’as tourné en Rec709 et en Full HD…</br></br>La prochaine fois, je prends l’A7SIII et je tourne en Log.</br></br>On notera aussi que le 4ème jour sans batterie m’a coûté.</br>Désormais, je ferai dormir mes batteries dans mon duvet en refuge d’hivers.</br></br>C’est passionnant le travail de l’image.</br>J’en apprends tous les jours et j’ai l’impression que c’est infini.</br></br>Hâte de mes prochains projet nature ! 🍃",
@@ -47,15 +47,16 @@ let data = {
                    "filtres" : ["outdoor","art","evenementiel","art"]
                },
                 {
-                   "titre": "Teaser - La Petite Aiguebonne",
-                   "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/Aiguebonne2.jpg",
-                   "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes. </br></br> La vidéo est sur le site de <a class='lien_int' href='https://www.petite-aiguebonne.fr' target='_blank'>La Petite Aiguebonne</a>, allez voir !",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "titre": "Teaser - La Coupe Icare 2025</br> (Non officiel)",
+                   "sousTitre": "Teaser",
+                   "image": "./img/icones_videos/CoupeIcare2025_3.jpg",
+                   "description" : "J’étais parti pour faire quelques photos et la vidéo m’a rattrapé.</br>Je me suis dit « un ou deux plans et on profite avec les yeux ».</br>Mais je me suis menti une deuxième fois.</br></br>Alors j’ai monté ces quelques images prises à la volée.</br></br>Un évènement grandiose qui valorise l’Isère.</br>Et en particulier la chartreuse qui fait partie des massifs de mon enfance dans lesquels je serai ravi de travailler en tant que vidéaste.</br>C’est un teaser qui met le projecteur sur quelques moments la 52ème édition du festival de la Coupe Icare.Au plaisir de faire partie de l’équipe vidéo qui réalise celui de l’édition 2026 !</br></br>C’est passionnant le travail de l’image.</br>J’en apprends tous les jours et j’ai l’impression que c’est infini.</br></br>Hâte de mes prochains projet nature ! 🍃",
+                   "materiel" : ["Panasonic Lumix GH5","Objectif sigma art 50-100 mm f/1.8"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1123806092" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate"]
+                   "filtres" : ["outdoor","art","evenementiel"]
                },
+                
                 {
                    "titre": "Les Foulées de Villeurbanne - Office du Sport de Villeurbanne",
                    "sousTitre": "Aftermovie",
@@ -107,26 +108,6 @@ let data = {
                    "filtres" : ["outdoor","évènementiel"]
                },
                 {
-                   "titre": "Teaser Randonnée au lac - l'Échaillon ",
-                   "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/Teaser_ete1.jpg",
-                   "description" : "C'est un format plus destiné aux réseaux sociaux, quoique.</br></br>On tease en quelques images une belle randonnée à faire dans la vallée de Névache.</br></br>C'est aussi les formats qu'il est possible de réaliser avec facilité en tournant à la journée.",
-                   "materiel" : ["Panasonic Lumix GH5","Sony Alpha 7III", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8","Réflecteur"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/818362066" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor"]
-               },
-                {
-                   "titre": "Le Printemps de Pérouges (Festival)",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/PrintempsdePerougesSite1.jpg",
-                   "description" : "Connaissant un peu le milieu du festival j’ai beaucoup aimé être le vidéaste de cet grand évènement. Ça m’a aidé à savoir quand et où aller pour attraper des images.</br></br>Je prends un plaisir à filmer ce que j’aime vivre.</br>Et j’adore découvrir ce que je ne connais pas. </br>C’est pour ça que le domaine du journalisme serait une très bonne alternative à mon métier de vidéaste.</br>Et que le reportage et le documentaire m’intéressent beaucoup.</br></br>En tout cas, ça me rend heureux de travailler au service de ce qui me semble très important dans notre société : la culture.</br>J’ouvrirai toujours mes portes à l’événementiel en tant que vidéaste.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6","Ronin S","DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1002631726" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["evenementiel","corporate"]
-               },
-                {
                    "titre": "Highline Gratte-ciel - Ekilibre ",
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/Highline_Gratteciel.jpg",
@@ -150,7 +131,7 @@ let data = {
                    "titre": "Quelques battements d'ailes",
                    "sousTitre": "Projet Esthétique",
                    "image": "./img/icones_videos/Quelques_battements_daile.jpg",
-                   "description" : "Entres les herbes, le long d'un cerisier tout blanc, sillonnant au travers d'un envoûtante glycine, le vent caresse les fleurs fraîchement sorties de leurs cocons. Les insectes viennent alors participer au maintient en vie des plantes.</br></br>Mon objectif premier était d'arriver à filmer un papillon de dos en plein vol. Un défi qui s'est révélé à ce jour trop compliqué. Ça m'a permis d'apprendre le mot erratique - la manière dont mon père défini le vol du papillon - et de capturer ces douces images. Filmé à la main, en exploitant la performance du ralenti de Panasonic, cette vidéo est un moment apaisant au milieu de la vie aérienne des petites créature qui volent autour des fleurs.",
+                   "description" : "Entres les herbes, le long d'un cerisier tout blanc, sillonnant au travers d'un envoûtante glycine, le vent caresse les fleurs fraîchement sorties de leurs cocons. Les insectes viennent alors participer au maintient en vie des plantes.</br></br>Mon objectif premier était d'arriver à filmer un papillon de dos en plein vol. Un défi qui s'est révélé à ce jour trop compliqué. Ça m'a permis d'apprendre le mot erratique - la manière dont mon père défini le vol du papillon - et de capturer ces douces images. Filmée à la main et en exploitant la performance du ralenti de mon GH5, cette vidéo est un moment apaisant au milieu de la vie aérienne des petites créatures qui volent autour des fleurs.",
                    "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/484622343" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
@@ -175,6 +156,46 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/1015142055" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["corporate"]
+               },
+                {
+                   "titre": "Drone - Les vélos de Montmeyran",
+                   "sousTitre": "Teaser",
+                   "image": "./img/icones_videos/LesvelosdeMontmeyran.jpg",
+                   "description" : "🚲 [Le Vélo] 🚲</br></br>Filmer les vélos.</br>Un vrai plaisir.</br></br>Déjà parce que c’est un bel outil.</br></br>Mais surtout parce qu’il doit être valorisé.</br>Sensibiliser les gens à son utilité.</br></br>Le vélo est un moyen de transport du futur.</br></br>Doux.</br>Puissant.</br>Réparable.</br>Solide.</br></br>Un moyen de transport qui fait du bien au corps (vive le sport). 🤸🏼</br></br>Et qu’il faudrait selon moi valoriser de partout, tout le temps.</br></br>À l’image, c’est un travail que j’aimerais plus faire. 🚲",
+                   "materiel" : ["DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1132465118" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","art"]
+               },
+                {
+                   "titre": "Teaser - La Petite Aiguebonne",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Aiguebonne2.jpg",
+                   "description" : "Une maison d'hôte dans la belle vallée de la Drôme a voulu promouvoir son lieu de vie pour accueillir ses clients. Voici la présentation du lieu. </br> Un format qui se prête particulièrement à la mise en valeurs d'espaces. Destiné au structures qui veulent mettre en avant des lieux. Par exemple pour un organisme qui ouvre ses portes. </br></br> La vidéo est sur le site de <a class='lien_int' href='https://www.petite-aiguebonne.fr' target='_blank'>La Petite Aiguebonne</a>, allez voir !",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Ronin S","Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/849485813" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate"]
+               },
+                {
+                   "titre": "Teaser Randonnée au lac - l'Échaillon ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Teaser_ete1.jpg",
+                   "description" : "C'est un format plus destiné aux réseaux sociaux, quoique.</br></br>On tease en quelques images une belle randonnée à faire dans la vallée de Névache.</br></br>C'est aussi les formats qu'il est possible de réaliser avec facilité en tournant à la journée.",
+                   "materiel" : ["Panasonic Lumix GH5","Sony Alpha 7III", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8","Réflecteur"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/818362066" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.jacquetlourealisation.com/films'>Lou JACQUET ${icone}</a>`],
+                   "filtres" : ["corporate","outdoor"]
+               },
+                {
+                   "titre": "Le Printemps de Pérouges (Festival)",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/PrintempsdePerougesSite1.jpg",
+                   "description" : "Connaissant un peu le milieu du festival j’ai beaucoup aimé être le vidéaste de cet grand évènement. Ça m’a aidé à savoir quand et où aller pour attraper des images.</br></br>Je prends un plaisir à filmer ce que j’aime vivre.</br>Et j’adore découvrir ce que je ne connais pas. </br>C’est pour ça que le domaine du journalisme serait une très bonne alternative à mon métier de vidéaste.</br>Et que le reportage et le documentaire m’intéressent beaucoup.</br></br>En tout cas, ça me rend heureux de travailler au service de ce qui me semble très important dans notre société : la culture.</br>J’ouvrirai toujours mes portes à l’événementiel en tant que vidéaste.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6","Ronin S","DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1002631726" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["evenementiel","corporate"]
                },
                 {
                    "titre": "Reportage - ASTEC (Ascenseurs Techniques)", 
