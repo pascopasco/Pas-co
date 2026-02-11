@@ -17,16 +17,6 @@ let data = {
                    "filtres" : ["outdoor","art"]
                },
                 {
-                   "titre": "Teaser Hiver - l'Échaillon ",
-                   "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/Teaser_hiver.jpg",
-                   "description" : "Plongé dans l'univers de l'hiver Névachais, bienvenue à <a class='lien_int' href='https://www.hotel-echaillon.com/fr/' target='_blank'>l'Échaillon</a> pour venir découvrir les ballades en ski de fond dans la vallée, les marches en raquettes pour accéder à des espaces purs et silencieux qu'offre la nature ainsi que le ski de randonnées pour aller chercher la hauteur et une belle descente au milieu du massif des Alpes du Sud, grandiose !</br></br>Vous pourrez vous offrir des doux moments de détentes en terrasse et une petite fondue pour un peu de réconfort après l'effort...Tourné en Janvier 2023 au GH5 et à l'alpha 7III, stabilisé au Ronin S et survolé au drone DJI Air 2S. Amaran 200x pour éclairer.",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8", "Objectif sigma art 50-100 mm f/1.8", "Ronin S", "DJI Air 2S", "Alpha 7III", "Amaran 200x"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/932424618" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [`<a ${class_target} href='https://www.instagram.com/emilienlacaze/'>Émilien LACAZE ${icone}</a>`],
-                   "filtres" : ["corporate","outdoor"]
-               },
-                {
                    "titre": "Aquathlon Villeurbanne - Yotta Sports",
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/Yotta_Aquatlhon_site.jpg",
@@ -37,14 +27,54 @@ let data = {
                    "filtres" : ["corporate","evenementiel","outdoor"]
                },
                 {
-                   "titre": "Ski de randonnée </br>Parc National de la Vanoise",
+                   "titre": "Teaser Horizom - La culture du Bambou ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Horizomteaser1.jpg",
+                   "description" : "6 jours de tournages éparpillés sur  1 an.</br></br>Tournage adaptés à la météo changeante, aux conditions de plantation des agriculteurs.</br> Une vidéo qui met en lumière un travail de la terre, valorisé sous forme de biomasse.</br>Un projet utile.</br>Rempli de sens dans les valeurs qu’il véhicule.</br>Et rempli de défis techniques.</br> Et le tout accompagné de l'équipe en or d'<a class='lien_int' href='https://www.horizom.com/' target='_blank'>Horizom, Le bambou au service de la transition</a> 🌱.</br></br>Un projet comme j’en veux plein.",
+                   "materiel" : ["Sony A7SIII", "Objectif Sony FE 24-70 mm F2.8 GM", "Objectif Sony FE 16-35 mm F2.8 GM", "Objectif Sony FE 70-200 mm F2.8 GM", "Ronin S", "DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1160136232" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate","art"]
+               },
+                {
+                   "titre": "Teaser Été - Gîtes de France (Ardèche) ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/GDFmodif1.jpg",
+                   "description" : "Un tournage sportif sous les 35° moyens de l'ardèche estivale !</br> Le cahier des charges : valoriser les activités sportives de l'Ardèche.</br></br> Je ne peux que vous recommander la sympathie, l’attention et la bienveillance de l’équipe de gîtes de France qui vous recevra en Ardèche.</br> (Ce post n’est pas sponsorisé, c’est sincère !) </br>En plus je suis plutôt drômois.</br>Pour moi, les deux départements sont assez incroyables.</br></br>Merci beaucoup pour ta confiance et ton énergie Julie Pelegrini.</br>Merci de fond du cœur à Amandine Astier pour m’avoir accueilli si chaleureusement et m’avoir aidé tout au long du projet.</br>Ça a été un vrai plaisir de travailler dans ces conditions, aussi sportives, brulantes et intense euent-t-elles été.</br>Merci à toutes les personnes de @gite de France Ardeche que j’ai croisé et qui m’ont donné une bonne énergie sur ce projet.</br></br>Deux autres teasers à venir…",
+                   "materiel" : ["Sony A7SIII", "Objectif Sony FE 24-70 mm F2.8 GM", "Objectif Sony FE 16-35 mm F2.8 GM", "Objectif Sony FE 70-200 mm F2.8 GM", "Ronin S", "DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1156424690" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate","outdoor"]
+               },
+                {
+                   "titre": "Ski de randonnée </br>Parc National de la Vanoise", 
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/SkiderandoPNV.jpg",
-                   "description" : "Cet aftermovie n’était pas prévu.</br></br>Dans le Parc national de la Vanoise, 4 jours de ski de randonnée avec nuits en refuge. 🏔️</br></br>Une première.</br></br>Le drone étant interdit dans les parcs naturels, c’est au dernier moment que je décide de prendre mon fidèle compagnon d’armes : mon Panasonic GH5 et son 12-60mm aux tâches plus que visibles à f/22.</br>À mon retour, je me rends compte que j’ai une tripotée de rushes.</br></br>Grâce à ce projet perso, j’ai pu :</br>✅ M’initier au design sonore</br>✅ Comprendre que l’étalonnage et la colorimétrie dans la neige, c’est dur, surtout quand t’as tourné en Rec709 et en Full HD…</br></br>La prochaine fois, je prends l’A7SIII et je tourne en Log.</br></br>On notera aussi que le 4ème jour sans batterie m’a coûté.</br>Désormais, je ferai dormir mes batteries dans mon duvet en refuge d’hivers.</br></br>C’est passionnant le travail de l’image.</br>J’en apprends tous les jours et j’ai l’impression que c’est infini.</br></br>Hâte de mes prochains projet nature ! 🍃",
+                   "description" : "Cet aftermovie n’était pas prévu.</br></br>Dans le <a class='lien_int' href='https://www.vanoise-parcnational.fr/fr' target='_blank'>parc national de la Vanoise</a>, 4 jours de ski de randonnée avec nuits en refuge. 🏔️</br></br>Une première.</br></br>Le drone étant interdit dans les parcs naturels, c’est au dernier moment que je décide de prendre mon fidèle compagnon d’armes : mon Panasonic GH5 et son 12-60mm aux tâches plus que visibles à f/22.</br>À mon retour, je me rends compte que j’ai une tripotée de rushes.</br></br>Grâce à ce projet perso, j’ai pu :</br>✅ M’initier au design sonore</br>✅ Comprendre que l’étalonnage et la colorimétrie dans la neige, c’est dur, surtout quand t’as tourné en Rec709 et en Full HD…</br></br>La prochaine fois, je prends l’A7SIII et je tourne en LOG.</br></br>On notera aussi que le 4ème jour sans batterie m’a coûté.</br>Désormais, je ferai dormir mes batteries dans mon duvet en refuge d’hivers.</br></br>C’est passionnant le travail de l’image.</br>J’en apprends tous les jours et j’ai l’impression que c’est infini.</br></br>Hâte de mes prochains projet nature ! 🍃",
                    "materiel" : ["Panasonic Lumix GH5","Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/1079307920" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["outdoor","art","evenementiel","art"]
+                   "filtres" : ["outdoor","art","evenementiel"]
+               },
+                {
+                   "titre": "Reportage Horizom - La culture du Bambou",
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/ReportageHorizom1.jpg",
+                   "description" : "J'ai eu la chance de réaliser un reportage pour <a class='lien_int' href='https://www.horizom.com/' target='_blank'>Horizom, Le bambou au service de la transition</a> 🌱</br></br>Travailler en me sentant utile et pour des valeurs éthiques qui me sont chères, ça fait du bien !</br>En plus des conditions de travail agréables, le reportage m'a beaucoup appris. 👨‍🌾</br></br>Un immense merci au travail de <a class='lien_int' href='https://www.linkedin.com/in/caroline-hamel-baulain-267996a5/' target='_blank'>Caroline Hamel Baulain</a>.</br></br>À <a class='lien_int' href='https://docpixels.com/' target='_blank'>Julien André</a> pour son aide à l'image et à toute l'équipe sur la plantation qui m'a très bien reçue.</br></br>Entre les centaines d'hectares qui poussent vite et sur plusieurs régions en France, la grande pépinière, et les tous les projets à venir, il y en a des choses à montrer.</br></br>Des nouvelles images qui profiteront du soleil cette fois ! ☀️",
+                   "materiel" : ["Sony A7SIII", "Objectif Sony FE 24-70 mm F2.8 GM", "Objectif Sony FE 16-35 mm F2.8 GM", "Objectif Sony FE 70-200 mm F2.8 GM", "Ronin S", "DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1160124278" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate"]
+                },
+                {
+                   "titre": "Drone - Nuages et falaises à la Féclaz (Chambéry)",   
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/DroneFeclaz.jpg",
+                   "description" : "Petit passage de fin de journée à la station de la <a class='lien_int' href='https://www.chamberymontagnes.com/offres/office-de-tourisme-savoie-grand-revard-la-feclaz-la-feclaz-fr-5951451/' target='_blank'>Féclaz</a>.</br></br>Dans le <a class='lien_int' href='https://parcdesbauges.com/' target='_blank'>Parc naturel régional du Massif des Bauges</a>, dominant la mer de nuages.</br></br>L'occasion de faire de repérages pour des potentielles vidéos à réaliser pour le <a class='lien_int' href='https://www.linkedin.com/company/club-des-sports-de-la-feclaz-les-deserts/' target='_blank'>Club des sports La FECLAZ Nordique</a> ou le <a class='lien_int' href='https://www.linkedin.com/company/clubdessportslafeclaz-alpin/' target='_blank'>Club des sports la Féclaz section alpin</a>.",
+                   "materiel" : ["Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1159608337" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","art"]
                },
                 {
                    "titre": "Teaser - La Coupe Icare 2025</br> (Non officiel)",
@@ -56,7 +86,16 @@ let data = {
                    "equipe" : [],
                    "filtres" : ["outdoor","art","evenementiel"]
                },
-                
+                {
+                   "titre": "Danse - L'avers et le revers", 
+                   "sousTitre": "Teaser",
+                   "image": "./img/icones_videos/aversetlerevers3.jpg",
+                   "description" : "Quel plaisir de retrouver la danse comme pratique sportive et artistique à filmer. </br>C’était à l’occasion de la sortie de résidence du collectif NAAGRE, fusion de 2 danseurs et de 3 musiciens en live sur scène. </br>Tant les mouvements secondaires – mouvements indépendants de la caméra (danseurs), que les mouvements primaires - ceux de la caméra directement, sont passionnant à travailler. </br>Et mêler les deux permet de créer des images uniques. </br>Quel plaisir de côtoyer des artistes qui ne parlent qu’avec leurs corps. </br>Qui ne font qu’un avec les notes des saxophones et des mélodies électroniques du synthétiseur. </br>Quel art de s’exprimer à travers des gestes qui traduisent une émotion, une poésie et qui est presque en chacun de nous. </br></br> Tout le monde bouge.</br>Tout le monde danse.</br></br>Merci au collectif Naagre de m’avoir confié le teaser comme support de l’avenir de ce spectacle.</br>J’adore la danse et la filmer !</br></br> Musiciens : <a ${class_target} href='https://www.linkedin.com/in/jean-michel-pirollet-5509461a/?originalSubdomain=fr'>Jean-Michel Pirollet</a>, <a ${class_target} href='https://www.patricefoudon.com/'>Patrice FOUDON</a>, et Patrick Chastel.</br> Danseurs : <a ${class_target} href='https://mandinguesassocies.wordpress.com/karim-konate/'>Karim Konaté</a> et <a ${class_target} href='https://florinedebord.wixsite.com/website'>Florine Debord</a>.</br> Technicien lumière : Corentin Bernadi.</br> Chorégraphe : <a ${class_target} href='https://www.linkedin.com/in/st%C3%A9phanie-brun-viton-562a09a8/'>Stéphanie BRUN-VITON</a>.</br>Communication : <a ${class_target} href='https://www.azelar.coop/entrepreneur/edy-anita-cisse/'>Edy-Anita Cisse</a>.",
+                   "materiel" : ["Panasonic Lumix GH5","Objectif Sigma Art 18-35 mm F/1.8 DC HSM", "Objectif Sigma Art 50-100 mm F/1.8 DC HSM", "Ronin S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1010119472" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["art","évènementiel"]
+               },
                 {
                    "titre": "Les Foulées de Villeurbanne - Office du Sport de Villeurbanne",
                    "sousTitre": "Aftermovie",
@@ -78,14 +117,14 @@ let data = {
                    "filtres" : ["corporate","outdoor"]
                },
                 {
-                   "titre": "Drone - Ski de randonnée à l'Alpe du Grand Serre",   
-                   "sousTitre": "Teaser",
-                   "image": "./img/icones_videos/AlpeGrandSerresite.jpg",
-                   "description" : "Avant que l’<a class='lien_int' href='https://www.matheysine-tourisme.com/fr/alpedugrandserre/' target='_blank'>Alpe du Grand Serre</a> ne ferme, <a class='lien_int' href='https://www.linkedin.com/in/clara-guyot/' target='_blank'>Clara Guyot</a> est allée nous montrer sa station d’enfance. </br>Une jolie petite station qui, je l’espère, continuera de vivre autrement. </br></br>Nous sommes montés sur la crête qui longe l’arrivée du télésiège Portes Sud. </br>Après avoir transpercé le brouillard, c’est une mer de nuage nous a accueillie. </br></br>Et ça fait vibrer comme à chaque fois. </br></br>Merci la montagne.",
+                   "titre": "Drone - Mont Granier (Chambéry)",   
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/DroneGranier.jpg",
+                   "description" : "Minas Tirith. 🏰</br>Ce sera son petit nom.</br></br>Alias le Mont Granier. ⛰️</br>Alias le lien montagnard entre ma ville natale Grenoble et Chambéry.</br></br>Un superbe massif au bout du <a class='lien_int' href='https://www.parc-chartreuse.net/' target='_blank'>Parc naturel régional de la Chartreuse</a>, surplombant la vallée et faisant face à la fameuse <a class='lien_int' href='https://www.altituderando.com/Croix-du-Nivolet'_blank'>Croix du Nivolet</a>.</br></br>Malheureusement en mauvaise santé.</br>Ce gros morceau de pierre menace de s’effondrer. 💥</br></br>Alors je suis allé l’immortaliser en images. 📹</br></br>Merci à Tim Dup pour cette magnifique reprise.",
                    "materiel" : ["Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1063220672" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1136842130" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["outdoor","art","corporate"]
+                   "filtres" : ["outdoor","art"]
                },
                 {
                    "titre": "Drone - Visite dans le Beaufortain",
@@ -108,6 +147,16 @@ let data = {
                    "filtres" : ["outdoor","évènementiel"]
                },
                 {
+                   "titre": "Teaser Hiver - l'Échaillon ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/Teaser_hiver.jpg",
+                   "description" : "Plongé dans l'univers de l'hiver Névachais, bienvenue à <a class='lien_int' href='https://www.hotel-echaillon.com/fr/' target='_blank'>l'Échaillon</a> pour venir découvrir les ballades en ski de fond dans la vallée, les marches en raquettes pour accéder à des espaces purs et silencieux qu'offre la nature ainsi que le ski de randonnées pour aller chercher la hauteur et une belle descente au milieu du massif des Alpes du Sud, grandiose !</br></br>Vous pourrez vous offrir des doux moments de détentes en terrasse et une petite fondue pour un peu de réconfort après l'effort...Tourné en Janvier 2023 au GH5 et à l'alpha 7III, stabilisé au Ronin S et survolé au drone DJI Air 2S. Amaran 200x pour éclairer.",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Objectif sigma art 18-35 mm f/1.8", "Objectif sigma art 50-100 mm f/1.8", "Ronin S", "DJI Air 2S", "Alpha 7III", "Amaran 200x"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/932424618" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [`<a ${class_target} href='https://www.instagram.com/emilienlacaze/'>Émilien LACAZE ${icone}</a>`],
+                   "filtres" : ["corporate","outdoor"]
+               },
+                {
                    "titre": "Highline Gratte-ciel - Ekilibre ",
                    "sousTitre": "Aftermovie",
                    "image": "./img/icones_videos/Highline_Gratteciel.jpg",
@@ -118,15 +167,15 @@ let data = {
                    "filtres" : ["corporate","outdoor","évènementiel","art"]
                },
                 {
-                   "titre": "Danse - L'avers et le revers", 
-                   "sousTitre": "Teaser",
-                   "image": "./img/icones_videos/aversetlerevers3.jpg",
-                   "description" : "Quel plaisir de retrouver la danse comme pratique sportive et artistique à filmer. </br>C’était à l’occasion de la sortie de résidence du collectif NAAGRE, fusion de 2 danseurs et de 3 musiciens en live sur scène. </br>Tant les mouvements secondaires – mouvements indépendants de la caméra (danseurs), que les mouvements primaires - ceux de la caméra directement, sont passionnant à travailler. </br>Et mêler les deux permet de créer des images uniques. </br>Quel plaisir de côtoyer des artistes qui ne parlent qu’avec leurs corps. </br>Qui ne font qu’un avec les notes des saxophones et des mélodies électroniques du synthétiseur. </br>Quel art de s’exprimer à travers des gestes qui traduisent une émotion, une poésie et qui est presque en chacun de nous. </br></br> Tout le monde bouge.</br>Tout le monde danse.</br></br>Merci au collectif Naagre de m’avoir confié le teaser comme support de l’avenir de ce spectacle.</br>J’adore la danse et la filmer !</br></br> Musiciens : <a ${class_target} href='https://www.linkedin.com/in/jean-michel-pirollet-5509461a/?originalSubdomain=fr'>Jean-Michel Pirollet</a>, <a ${class_target} href='https://www.patricefoudon.com/'>Patrice FOUDON</a>, et Patrick Chastel.</br> Danseurs : <a ${class_target} href='https://mandinguesassocies.wordpress.com/karim-konate/'>Karim Konaté</a> et <a ${class_target} href='https://florinedebord.wixsite.com/website'>Florine Debord</a>.</br> Technicien lumière : Corentin Bernadi.</br> Chorégraphe : <a ${class_target} href='https://www.linkedin.com/in/st%C3%A9phanie-brun-viton-562a09a8/'>Stéphanie BRUN-VITON</a>.</br>Communication : <a ${class_target} href='https://www.azelar.coop/entrepreneur/edy-anita-cisse/'>Edy-Anita Cisse</a>.",
-                   "materiel" : ["Panasonic Lumix GH5","Objectif Sigma Art 18-35 mm F/1.8 DC HSM", "Objectif Sigma Art 50-100 mm F/1.8 DC HSM", "Ronin S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1010119472" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "titre": "Teaser GMH - Formation RET",
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/TeaserGMH3.jpg",
+                   "description" : "Un chouette projet de teaser réalisé pour <a class='lien_int' href='https://gmh-formations.com/' target='_blank'>GMH Formation</a>.</br>Une petite structure humaine à Annecy pour se former à l’Hôtellerie et la restauration.</br>Des professionnels aguerris à l’écoute et très investis.</br>Merci aux interviewées pour votre dévouement Celia Millot, Elisa Mercier Gallier, Elise Millet, et à toute l’équipe en formation très accueillante.</br>Merci Maeva pajot pour ton investissement et ta bienveillance.</br>Merci Jennyfer Marand pour ta confiance en moi sur ce beau projet.</br>Et merci Didier Sionneau pour ta profonde gentillesse.",
+                   "materiel" : ["Sony A7SIII", "Objectif Sony FE 24-70 mm F2.8 GM", "Objectif Sony FE 16-35 mm F2.8 GM", "Objectif Sony FE 70-200 mm F2.8 GM", "Ronin S", "DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1162109389" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["art","évènementiel"]
-               },
+                   "filtres" : ["corporate"]
+                },
                 {
                    "titre": "Quelques battements d'ailes",
                    "sousTitre": "Projet Esthétique",
@@ -137,16 +186,6 @@ let data = {
                    "equipe" : [],
                    "filtres" : ["outdoor","art"]
                },
-                {
-                   "titre": "Reportage - Horizom, La culture du Bambou", 
-                   "sousTitre": "Corporate",
-                   "image": "./img/icones_videos/Horizomsite3.jpg",
-                   "description" : "J'ai eu la chance de réaliser un reportage pour <a class='lien_int' href='https://www.horizom.com/' target='_blank'>Horizom, Le bambou au service de la transition</a> 🌱</br></br>Travailler en me sentant utile et pour des valeurs éthiques qui me sont chères, ça fait du bien !</br>En plus des conditions de travail agréables, le reportage m'a beaucoup appris. 👨‍🌾</br></br>Un immense merci au travail de <a class='lien_int' href='https://www.linkedin.com/in/caroline-hamel-baulain-267996a5/' target='_blank'>Caroline Hamel Baulain</a>.</br></br>À <a class='lien_int' href='https://docpixels.com/' target='_blank'>Julien André</a> pour son aide à l'image et à toute l'équipe sur la plantation qui m'a très bien reçue.</br></br>Entre les centaines d'hectares qui poussent vite et sur plusieurs régions en France, la grande pépinière, et les tous les projets à venir, il y en a des choses à montrer.</br></br>Des nouvelles images qui profiteront du soleil cette fois ! ☀️",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "Micro cravate Sennheiser G4","DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1060061531" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
-                   "equipe" : [],
-                   "filtres" : ["corporate"]
-                },
                 {
                    "titre": "Teaser ASTEC - Ascenseurs Techniques",
                    "sousTitre": "Publicité",
@@ -196,6 +235,26 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/1002631726" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["evenementiel","corporate"]
+               },
+                {
+                   "titre": "Drone - Margeriaz (Chambéry)",   
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/DroneMargeriaz2.jpg",
+                   "description" : "Je le voyais de la Croix du Nivolet.</br>Et il m’a donné envie.</br></br>Voici quelques images du Mont Margeriaz.</br>Dans le <a class='lien_int' href='https://parcdesbauges.com/' target='_blank'>Parc naturel régional du Massif des Bauges</a>⛰️",
+                   "materiel" : ["Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1141151834" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","art"]
+               },
+                {
+                   "titre": "Drone - Ski de randonnée à l'Alpe du Grand Serre",   
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/AlpeGrandSerresite.jpg",
+                   "description" : "Avant que l’<a class='lien_int' href='https://www.matheysine-tourisme.com/fr/alpedugrandserre/' target='_blank'>Alpe du Grand Serre</a> ne ferme, <a class='lien_int' href='https://www.linkedin.com/in/clara-guyot/' target='_blank'>Clara Guyot</a> est allée nous montrer sa station d’enfance. </br>Une jolie petite station qui, je l’espère, continuera de vivre autrement. </br></br>Nous sommes montés sur la crête qui longe l’arrivée du télésiège Portes Sud. </br>Après avoir transpercé le brouillard, c’est une mer de nuage nous a accueillie. </br></br>Et ça fait vibrer comme à chaque fois. </br></br>Merci la montagne.",
+                   "materiel" : ["Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1063220672" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","art","corporate"]
                },
                 {
                    "titre": "Reportage - ASTEC (Ascenseurs Techniques)", 
