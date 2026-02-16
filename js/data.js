@@ -37,12 +37,12 @@ let data = {
                    "filtres" : ["corporate","art"]
                },
                 {
-                   "titre": "Teaser Été - Gîtes de France (Ardèche) ",
+                   "titre": "Teaser Hiver - Mountain Collection",
                    "sousTitre": "Publicité",
-                   "image": "./img/icones_videos/GDFmodif1.jpg",
-                   "description" : "Un tournage sportif sous les 35° moyens de l'ardèche estivale !</br> Le cahier des charges : valoriser les activités sportives de l'Ardèche.</br></br> Je ne peux que vous recommander la sympathie, l’attention et la bienveillance de l’équipe de gîtes de France qui vous recevra en Ardèche.</br> (Ce post n’est pas sponsorisé, c’est sincère !) </br>En plus je suis plutôt drômois.</br>Pour moi, les deux départements sont assez incroyables.</br></br>Merci beaucoup pour ta confiance et ton énergie Julie Pelegrini.</br>Merci de fond du cœur à Amandine Astier pour m’avoir accueilli si chaleureusement et m’avoir aidé tout au long du projet.</br>Ça a été un vrai plaisir de travailler dans ces conditions, aussi sportives, brulantes et intense euent-t-elles été.</br>Merci à toutes les personnes de @gite de France Ardeche que j’ai croisé et qui m’ont donné une bonne énergie sur ce projet.</br></br>Deux autres teasers à venir…",
+                   "image": "./img/icones_videos/Mountainski2.jpg",
+                   "description" : "Voici le teaser hivernal que j’ai réalisé pour Mountain Collection.</br>Un tournage rapide et efficace sur 2 belles journées.</br></br>Un plaisir de filmer des skieurs de très bon niveau (et vraiment gentils, merci) Leslie Grogniet et Julien Brun.</br>La vidéo ne portait pas que sur le ski donc on a pas pu trop s’étaler mais il y avait de quoi !</br></br>C'est un vrai plaisir de travailler en montagne.</br>Et ça me donne envie d’y consacrer plus de temps professionnellement.</br></br>Merci à tous pour votre bonne énergie Laura, Guillaume, Gregory, Leslie, Julien, Nicolas, Lucie et tous ceux que j’ai croisé.</br></br>Un beau projet qui donne envie de revenir.</br>Hâte du prochain !",
                    "materiel" : ["Sony A7SIII", "Objectif Sony FE 24-70 mm F2.8 GM", "Objectif Sony FE 16-35 mm F2.8 GM", "Objectif Sony FE 70-200 mm F2.8 GM", "Ronin S", "DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1156424690" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1165387590" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["corporate","outdoor"]
                },
@@ -57,15 +57,15 @@ let data = {
                    "filtres" : ["outdoor","art","evenementiel"]
                },
                 {
-                   "titre": "Reportage Horizom - La culture du Bambou",
-                   "sousTitre": "Corporate",
-                   "image": "./img/icones_videos/ReportageHorizom1.jpg",
-                   "description" : "J'ai eu la chance de réaliser un reportage pour <a class='lien_int' href='https://www.horizom.com/' target='_blank'>Horizom, Le bambou au service de la transition</a> 🌱</br></br>Travailler en me sentant utile et pour des valeurs éthiques qui me sont chères, ça fait du bien !</br>En plus des conditions de travail agréables, le reportage m'a beaucoup appris. 👨‍🌾</br></br>Un immense merci au travail de <a class='lien_int' href='https://www.linkedin.com/in/caroline-hamel-baulain-267996a5/' target='_blank'>Caroline Hamel Baulain</a>.</br></br>À <a class='lien_int' href='https://docpixels.com/' target='_blank'>Julien André</a> pour son aide à l'image et à toute l'équipe sur la plantation qui m'a très bien reçue.</br></br>Entre les centaines d'hectares qui poussent vite et sur plusieurs régions en France, la grande pépinière, et les tous les projets à venir, il y en a des choses à montrer.</br></br>Des nouvelles images qui profiteront du soleil cette fois ! ☀️",
+                   "titre": "Teaser Été - Gîtes de France (Ardèche) ",
+                   "sousTitre": "Publicité",
+                   "image": "./img/icones_videos/GDFmodif1.jpg",
+                   "description" : "Un tournage sportif sous les 35° moyens de l'ardèche estivale !</br> Le cahier des charges : valoriser les activités sportives de l'Ardèche.</br></br> Je ne peux que vous recommander la sympathie, l’attention et la bienveillance de l’équipe de gîtes de France qui vous recevra en Ardèche.</br> (Ce post n’est pas sponsorisé, c’est sincère !) </br>En plus je suis plutôt drômois.</br>Pour moi, les deux départements sont assez incroyables.</br></br>Merci beaucoup pour ta confiance et ton énergie Julie Pelegrini.</br>Merci de fond du cœur à Amandine Astier pour m’avoir accueilli si chaleureusement et m’avoir aidé tout au long du projet.</br>Ça a été un vrai plaisir de travailler dans ces conditions, aussi sportives, brulantes et intense euent-t-elles été.</br>Merci à toutes les personnes de @gite de France Ardeche que j’ai croisé et qui m’ont donné une bonne énergie sur ce projet.</br></br>Deux autres teasers à venir…",
                    "materiel" : ["Sony A7SIII", "Objectif Sony FE 24-70 mm F2.8 GM", "Objectif Sony FE 16-35 mm F2.8 GM", "Objectif Sony FE 70-200 mm F2.8 GM", "Ronin S", "DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1160124278" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1156424690" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate"]
-                },
+                   "filtres" : ["corporate","outdoor"]
+               },
                 {
                    "titre": "Drone - Nuages et falaises à la Féclaz (Chambéry)",   
                    "sousTitre": "Clip vidéo",
@@ -96,16 +96,16 @@ let data = {
                    "equipe" : [],
                    "filtres" : ["art","évènementiel"]
                },
-                {
-                   "titre": "Les Foulées de Villeurbanne - Office du Sport de Villeurbanne",
-                   "sousTitre": "Aftermovie",
-                   "image": "./img/icones_videos/Foulees_villeurbanne.jpg",
-                   "description" : "J’ai eu l’honneur de filmer et réaliser l’aftermovie d’un des plus gros évènements de courses de France organisé par <a class='lien_int' href='https://www.osvilleurbanne.com/' target='_blank'>l’Office du Sport Villeurbanne</a>. </br></br> La 33ème édition des Foulées propose des chronos où les coureurs se défient sur plusieurs formats :</br>- un 21,1 km </br> - un 10km </br> - un 5km </br></br>Mais aussi d’autres courses plus détentes pour les enfants, pour les personnes âgées, les personnes handicapées… 👩🏼‍🦼",
-                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/942290940" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+               {
+                   "titre": "Reportage Horizom - La culture du Bambou",
+                   "sousTitre": "Corporate",
+                   "image": "./img/icones_videos/ReportageHorizom1.jpg",
+                   "description" : "J'ai eu la chance de réaliser un reportage pour <a class='lien_int' href='https://www.horizom.com/' target='_blank'>Horizom, Le bambou au service de la transition</a> 🌱</br></br>Travailler en me sentant utile et pour des valeurs éthiques qui me sont chères, ça fait du bien !</br>En plus des conditions de travail agréables, le reportage m'a beaucoup appris. 👨‍🌾</br></br>Un immense merci au travail de <a class='lien_int' href='https://www.linkedin.com/in/caroline-hamel-baulain-267996a5/' target='_blank'>Caroline Hamel Baulain</a>.</br></br>À <a class='lien_int' href='https://docpixels.com/' target='_blank'>Julien André</a> pour son aide à l'image et à toute l'équipe sur la plantation qui m'a très bien reçue.</br></br>Entre les centaines d'hectares qui poussent vite et sur plusieurs régions en France, la grande pépinière, et les tous les projets à venir, il y en a des choses à montrer.</br></br>Des nouvelles images qui profiteront du soleil cette fois ! ☀️",
+                   "materiel" : ["Sony A7SIII", "Objectif Sony FE 24-70 mm F2.8 GM", "Objectif Sony FE 16-35 mm F2.8 GM", "Objectif Sony FE 70-200 mm F2.8 GM", "Ronin S", "DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1160124278" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
-                   "filtres" : ["corporate","evenementiel","outdoor"]
-               },
+                   "filtres" : ["corporate"]
+                },
                 {
                    "titre": "Teaser Été - l'Échaillon ",
                    "sousTitre": "Publicité",
@@ -195,6 +195,16 @@ let data = {
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/1015142055" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["corporate"]
+               },
+                {
+                   "titre": "Les Foulées de Villeurbanne - Office du Sport de Villeurbanne",
+                   "sousTitre": "Aftermovie",
+                   "image": "./img/icones_videos/Foulees_villeurbanne.jpg",
+                   "description" : "J’ai eu l’honneur de filmer et réaliser l’aftermovie d’un des plus gros évènements de courses de France organisé par <a class='lien_int' href='https://www.osvilleurbanne.com/' target='_blank'>l’Office du Sport Villeurbanne</a>. </br></br> La 33ème édition des Foulées propose des chronos où les coureurs se défient sur plusieurs formats :</br>- un 21,1 km </br> - un 10km </br> - un 5km </br></br>Mais aussi d’autres courses plus détentes pour les enfants, pour les personnes âgées, les personnes handicapées… 👩🏼‍🦼",
+                   "materiel" : ["Panasonic Lumix GH5", "Objectif Hybride Panasonic Lumix G Vario 12-60 mm f/3.5-5.6", "DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/942290940" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["corporate","evenementiel","outdoor"]
                },
                 {
                    "titre": "Drone - Les vélos de Montmeyran",
