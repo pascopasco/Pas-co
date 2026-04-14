@@ -67,12 +67,12 @@ let data = {
                    "filtres" : ["corporate","outdoor"]
                },
                 {
-                   "titre": "Drone - Nuages et falaises à la Féclaz (Chambéry)",   
+                   "titre": "Drone - Ski de randonnée</br>Tête de Vallon Pierra",   
                    "sousTitre": "Clip vidéo",
-                   "image": "./img/icones_videos/DroneFeclaz.jpg",
-                   "description" : "Petit passage de fin de journée à la station de la <a class='lien_int' href='https://www.chamberymontagnes.com/offres/office-de-tourisme-savoie-grand-revard-la-feclaz-la-feclaz-fr-5951451/' target='_blank'>Féclaz</a>.</br></br>Dans le <a class='lien_int' href='https://parcdesbauges.com/' target='_blank'>Parc naturel régional du Massif des Bauges</a>, dominant la mer de nuages.</br></br>L'occasion de faire de repérages pour des potentielles vidéos à réaliser pour le <a class='lien_int' href='https://www.linkedin.com/company/club-des-sports-de-la-feclaz-les-deserts/' target='_blank'>Club des sports La FECLAZ Nordique</a> ou le <a class='lien_int' href='https://www.linkedin.com/company/clubdessportslafeclaz-alpin/' target='_blank'>Club des sports la Féclaz section alpin</a>.",
+                   "image": "./img/icones_videos/Monteearete1.jpg",
+                   "description" : "D’un côté le brouillard.</br>De l’autre les montagnes.</br></br>Première arête à ski.</br></br>C’était beau et puissant.</br></br>Merci à notre guide <a class='lien_int' href='https://fr.linkedin.com/in/dimitriguyot' target='_blank'>Dimitri Guyot</a> et aux skieuses.eurs <a class='lien_int' href='https://fr.linkedin.com/in/diane-henry-914603156' target='_blank'>Diane Henry</a>, <a class='lien_int' href='https://fr.linkedin.com/in/colinecastelnau' target='_blank'>Coline Castelnau</a>, <a class='lien_int' href='https://fr.linkedin.com/in/clara-guyot' target='_blank'>Clara Guyot</a>, <a class='lien_int' href='https://fr.linkedin.com/in/gautier-maufrais-85a8a9198/en' target='_blank'>Gautier Maufrais</a>.",
                    "materiel" : ["Drone DJI Air 2S"],
-                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1159608337" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1172185997" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["outdoor","art"]
                },
@@ -123,6 +123,26 @@ let data = {
                    "description" : "Minas Tirith. 🏰</br>Ce sera son petit nom.</br></br>Alias le Mont Granier. ⛰️</br>Alias le lien montagnard entre ma ville natale Grenoble et Chambéry.</br></br>Un superbe massif au bout du <a class='lien_int' href='https://www.parc-chartreuse.net/' target='_blank'>Parc naturel régional de la Chartreuse</a>, surplombant la vallée et faisant face à la fameuse <a class='lien_int' href='https://www.altituderando.com/Croix-du-Nivolet'_blank'>Croix du Nivolet</a>.</br></br>Malheureusement en mauvaise santé.</br>Ce gros morceau de pierre menace de s’effondrer. 💥</br></br>Alors je suis allé l’immortaliser en images. 📹</br></br>Merci à Tim Dup pour cette magnifique reprise.",
                    "materiel" : ["Drone DJI Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/1136842130" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","art"]
+               },
+                {
+                   "titre": "Drone - Descente Arête</br>(Pic du Mas de la Grave)",   
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/DescentearetePicduMasdelaGrave.jpg",
+                   "description" : "Je me suis un peu amusé au montage.</br></br>Cette petite arête du Pic du mas de la Grave.</br></br>En pleine ascension, nous avons renoncé au Pic devant des accumulations observées.</br>Et pour notre plus grand plaisir, descendre cette superbe arrête plein sud.</br></br>Une neige pailletée.</br>Une descente féerique.</br>Un moment suspendu.</br></br>C’est ça le ski de randonnée.</br></br>Merci mes athlètes de la neige <a class='lien_int' href='https://www.linkedin.com/in/clara-guyot/' target='_blank'>Clara Guyot</a> et Malo Hamburger.",
+                   "materiel" : ["Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1172081636" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","art"]
+               }, 
+                {
+                   "titre": "Drone - Ski de randonnée</br>Descente du Gros Tet'",   
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/Descentegrostet.jpg",
+                   "description" : "Quelques images d’un doux week-end face à la Meige. ⛷️</br></br>Belle descente sur la face EST du Gros Tet.</br>L’occasion de remercier la super et accueillante équipe du refuge du Pic du Mas de la Grave.</br></br>Le super skieur et la super skieuse : <a class='lien_int' href='https://www.linkedin.com/in/clara-guyot/' target='_blank'>Clara Guyot</a> et Malo Hamburger.",
+                   "materiel" : ["Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1164296954" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["outdoor","art"]
                },
@@ -253,6 +273,16 @@ let data = {
                    "description" : "Je le voyais de la Croix du Nivolet.</br>Et il m’a donné envie.</br></br>Voici quelques images du Mont Margeriaz.</br>Dans le <a class='lien_int' href='https://parcdesbauges.com/' target='_blank'>Parc naturel régional du Massif des Bauges</a>⛰️",
                    "materiel" : ["Drone DJI Air 2S"],
                    "lien_video" : `<iframe src="https://player.vimeo.com/video/1141151834" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+                   "equipe" : [],
+                   "filtres" : ["outdoor","art"]
+               },
+                {
+                   "titre": "Drone - Nuages et falaises à la Féclaz (Chambéry)",   
+                   "sousTitre": "Clip vidéo",
+                   "image": "./img/icones_videos/DroneFeclaz.jpg",
+                   "description" : "Petit passage de fin de journée à la station de la <a class='lien_int' href='https://www.chamberymontagnes.com/offres/office-de-tourisme-savoie-grand-revard-la-feclaz-la-feclaz-fr-5951451/' target='_blank'>Féclaz</a>.</br></br>Dans le <a class='lien_int' href='https://parcdesbauges.com/' target='_blank'>Parc naturel régional du Massif des Bauges</a>, dominant la mer de nuages.</br></br>L'occasion de faire de repérages pour des potentielles vidéos à réaliser pour le <a class='lien_int' href='https://www.linkedin.com/company/club-des-sports-de-la-feclaz-les-deserts/' target='_blank'>Club des sports La FECLAZ Nordique</a> ou le <a class='lien_int' href='https://www.linkedin.com/company/clubdessportslafeclaz-alpin/' target='_blank'>Club des sports la Féclaz section alpin</a>.",
+                   "materiel" : ["Drone DJI Air 2S"],
+                   "lien_video" : `<iframe src="https://player.vimeo.com/video/1159608337" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
                    "equipe" : [],
                    "filtres" : ["outdoor","art"]
                },
